@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "booklet-fold-preview"
+version = "0.1.0"
+description = "Offline PDF booklet imposition with a linked folding preview"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "AGPL-3.0-or-later"
+dependencies = ["PyMuPDF==1.26.7"]
+
+[project.optional-dependencies]
+browser = ["playwright==1.56.0"]
+test = ["pytest==9.0.2", "pypdfium2==5.0.0", "Pillow==12.0.0"]
+
+[project.scripts]
+booklet-fold = "booklet_fold.cli:main"
+
+[tool.setuptools.package-data]
+booklet_fold = ["preview.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
