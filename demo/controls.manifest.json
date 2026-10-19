@@ -1,0 +1,87 @@
+{
+  "format": "pdf-desk-manifest",
+  "version": 1,
+  "outputSha256": "4504aec75541dfbfbf93f823b2ad077e950e5bd6a8780454d8bc1ff330eff881",
+  "pages": [
+    {
+      "outputPage": 1,
+      "sourceSha256": "7ac429c4148bf975a40e918b7ff1c7e9ec07fc15828fdf4268077a81dfa2f4bf",
+      "sourceName": "controls.pdf",
+      "sourcePage": 1,
+      "addedRotation": 90,
+      "rotation": 90,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 300
+      },
+      "cropBox": {
+        "x": 25,
+        "y": 20,
+        "width": 350,
+        "height": 250
+      }
+    },
+    {
+      "outputPage": 2,
+      "sourceSha256": "7ac429c4148bf975a40e918b7ff1c7e9ec07fc15828fdf4268077a81dfa2f4bf",
+      "sourceName": "controls.pdf",
+      "sourcePage": 2,
+      "addedRotation": 270,
+      "rotation": 0,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 500
+      },
+      "cropBox": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 500
+      }
+    },
+    {
+      "outputPage": 3,
+      "sourceSha256": "7ac429c4148bf975a40e918b7ff1c7e9ec07fc15828fdf4268077a81dfa2f4bf",
+      "sourceName": "controls.pdf",
+      "sourcePage": 3,
+      "addedRotation": 180,
+      "rotation": 90,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 600,
+        "height": 200
+      },
+      "cropBox": {
+        "x": 0,
+        "y": 0,
+        "width": 600,
+        "height": 200
+      }
+    },
+    {
+      "outputPage": 4,
+      "sourceSha256": "7ac429c4148bf975a40e918b7ff1c7e9ec07fc15828fdf4268077a81dfa2f4bf",
+      "sourceName": "controls.pdf",
+      "sourcePage": 1,
+      "addedRotation": 0,
+      "rotation": 0,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 300
+      },
+      "cropBox": {
+        "x": 25,
+        "y": 20,
+        "width": 350,
+        "height": 250
+      }
+    }
+  ]
+}

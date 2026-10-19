@@ -1,0 +1,71 @@
+{
+  "renderer": "MuPDF 1.26.4; separate from PDF.js previews and pdf-lib export",
+  "real": [
+    {
+      "outputPage": 1,
+      "sourcePage": 3,
+      "width": 540,
+      "height": 720,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 113
+    },
+    {
+      "outputPage": 2,
+      "sourcePage": 2,
+      "width": 612,
+      "height": 792,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 6054
+    },
+    {
+      "outputPage": 3,
+      "sourcePage": 3,
+      "width": 540,
+      "height": 720,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 113
+    },
+    {
+      "outputPage": 4,
+      "sourcePage": 1,
+      "width": 612,
+      "height": 792,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 3988
+    }
+  ],
+  "controls": [
+    {
+      "outputPage": 1,
+      "sourcePage": 1,
+      "width": 250,
+      "height": 350,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 20
+    },
+    {
+      "outputPage": 2,
+      "sourcePage": 2,
+      "width": 300,
+      "height": 500,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 20
+    },
+    {
+      "outputPage": 3,
+      "sourcePage": 3,
+      "width": 200,
+      "height": 600,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 20
+    },
+    {
+      "outputPage": 4,
+      "sourcePage": 1,
+      "width": 350,
+      "height": 250,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 20
+    }
+  ]
+}

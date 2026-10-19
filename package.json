@@ -1,0 +1,1 @@
+{"name":"pdf-page-assembly-desk","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test tests/core.test.mjs","test:browser":"node tests/browser.mjs","verify":"node scripts/verify.mjs"},"dependencies":{"pdf-lib":"1.17.1","pdfjs-dist":"5.4.296"},"devDependencies":{"playwright":"1.56.1","mupdf":"1.26.4"}}

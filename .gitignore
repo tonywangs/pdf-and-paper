@@ -1,0 +1,4 @@
+node_modules/
+.playwright/
+*.log
+!results/tests.log
