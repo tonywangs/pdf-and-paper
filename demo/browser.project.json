@@ -1,0 +1,33 @@
+{
+  "format": "pdf-desk",
+  "version": 1,
+  "sources": [
+    {
+      "id": "48d4916cd3a1c19fe9536c46048219d2d158e96e083bae10334caa6b49f3c85d",
+      "name": "irs-publication.pdf",
+      "pageCount": 18
+    },
+    {
+      "id": "69a6d3c1512ed26a2d4f10eb950ba2044cf2a9bdfe46e6f22e1f6edba857e6d1",
+      "name": "irs-webinar.pdf",
+      "pageCount": 44
+    }
+  ],
+  "pages": [
+    {
+      "source": "69a6d3c1512ed26a2d4f10eb950ba2044cf2a9bdfe46e6f22e1f6edba857e6d1",
+      "page": 3,
+      "rotation": 90
+    },
+    {
+      "source": "48d4916cd3a1c19fe9536c46048219d2d158e96e083bae10334caa6b49f3c85d",
+      "page": 2,
+      "rotation": 0
+    },
+    {
+      "source": "69a6d3c1512ed26a2d4f10eb950ba2044cf2a9bdfe46e6f22e1f6edba857e6d1",
+      "page": 3,
+      "rotation": 270
+    }
+  ]
+}
