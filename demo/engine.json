@@ -1,0 +1,10 @@
+{
+  "engine": "tesseract.js",
+  "version": "7.0.0",
+  "node": "v24.20.0",
+  "model": "eng.traineddata",
+  "sha256": "5dc5d8d640a212c9d6184921ba103b186f50e0fed9ee716c53e6b312b400d747",
+  "oem": 1,
+  "psm": 3,
+  "model_url": "https://cdn.jsdelivr.net/npm/@tesseract.js-data/eng/4.0.0_best_int/eng.traineddata.gz"
+}

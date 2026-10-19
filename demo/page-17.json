@@ -1,0 +1,396 @@
+{
+  "file": "demo/scans/17.jpg",
+  "scan": 17,
+  "printed_page": 7,
+  "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0017/full/pct:50.0/0/default.jpg",
+  "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=17",
+  "sha256": "9b7a8d4d1e36954c30c56616ced51248444cf3f4f9cb2aefddc3d149460468c4",
+  "regions": [
+    {
+      "id": "r1",
+      "bbox": {
+        "x0": 563,
+        "y0": 84,
+        "x1": 1266,
+        "y1": 141
+      },
+      "confidence": 88,
+      "original": "BLUEBEARD. 7",
+      "corrected": "BLUEBEARD. 7"
+    },
+    {
+      "id": "r2",
+      "bbox": {
+        "x0": 148,
+        "y0": 173,
+        "x1": 1265,
+        "y1": 218
+      },
+      "confidence": 95,
+      "original": "The ten minutes had passed away, and Bluebeard had sharp-",
+      "corrected": "The ten minutes had passed away, and Bluebeard had sharp-"
+    },
+    {
+      "id": "r3",
+      "bbox": {
+        "x0": 65,
+        "y0": 230,
+        "x1": 1265,
+        "y1": 274
+      },
+      "confidence": 95,
+      "original": "ened his two-edged scimitar and stood at the foot of the staircase,",
+      "corrected": "ened his two-edged scimitar and stood at the foot of the staircase,"
+    },
+    {
+      "id": "r4",
+      "bbox": {
+        "x0": 65,
+        "y0": 286,
+        "x1": 1264,
+        "y1": 330
+      },
+      "confidence": 96,
+      "original": "calling to his wife to come down. “One moment longer,” said she,",
+      "corrected": "calling to his wife to come down. “One moment longer,” said she,"
+    },
+    {
+      "id": "r5",
+      "bbox": {
+        "x0": 67,
+        "y0": 342,
+        "x1": 1266,
+        "y1": 386
+      },
+      "confidence": 96,
+      "original": "and called very softly to her sister: “Sister Anne, sister Anne, do",
+      "corrected": "and called very softly to her sister: “Sister Anne, sister Anne, do"
+    },
+    {
+      "id": "r6",
+      "bbox": {
+        "x0": 65,
+        "y0": 400,
+        "x1": 525,
+        "y1": 439
+      },
+      "confidence": 81,
+      "original": "you see anyone coming?”",
+      "corrected": "you see anyone coming?”"
+    },
+    {
+      "id": "r7",
+      "bbox": {
+        "x0": 152,
+        "y0": 455,
+        "x1": 1265,
+        "y1": 497
+      },
+      "confidence": 95,
+      "original": "Sister Anne replied sadly: “I see nothing but the sun, whose",
+      "corrected": "Sister Anne replied sadly: “I see nothing but the sun, whose"
+    },
+    {
+      "id": "r8",
+      "bbox": {
+        "x0": 66,
+        "y0": 511,
+        "x1": 1265,
+        "y1": 553
+      },
+      "confidence": 95,
+      "original": "slanting rays are like dust, and the grass which grows tall and",
+      "corrected": "slanting rays are like dust, and the grass which grows tall and"
+    },
+    {
+      "id": "r9",
+      "bbox": {
+        "x0": 67,
+        "y0": 566,
+        "x1": 195,
+        "y1": 606
+      },
+      "confidence": 95,
+      "original": "green.”",
+      "corrected": "green.”"
+    },
+    {
+      "id": "r10",
+      "bbox": {
+        "x0": 152,
+        "y0": 622,
+        "x1": 1267,
+        "y1": 664
+      },
+      "confidence": 96,
+      "original": "“Come down at once,” Bluebeard cried, in great wrath, “or",
+      "corrected": "“Come down at once,” Bluebeard cried, in great wrath, “or"
+    },
+    {
+      "id": "r11",
+      "bbox": {
+        "x0": 67,
+        "y0": 679,
+        "x1": 587,
+        "y1": 718
+      },
+      "confidence": 92,
+      "original": "must I come and fetch your”",
+      "corrected": "must I come and fetch your”"
+    },
+    {
+      "id": "r12",
+      "bbox": {
+        "x0": 152,
+        "y0": 734,
+        "x1": 1267,
+        "y1": 775
+      },
+      "confidence": 95,
+      "original": "“Sister Anne, sister Anne,” sobbed the wretched wife, “look",
+      "corrected": "“Sister Anne, sister Anne,” sobbed the wretched wife, “look"
+    },
+    {
+      "id": "r13",
+      "bbox": {
+        "x0": 68,
+        "y0": 790,
+        "x1": 1266,
+        "y1": 830
+      },
+      "confidence": 93,
+      "original": "once again, I pray you. Is there no one upon the road?” And the",
+      "corrected": "once again, I pray you. Is there no one upon the road?” And the"
+    },
+    {
+      "id": "r14",
+      "bbox": {
+        "x0": 67,
+        "y0": 846,
+        "x1": 1266,
+        "y1": 886
+      },
+      "confidence": 96,
+      "original": "weeping sister replied: “I see a cloud of dust, which rises on one",
+      "corrected": "weeping sister replied: “I see a cloud of dust, which rises on one"
+    },
+    {
+      "id": "r15",
+      "bbox": {
+        "x0": 68,
+        "y0": 901,
+        "x1": 166,
+        "y1": 932
+      },
+      "confidence": 96,
+      "original": "side.”",
+      "corrected": "side.”"
+    },
+    {
+      "id": "r16",
+      "bbox": {
+        "x0": 152,
+        "y0": 957,
+        "x1": 931,
+        "y1": 996
+      },
+      "confidence": 94,
+      "original": "“Perchance it is my brothers,” said Fatima.",
+      "corrected": "“Perchance it is my brothers,” said Fatima."
+    },
+    {
+      "id": "r17",
+      "bbox": {
+        "x0": 153,
+        "y0": 1012,
+        "x1": 1160,
+        "y1": 1052
+      },
+      "confidence": 94,
+      "original": "“Alas! no,” sister Anne said, “it is but a flock of sheep.”",
+      "corrected": "“Alas! no,” sister Anne said, “it is but a flock of sheep.”"
+    },
+    {
+      "id": "r18",
+      "bbox": {
+        "x0": 152,
+        "y0": 1067,
+        "x1": 1266,
+        "y1": 1107
+      },
+      "confidence": 96,
+      "original": "“Fatima, I command you to come down,” roared Bluebeard.",
+      "corrected": "“Fatima, I command you to come down,” roared Bluebeard."
+    },
+    {
+      "id": "r19",
+      "bbox": {
+        "x0": 152,
+        "y0": 1123,
+        "x1": 1267,
+        "y1": 1162
+      },
+      "confidence": 92,
+      "original": "“One moment—only one moment more,” said his wife. “Sis-",
+      "corrected": "“One moment—only one moment more,” said his wife. “Sis-"
+    },
+    {
+      "id": "r20",
+      "bbox": {
+        "x0": 70,
+        "y0": 1178,
+        "x1": 927,
+        "y1": 1219
+      },
+      "confidence": 96,
+      "original": "ter Anne, sister Anne, is there no one in sight?”",
+      "corrected": "ter Anne, sister Anne, is there no one in sight?”"
+    },
+    {
+      "id": "r21",
+      "bbox": {
+        "x0": 153,
+        "y0": 1234,
+        "x1": 1269,
+        "y1": 1274
+      },
+      "confidence": 94,
+      "original": "“I see,” cried Anne, “two horsemen, but they are yet a great",
+      "corrected": "“I see,” cried Anne, “two horsemen, but they are yet a great"
+    },
+    {
+      "id": "r22",
+      "bbox": {
+        "x0": 68,
+        "y0": 1290,
+        "x1": 230,
+        "y1": 1331
+      },
+      "confidence": 95,
+      "original": "way off.”",
+      "corrected": "way off.”"
+    },
+    {
+      "id": "r23",
+      "bbox": {
+        "x0": 153,
+        "y0": 1344,
+        "x1": 1269,
+        "y1": 1385
+      },
+      "confidence": 90,
+      "original": "“Heaven be praised!” said the poor wife. ‘“T'hey must be my",
+      "corrected": "“Heaven be praised!” said the poor wife. ‘“T'hey must be my"
+    },
+    {
+      "id": "r24",
+      "bbox": {
+        "x0": 68,
+        "y0": 1400,
+        "x1": 778,
+        "y1": 1441
+      },
+      "confidence": 95,
+      "original": "brothers. Oh! sign to them to hasten.”",
+      "corrected": "brothers. Oh! sign to them to hasten.”"
+    },
+    {
+      "id": "r25",
+      "bbox": {
+        "x0": 153,
+        "y0": 1455,
+        "x1": 1269,
+        "y1": 1498
+      },
+      "confidence": 96,
+      "original": "By this time Bluebeard was so enraged that his loud voice, as",
+      "corrected": "By this time Bluebeard was so enraged that his loud voice, as"
+    },
+    {
+      "id": "r26",
+      "bbox": {
+        "x0": 68,
+        "y0": 1511,
+        "x1": 1269,
+        "y1": 1550
+      },
+      "confidence": 95,
+      "original": "he shouted to his wife to come down, shook the whole castle. Fa-",
+      "corrected": "he shouted to his wife to come down, shook the whole castle. Fa-"
+    },
+    {
+      "id": "r27",
+      "bbox": {
+        "x0": 69,
+        "y0": 1567,
+        "x1": 1269,
+        "y1": 1609
+      },
+      "confidence": 95,
+      "original": "tima dared not delay any longer, but descended to the great hall,",
+      "corrected": "tima dared not delay any longer, but descended to the great hall,"
+    },
+    {
+      "id": "r28",
+      "bbox": {
+        "x0": 68,
+        "y0": 1622,
+        "x1": 1270,
+        "y1": 1663
+      },
+      "confidence": 94,
+      "original": "threw herself at her wicked husband’s feet, and besought him once",
+      "corrected": "threw herself at her wicked husband’s feet, and besought him once"
+    },
+    {
+      "id": "r29",
+      "bbox": {
+        "x0": 68,
+        "y0": 1681,
+        "x1": 458,
+        "y1": 1722
+      },
+      "confidence": 87,
+      "original": "more to spare her Ife.",
+      "corrected": "more to spare her Ife."
+    },
+    {
+      "id": "r30",
+      "bbox": {
+        "x0": 152,
+        "y0": 1734,
+        "x1": 1271,
+        "y1": 1776
+      },
+      "confidence": 93,
+      "original": "“Silence!” cried Bluebeard, and seizing her by her lovely, rip-",
+      "corrected": "“Silence!” cried Bluebeard, and seizing her by her lovely, rip-"
+    },
+    {
+      "id": "r31",
+      "bbox": {
+        "x0": 68,
+        "y0": 1792,
+        "x1": 826,
+        "y1": 1836
+      },
+      "confidence": 96,
+      "original": "pling hair, he raised his scimitar to strike.",
+      "corrected": "pling hair, he raised his scimitar to strike."
+    },
+    {
+      "id": "r32",
+      "bbox": {
+        "x0": 152,
+        "y0": 1847,
+        "x1": 1270,
+        "y1": 1888
+      },
+      "confidence": 96,
+      "original": "At that moment there was a loud knocking at the castle gates.",
+      "corrected": "At that moment there was a loud knocking at the castle gates."
+    }
+  ],
+  "rawText": "BLUEBEARD. 7\n\nThe ten minutes had passed away, and Bluebeard had sharp-\nened his two-edged scimitar and stood at the foot of the staircase,\ncalling to his wife to come down. “One moment longer,” said she,\nand called very softly to her sister: “Sister Anne, sister Anne, do\nyou see anyone coming?”\n\nSister Anne replied sadly: “I see nothing but the sun, whose\nslanting rays are like dust, and the grass which grows tall and\ngreen.”\n\n“Come down at once,” Bluebeard cried, in great wrath, “or\nmust I come and fetch your”\n\n“Sister Anne, sister Anne,” sobbed the wretched wife, “look\nonce again, I pray you. Is there no one upon the road?” And the\nweeping sister replied: “I see a cloud of dust, which rises on one\nside.”\n\n“Perchance it is my brothers,” said Fatima.\n\n“Alas! no,” sister Anne said, “it is but a flock of sheep.”\n\n“Fatima, I command you to come down,” roared Bluebeard.\n\n“One moment—only one moment more,” said his wife. “Sis-\nter Anne, sister Anne, is there no one in sight?”\n\n“I see,” cried Anne, “two horsemen, but they are yet a great\nway off.”\n\n“Heaven be praised!” said the poor wife. ‘“T'hey must be my\nbrothers. Oh! sign to them to hasten.”\n\nBy this time Bluebeard was so enraged that his loud voice, as\nhe shouted to his wife to come down, shook the whole castle. Fa-\ntima dared not delay any longer, but descended to the great hall,\nthrew herself at her wicked husband’s feet, and besought him once\nmore to spare her Ife.\n\n“Silence!” cried Bluebeard, and seizing her by her lovely, rip-\npling hair, he raised his scimitar to strike.\n\nAt that moment there was a loud knocking at the castle gates.\n",
+  "engine": "Tesseract.js 7.0.0 / English LSTM / PSM 3"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "scan-proof-desk",
+  "version": "1.0.0",
+  "description": "A local OCR proofreading application that links editable text to scanned page regions and exports corrected, source-linked transcriptions.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "playwright test",
+    "demo:ocr": "node scripts/ocr-demo.js",
+    "measure": "node scripts/measure.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "tesseract.js": "7.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

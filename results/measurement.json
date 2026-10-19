@@ -1,0 +1,20 @@
+{
+  "sample": "Last five printed lines of scan 14 (printed page 4); convenience sample selected after inspecting OCR. Not random or representative.",
+  "checking": "Visually transcribed from the bundled scan by the implementing agent and independently checked against the scan by a second read-only reviewing agent. No human annotation. Preserve punctuation, case and printed line-end hyphens; normalize whitespace only.",
+  "normalization": "Collapse whitespace only; Unicode codepoint CER, whitespace-token WER; Levenshtein distance / reference length.",
+  "reference_characters": 288,
+  "reference_words": 50,
+  "raw": {
+    "character_edits": 1,
+    "word_edits": 1,
+    "CER": 0.003472222222222222,
+    "WER": 0.02
+  },
+  "corrected": {
+    "character_edits": 0,
+    "word_edits": 0,
+    "CER": 0,
+    "WER": 0
+  },
+  "limitations": "Small, post-inspection convenience sample corrected against the same reference; measures this edit only, not general accuracy. Other pages and omitted text are not scored."
+}
