@@ -1,0 +1,19 @@
+$ npm test
+✔ five real scans match recorded hashes; OCR originals retained (41.668795ms)
+✔ exports preserve text, escape markup, and link embedded source (1.791172ms)
+✔ reject malformed recovery rather than replace workspace (1.119544ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 214.342944
+
+$ PLAYWRIGHT_BROWSERS_PATH=/tmp/scan-proof-browsers npm run test:browser
+Running 3 tests using 2 workers
+✓ tests/browser/sample.spec.js:2:1 › apply visually checked sample correction and save actual browser output (4.4s)
+✓ tests/browser/workflow.spec.js:4:1 › real scans → CPU OCR → linked correction → reload → portable recovery → exports (44.5s)
+✓ tests/browser/workflow.spec.js:26:1 › bundled demo and omitted text (2.1s)
+3 passed (50.8s)

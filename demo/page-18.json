@@ -1,0 +1,240 @@
+{
+  "file": "demo/scans/18.jpg",
+  "scan": 18,
+  "printed_page": 8,
+  "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0018/full/pct:50.0/0/default.jpg",
+  "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=18",
+  "sha256": "0763ba9b89a2fe4ae8f429a853fcd22b97835001a76a4b489b45e195be4e4f80",
+  "regions": [
+    {
+      "id": "r1",
+      "bbox": {
+        "x0": 69,
+        "y0": 81,
+        "x1": 771,
+        "y1": 115
+      },
+      "confidence": 93,
+      "original": "8 BLUEBEARD.",
+      "corrected": "8 BLUEBEARD."
+    },
+    {
+      "id": "r2",
+      "bbox": {
+        "x0": 70,
+        "y0": 165,
+        "x1": 1276,
+        "y1": 207
+      },
+      "confidence": 96,
+      "original": "Bluebeard paused, and before he had time to let the scimitar fall",
+      "corrected": "Bluebeard paused, and before he had time to let the scimitar fall"
+    },
+    {
+      "id": "r3",
+      "bbox": {
+        "x0": 70,
+        "y0": 222,
+        "x1": 1276,
+        "y1": 263
+      },
+      "confidence": 94,
+      "original": "upon his wife’s neck, the two brothers burst into the hall. One of",
+      "corrected": "upon his wife’s neck, the two brothers burst into the hall. One of"
+    },
+    {
+      "id": "r4",
+      "bbox": {
+        "x0": 69,
+        "y0": 279,
+        "x1": 1277,
+        "y1": 319
+      },
+      "confidence": 94,
+      "original": "them tore his sister from Bluebeard’s grasp, whilst the other",
+      "corrected": "them tore his sister from Bluebeard’s grasp, whilst the other"
+    },
+    {
+      "id": "r5",
+      "bbox": {
+        "x0": 68,
+        "y0": 335,
+        "x1": 624,
+        "y1": 376
+      },
+      "confidence": 96,
+      "original": "plunged a sword into his heart.",
+      "corrected": "plunged a sword into his heart."
+    },
+    {
+      "id": "r6",
+      "bbox": {
+        "x0": 153,
+        "y0": 391,
+        "x1": 1273,
+        "y1": 432
+      },
+      "confidence": 95,
+      "original": "So the wicked Bluebeard perished miserably; and Fatima di-",
+      "corrected": "So the wicked Bluebeard perished miserably; and Fatima di-"
+    },
+    {
+      "id": "r7",
+      "bbox": {
+        "x0": 67,
+        "y0": 448,
+        "x1": 1274,
+        "y1": 488
+      },
+      "confidence": 96,
+      "original": "vided all his great wealth between herself, her faithful sister, and",
+      "corrected": "vided all his great wealth between herself, her faithful sister, and"
+    },
+    {
+      "id": "r8",
+      "bbox": {
+        "x0": 67,
+        "y0": 503,
+        "x1": 1272,
+        "y1": 544
+      },
+      "confidence": 95,
+      "original": "her two brave brothers, and they lived happily together ever after-",
+      "corrected": "her two brave brothers, and they lived happily together ever after-"
+    },
+    {
+      "id": "r9",
+      "bbox": {
+        "x0": 68,
+        "y0": 560,
+        "x1": 182,
+        "y1": 590
+      },
+      "confidence": 96,
+      "original": "wards.",
+      "corrected": "wards."
+    },
+    {
+      "id": "r10",
+      "bbox": {
+        "x0": 216,
+        "y0": 1396,
+        "x1": 221,
+        "y1": 1406
+      },
+      "confidence": 42,
+      "original": "«",
+      "corrected": "«"
+    },
+    {
+      "id": "r11",
+      "bbox": {
+        "x0": 247,
+        "y0": 1397,
+        "x1": 275,
+        "y1": 1410
+      },
+      "confidence": 31,
+      "original": "(=",
+      "corrected": "(="
+    },
+    {
+      "id": "r12",
+      "bbox": {
+        "x0": 239,
+        "y0": 1404,
+        "x1": 324,
+        "y1": 1423
+      },
+      "confidence": 0,
+      "original": "CT)",
+      "corrected": "CT)"
+    },
+    {
+      "id": "r13",
+      "bbox": {
+        "x0": 247,
+        "y0": 1420,
+        "x1": 264,
+        "y1": 1442
+      },
+      "confidence": 91,
+      "original": "7",
+      "corrected": "7"
+    },
+    {
+      "id": "r14",
+      "bbox": {
+        "x0": 242,
+        "y0": 1443,
+        "x1": 316,
+        "y1": 1481
+      },
+      "confidence": 0,
+      "original": "U NS",
+      "corrected": "U NS"
+    },
+    {
+      "id": "r15",
+      "bbox": {
+        "x0": 226,
+        "y0": 1424,
+        "x1": 303,
+        "y1": 1516
+      },
+      "confidence": 45,
+      "original": "Us",
+      "corrected": "Us"
+    },
+    {
+      "id": "r16",
+      "bbox": {
+        "x0": 179,
+        "y0": 1437,
+        "x1": 276,
+        "y1": 1484
+      },
+      "confidence": 19,
+      "original": "(WN WE",
+      "corrected": "(WN WE"
+    },
+    {
+      "id": "r17",
+      "bbox": {
+        "x0": 169,
+        "y0": 1482,
+        "x1": 185,
+        "y1": 1515
+      },
+      "confidence": 39,
+      "original": "({",
+      "corrected": "({"
+    },
+    {
+      "id": "r18",
+      "bbox": {
+        "x0": 163,
+        "y0": 1424,
+        "x1": 187,
+        "y1": 1482
+      },
+      "confidence": 52,
+      "original": "{",
+      "corrected": "{"
+    },
+    {
+      "id": "r19",
+      "bbox": {
+        "x0": 943,
+        "y0": 1558,
+        "x1": 1064,
+        "y1": 1595
+      },
+      "confidence": 63,
+      "original": "Ji =",
+      "corrected": "Ji ="
+    }
+  ],
+  "rawText": "8 BLUEBEARD.\n\nBluebeard paused, and before he had time to let the scimitar fall\nupon his wife’s neck, the two brothers burst into the hall. One of\nthem tore his sister from Bluebeard’s grasp, whilst the other\nplunged a sword into his heart.\n\nSo the wicked Bluebeard perished miserably; and Fatima di-\nvided all his great wealth between herself, her faithful sister, and\nher two brave brothers, and they lived happily together ever after-\nwards.\n\n«\n\n(=\nCT)\n7\n\nU NS\n\nUs\n\n(WN WE\n({\n\n{\n\nJi =\n\n",
+  "engine": "Tesseract.js 7.0.0 / English LSTM / PSM 3"
+}

@@ -1,0 +1,72 @@
+{
+  "file": "demo/scans/15.jpg",
+  "scan": 15,
+  "printed_page": 5,
+  "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0015/full/pct:50.0/0/default.jpg",
+  "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=15",
+  "sha256": "364e1c063eccd2cb33cd6cc4138a3d801a3a3062c6c794fea0bff2d990f885f6",
+  "regions": [
+    {
+      "id": "r1",
+      "bbox": {
+        "x0": 567,
+        "y0": 61,
+        "x1": 1269,
+        "y1": 120
+      },
+      "confidence": 42,
+      "original": "BLUEBEARD. g",
+      "corrected": "BLUEBEARD. g"
+    },
+    {
+      "id": "r2",
+      "bbox": {
+        "x0": 453,
+        "y0": 1561,
+        "x1": 530,
+        "y1": 1586
+      },
+      "confidence": 36,
+      "original": "ry \\",
+      "corrected": "ry \\"
+    },
+    {
+      "id": "r3",
+      "bbox": {
+        "x0": 368,
+        "y0": 1573,
+        "x1": 537,
+        "y1": 1594
+      },
+      "confidence": 34,
+      "original": "AH ESR",
+      "corrected": "AH ESR"
+    },
+    {
+      "id": "r4",
+      "bbox": {
+        "x0": 516,
+        "y0": 1604,
+        "x1": 608,
+        "y1": 1620
+      },
+      "confidence": 37,
+      "original": "=",
+      "corrected": "="
+    },
+    {
+      "id": "r5",
+      "bbox": {
+        "x0": 87,
+        "y0": 1771,
+        "x1": 1246,
+        "y1": 1803
+      },
+      "confidence": 91,
+      "original": "“I SEE,” CRIED ANNE, “TWO HORSEMEN, BUT THEY ARE YET A GREAT WAY OFF.”",
+      "corrected": "“I SEE,” CRIED ANNE, “TWO HORSEMEN, BUT THEY ARE YET A GREAT WAY OFF.”"
+    }
+  ],
+  "rawText": "BLUEBEARD. g\n\nry \\\nAH ESR\n\n=\n\n“I SEE,” CRIED ANNE, “TWO HORSEMEN, BUT THEY ARE YET A GREAT WAY OFF.”\n",
+  "engine": "Tesseract.js 7.0.0 / English LSTM / PSM 3"
+}

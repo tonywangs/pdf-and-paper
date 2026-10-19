@@ -1,0 +1,396 @@
+{
+  "file": "demo/scans/16.jpg",
+  "scan": 16,
+  "printed_page": 6,
+  "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0016/full/pct:50.0/0/default.jpg",
+  "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=16",
+  "sha256": "aea30a66a6980b33dc1c77fd57875072bf1ae8b495ac539f58eef77e027fd6de",
+  "regions": [
+    {
+      "id": "r1",
+      "bbox": {
+        "x0": 76,
+        "y0": 90,
+        "x1": 779,
+        "y1": 123
+      },
+      "confidence": 94,
+      "original": "6 BLUEBEARD.",
+      "corrected": "6 BLUEBEARD."
+    },
+    {
+      "id": "r2",
+      "bbox": {
+        "x0": 77,
+        "y0": 171,
+        "x1": 1284,
+        "y1": 216
+      },
+      "confidence": 96,
+      "original": "of pleasure, but all the time she was dreading the moment when he",
+      "corrected": "of pleasure, but all the time she was dreading the moment when he"
+    },
+    {
+      "id": "r3",
+      "bbox": {
+        "x0": 77,
+        "y0": 228,
+        "x1": 1285,
+        "y1": 270
+      },
+      "confidence": 96,
+      "original": "would ask for the keys. This he did not do until the following",
+      "corrected": "would ask for the keys. This he did not do until the following"
+    },
+    {
+      "id": "r4",
+      "bbox": {
+        "x0": 77,
+        "y0": 284,
+        "x1": 1285,
+        "y1": 328
+      },
+      "confidence": 96,
+      "original": "morning, and then she gave them to him with a hand which shook",
+      "corrected": "morning, and then she gave them to him with a hand which shook"
+    },
+    {
+      "id": "r5",
+      "bbox": {
+        "x0": 78,
+        "y0": 340,
+        "x1": 1282,
+        "y1": 384
+      },
+      "confidence": 95,
+      "original": "so terribly that Bluebeard easily guessed what had happened.",
+      "corrected": "so terribly that Bluebeard easily guessed what had happened."
+    },
+    {
+      "id": "r6",
+      "bbox": {
+        "x0": 78,
+        "y0": 397,
+        "x1": 1283,
+        "y1": 440
+      },
+      "confidence": 95,
+      "original": "“How is it that you have not brought me the key of the little",
+      "corrected": "“How is it that you have not brought me the key of the little"
+    },
+    {
+      "id": "r7",
+      "bbox": {
+        "x0": 78,
+        "y0": 456,
+        "x1": 606,
+        "y1": 500
+      },
+      "confidence": 81,
+      "original": "closet?” he asked sternly. ~~",
+      "corrected": "closet?” he asked sternly. ~~"
+    },
+    {
+      "id": "r8",
+      "bbox": {
+        "x0": 160,
+        "y0": 511,
+        "x1": 1128,
+        "y1": 551
+      },
+      "confidence": 94,
+      "original": "“T must have left it upstairs,” answered the poor girl.",
+      "corrected": "“T must have left it upstairs,” answered the poor girl."
+    },
+    {
+      "id": "r9",
+      "bbox": {
+        "x0": 161,
+        "y0": 567,
+        "x1": 1282,
+        "y1": 608
+      },
+      "confidence": 95,
+      "original": "“Bring it to me at once!” said Bluebeard, and Fatima was",
+      "corrected": "“Bring it to me at once!” said Bluebeard, and Fatima was"
+    },
+    {
+      "id": "r10",
+      "bbox": {
+        "x0": 78,
+        "y0": 623,
+        "x1": 1281,
+        "y1": 665
+      },
+      "confidence": 96,
+      "original": "forced to go upstairs and make a pretence of looking for the key,",
+      "corrected": "forced to go upstairs and make a pretence of looking for the key,"
+    },
+    {
+      "id": "r11",
+      "bbox": {
+        "x0": 77,
+        "y0": 680,
+        "x1": 941,
+        "y1": 719
+      },
+      "confidence": 96,
+      "original": "which was hidden in her pocket the whole time.",
+      "corrected": "which was hidden in her pocket the whole time."
+    },
+    {
+      "id": "r12",
+      "bbox": {
+        "x0": 160,
+        "y0": 735,
+        "x1": 1281,
+        "y1": 775
+      },
+      "confidence": 95,
+      "original": "At last Bluebeard became so angry that she was obliged to give",
+      "corrected": "At last Bluebeard became so angry that she was obliged to give"
+    },
+    {
+      "id": "r13",
+      "bbox": {
+        "x0": 77,
+        "y0": 791,
+        "x1": 1281,
+        "y1": 832
+      },
+      "confidence": 96,
+      "original": "him the key, and he at once demanded the cause of the stain upon",
+      "corrected": "him the key, and he at once demanded the cause of the stain upon"
+    },
+    {
+      "id": "r14",
+      "bbox": {
+        "x0": 78,
+        "y0": 848,
+        "x1": 112,
+        "y1": 879
+      },
+      "confidence": 95,
+      "original": "it.",
+      "corrected": "it."
+    },
+    {
+      "id": "r15",
+      "bbox": {
+        "x0": 161,
+        "y0": 902,
+        "x1": 781,
+        "y1": 935
+      },
+      "confidence": 92,
+      "original": "“T do not know!” faltered Fatima.",
+      "corrected": "“T do not know!” faltered Fatima."
+    },
+    {
+      "id": "r16",
+      "bbox": {
+        "x0": 160,
+        "y0": 958,
+        "x1": 1282,
+        "y1": 999
+      },
+      "confidence": 95,
+      "original": "“But I know,” thundered her lord. “You have disobeyed my",
+      "corrected": "“But I know,” thundered her lord. “You have disobeyed my"
+    },
+    {
+      "id": "r17",
+      "bbox": {
+        "x0": 78,
+        "y0": 1014,
+        "x1": 1281,
+        "y1": 1054
+      },
+      "confidence": 96,
+      "original": "commands and have visited the room which I ordered you not to",
+      "corrected": "commands and have visited the room which I ordered you not to"
+    },
+    {
+      "id": "r18",
+      "bbox": {
+        "x0": 78,
+        "y0": 1070,
+        "x1": 1280,
+        "y1": 1110
+      },
+      "confidence": 94,
+      "original": "enter. You shall go there again, madam, but you will never re-",
+      "corrected": "enter. You shall go there again, madam, but you will never re-"
+    },
+    {
+      "id": "r19",
+      "bbox": {
+        "x0": 78,
+        "y0": 1126,
+        "x1": 1222,
+        "y1": 1166
+      },
+      "confidence": 94,
+      "original": "turn. You shall join the company you were so curious to see.”",
+      "corrected": "turn. You shall join the company you were so curious to see.”"
+    },
+    {
+      "id": "r20",
+      "bbox": {
+        "x0": 162,
+        "y0": 1181,
+        "x1": 1280,
+        "y1": 1222
+      },
+      "confidence": 96,
+      "original": "Fatima fell upon her knees at his feet and begged for mercy,",
+      "corrected": "Fatima fell upon her knees at his feet and begged for mercy,"
+    },
+    {
+      "id": "r21",
+      "bbox": {
+        "x0": 77,
+        "y0": 1237,
+        "x1": 1282,
+        "y1": 1277
+      },
+      "confidence": 96,
+      "original": "but the cruel man bade her prepare for death. “Give me but a",
+      "corrected": "but the cruel man bade her prepare for death. “Give me but a"
+    },
+    {
+      "id": "r22",
+      "bbox": {
+        "x0": 78,
+        "y0": 1293,
+        "x1": 1281,
+        "y1": 1333
+      },
+      "confidence": 93,
+      "original": "few minutes,” she cried, and Bluebeard answered: “Ten minutes",
+      "corrected": "few minutes,” she cried, and Bluebeard answered: “Ten minutes"
+    },
+    {
+      "id": "r23",
+      "bbox": {
+        "x0": 78,
+        "y0": 1348,
+        "x1": 924,
+        "y1": 1389
+      },
+      "confidence": 96,
+      "original": "only will I grant you; after that you must die.”",
+      "corrected": "only will I grant you; after that you must die.”"
+    },
+    {
+      "id": "r24",
+      "bbox": {
+        "x0": 162,
+        "y0": 1404,
+        "x1": 1281,
+        "y1": 1444
+      },
+      "confidence": 95,
+      "original": "Poor Fatima hastened to the little turret chamber, to which",
+      "corrected": "Poor Fatima hastened to the little turret chamber, to which"
+    },
+    {
+      "id": "r25",
+      "bbox": {
+        "x0": 77,
+        "y0": 1459,
+        "x1": 1281,
+        "y1": 1501
+      },
+      "confidence": 96,
+      "original": "her sister had fled in terror, and cried in grief: “Sister Anne,",
+      "corrected": "her sister had fled in terror, and cried in grief: “Sister Anne,"
+    },
+    {
+      "id": "r26",
+      "bbox": {
+        "x0": 77,
+        "y0": 1515,
+        "x1": 1282,
+        "y1": 1556
+      },
+      "confidence": 96,
+      "original": "mount, I pray you, to the top of the tower, and see if my brothers",
+      "corrected": "mount, I pray you, to the top of the tower, and see if my brothers"
+    },
+    {
+      "id": "r27",
+      "bbox": {
+        "x0": 79,
+        "y0": 1571,
+        "x1": 1282,
+        "y1": 1612
+      },
+      "confidence": 96,
+      "original": "are not in view. They promised to visit me to-day, and if you",
+      "corrected": "are not in view. They promised to visit me to-day, and if you"
+    },
+    {
+      "id": "r28",
+      "bbox": {
+        "x0": 77,
+        "y0": 1626,
+        "x1": 1284,
+        "y1": 1666
+      },
+      "confidence": 95,
+      "original": "should see them, sign to them to make haste.” So the sister",
+      "corrected": "should see them, sign to them to make haste.” So the sister"
+    },
+    {
+      "id": "r29",
+      "bbox": {
+        "x0": 77,
+        "y0": 1682,
+        "x1": 1283,
+        "y1": 1723
+      },
+      "confidence": 96,
+      "original": "mounted the little staircase leading to the tower, and Fatima cried",
+      "corrected": "mounted the little staircase leading to the tower, and Fatima cried"
+    },
+    {
+      "id": "r30",
+      "bbox": {
+        "x0": 79,
+        "y0": 1738,
+        "x1": 1224,
+        "y1": 1781
+      },
+      "confidence": 94,
+      "original": "again: “Sister Anne, sister Anne, do you see anyone coming?”",
+      "corrected": "again: “Sister Anne, sister Anne, do you see anyone coming?”"
+    },
+    {
+      "id": "r31",
+      "bbox": {
+        "x0": 161,
+        "y0": 1795,
+        "x1": 1282,
+        "y1": 1837
+      },
+      "confidence": 96,
+      "original": "“I see nothing but the sun, whose slanting rays are like dust,",
+      "corrected": "“I see nothing but the sun, whose slanting rays are like dust,"
+    },
+    {
+      "id": "r32",
+      "bbox": {
+        "x0": 79,
+        "y0": 1850,
+        "x1": 840,
+        "y1": 1892
+      },
+      "confidence": 96,
+      "original": "and the grass which grows tall and green.”",
+      "corrected": "and the grass which grows tall and green.”"
+    }
+  ],
+  "rawText": "6 BLUEBEARD.\n\nof pleasure, but all the time she was dreading the moment when he\nwould ask for the keys. This he did not do until the following\nmorning, and then she gave them to him with a hand which shook\nso terribly that Bluebeard easily guessed what had happened.\n“How is it that you have not brought me the key of the little\ncloset?” he asked sternly. ~~\n\n“T must have left it upstairs,” answered the poor girl.\n\n“Bring it to me at once!” said Bluebeard, and Fatima was\nforced to go upstairs and make a pretence of looking for the key,\nwhich was hidden in her pocket the whole time.\n\nAt last Bluebeard became so angry that she was obliged to give\nhim the key, and he at once demanded the cause of the stain upon\nit.\n\n“T do not know!” faltered Fatima.\n\n“But I know,” thundered her lord. “You have disobeyed my\ncommands and have visited the room which I ordered you not to\nenter. You shall go there again, madam, but you will never re-\nturn. You shall join the company you were so curious to see.”\n\nFatima fell upon her knees at his feet and begged for mercy,\nbut the cruel man bade her prepare for death. “Give me but a\nfew minutes,” she cried, and Bluebeard answered: “Ten minutes\nonly will I grant you; after that you must die.”\n\nPoor Fatima hastened to the little turret chamber, to which\nher sister had fled in terror, and cried in grief: “Sister Anne,\nmount, I pray you, to the top of the tower, and see if my brothers\nare not in view. They promised to visit me to-day, and if you\nshould see them, sign to them to make haste.” So the sister\nmounted the little staircase leading to the tower, and Fatima cried\nagain: “Sister Anne, sister Anne, do you see anyone coming?”\n\n“I see nothing but the sun, whose slanting rays are like dust,\nand the grass which grows tall and green.”\n",
+  "engine": "Tesseract.js 7.0.0 / English LSTM / PSM 3"
+}
