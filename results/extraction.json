@@ -1,0 +1,413 @@
+{
+  "reference_sha256": "d0d8683771f9958d9cceaf43a22caaae422e3403c7999a2b95b0a1000979a628",
+  "method": "Python stdlib csv reader; exact ordered cell comparison; separately implemented event replay. No application imports.",
+  "scope": "Three selected table bodies, 260 cells, two real federal PDFs; not whole-document or general accuracy. Manual visual agent reference, independently agent-checked, not human-certified.",
+  "reference_revision_note": "v2 fixes four visually confirmed transcription errors after preliminary comparison; v1 remains preserved.",
+  "tables": [
+    {
+      "id": "ethanol",
+      "rows": 6,
+      "columns": 4,
+      "cells": 24,
+      "original_freeze_v1_raw_errors": 16,
+      "original_freeze_v1_corrected_disagreements": 0,
+      "raw_errors": 16,
+      "corrected_errors": 0,
+      "reviewed_cells": 24,
+      "row_and_column_order_match": true,
+      "csv_sha256": "9d47ae368cd3833f292b562d6718f190eb493caa0df0360da817b1d07519c0c9",
+      "raw_error_details": [
+        {
+          "row": 1,
+          "column": 2,
+          "raw": "1.35- 1.42",
+          "reference": "1.35 - 1.42"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "raw": "1.38- 1.43",
+          "reference": "1.38 - 1.43"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "raw": "1.27- 1.35",
+          "reference": "1.27 - 1.35"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "raw": "1.38- 1.48",
+          "reference": "1.38 - 1.48"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "raw": "1.40- 1.49",
+          "reference": "1.40 - 1.49"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "raw": "1.28- 1.35",
+          "reference": "1.28 - 1.35"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "raw": "1.38- 1.40",
+          "reference": "1.38 - 1.40"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "raw": "1.36- 1.43",
+          "reference": "1.36 - 1.43"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "raw": "1.27- 1.35",
+          "reference": "1.27 - 1.35"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "raw": "1.48- 1.55",
+          "reference": "1.48 - 1.55"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "raw": "1.49- 1.55",
+          "reference": "1.49 - 1.55"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "raw": "1.28- 1.34",
+          "reference": "1.28 - 1.34"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "raw": "1.49- 1.51",
+          "reference": "1.49 - 1.51"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "raw": "1.50- 1.53",
+          "reference": "1.50 - 1.53"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "raw": "1.35- 1.40",
+          "reference": "1.35 - 1.40"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "raw": "1.27- 1.34",
+          "reference": "1.27 - 1.34"
+        }
+      ],
+      "effective_corrections": [
+        {
+          "row": 1,
+          "column": 2,
+          "before": "1.35- 1.42",
+          "after": "1.35 - 1.42"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "before": "1.38- 1.43",
+          "after": "1.38 - 1.43"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "before": "1.27- 1.35",
+          "after": "1.27 - 1.35"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "before": "1.38- 1.48",
+          "after": "1.38 - 1.48"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "before": "1.40- 1.49",
+          "after": "1.40 - 1.49"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "before": "1.28- 1.35",
+          "after": "1.28 - 1.35"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "before": "1.38- 1.40",
+          "after": "1.38 - 1.40"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "before": "1.36- 1.43",
+          "after": "1.36 - 1.43"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "before": "1.27- 1.35",
+          "after": "1.27 - 1.35"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "before": "1.48- 1.55",
+          "after": "1.48 - 1.55"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "before": "1.49- 1.55",
+          "after": "1.49 - 1.55"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "before": "1.28- 1.34",
+          "after": "1.28 - 1.34"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "before": "1.49- 1.51",
+          "after": "1.49 - 1.51"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "before": "1.50- 1.53",
+          "after": "1.50 - 1.53"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "before": "1.35- 1.40",
+          "after": "1.35 - 1.40"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "before": "1.27- 1.34",
+          "after": "1.27 - 1.34"
+        }
+      ],
+      "audited_set_events_including_undone_controls": [
+        {
+          "event": 0,
+          "id": "original-0-1",
+          "before": "1.35- 1.42",
+          "after": "temporary edit"
+        },
+        {
+          "event": 15,
+          "id": "original-0-1",
+          "before": "1.35- 1.42",
+          "after": "1.35 - 1.42"
+        },
+        {
+          "event": 17,
+          "id": "original-0-2",
+          "before": "1.38- 1.43",
+          "after": "1.38 - 1.43"
+        },
+        {
+          "event": 19,
+          "id": "original-0-3",
+          "before": "1.27- 1.35",
+          "after": "1.27 - 1.35"
+        },
+        {
+          "event": 22,
+          "id": "original-1-1",
+          "before": "1.38- 1.48",
+          "after": "1.38 - 1.48"
+        },
+        {
+          "event": 24,
+          "id": "original-1-2",
+          "before": "1.40- 1.49",
+          "after": "1.40 - 1.49"
+        },
+        {
+          "event": 26,
+          "id": "original-1-3",
+          "before": "1.28- 1.35",
+          "after": "1.28 - 1.35"
+        },
+        {
+          "event": 29,
+          "id": "original-2-1",
+          "before": "1.38- 1.40",
+          "after": "1.38 - 1.40"
+        },
+        {
+          "event": 31,
+          "id": "original-2-2",
+          "before": "1.36- 1.43",
+          "after": "1.36 - 1.43"
+        },
+        {
+          "event": 33,
+          "id": "original-2-3",
+          "before": "1.27- 1.35",
+          "after": "1.27 - 1.35"
+        },
+        {
+          "event": 36,
+          "id": "original-3-1",
+          "before": "1.48- 1.55",
+          "after": "1.48 - 1.55"
+        },
+        {
+          "event": 38,
+          "id": "original-3-2",
+          "before": "1.49- 1.55",
+          "after": "1.49 - 1.55"
+        },
+        {
+          "event": 40,
+          "id": "original-3-3",
+          "before": "1.28- 1.34",
+          "after": "1.28 - 1.34"
+        },
+        {
+          "event": 43,
+          "id": "original-4-1",
+          "before": "1.49- 1.51",
+          "after": "1.49 - 1.51"
+        },
+        {
+          "event": 45,
+          "id": "original-4-2",
+          "before": "1.50- 1.53",
+          "after": "1.50 - 1.53"
+        },
+        {
+          "event": 47,
+          "id": "original-4-3",
+          "before": "1.35- 1.40",
+          "after": "1.35 - 1.40"
+        },
+        {
+          "event": 52,
+          "id": "original-5-3",
+          "before": "1.27- 1.34",
+          "after": "1.27 - 1.34"
+        }
+      ]
+    },
+    {
+      "id": "biomass",
+      "rows": 3,
+      "columns": 4,
+      "cells": 12,
+      "original_freeze_v1_raw_errors": 0,
+      "original_freeze_v1_corrected_disagreements": 0,
+      "raw_errors": 0,
+      "corrected_errors": 0,
+      "reviewed_cells": 12,
+      "row_and_column_order_match": true,
+      "csv_sha256": "3806b7cb760d580062a8ae2b870c19621d5ea9ce9cb04ca6a5a53c04c37b3c8a",
+      "raw_error_details": [],
+      "effective_corrections": [],
+      "audited_set_events_including_undone_controls": []
+    },
+    {
+      "id": "nics",
+      "rows": 56,
+      "columns": 4,
+      "cells": 224,
+      "original_freeze_v1_raw_errors": 4,
+      "original_freeze_v1_corrected_disagreements": 4,
+      "raw_errors": 3,
+      "corrected_errors": 0,
+      "reviewed_cells": 224,
+      "row_and_column_order_match": true,
+      "csv_sha256": "bc759caf58315895334d7a5a23fa88564b2b95a5d38c9ca1814c7f10a82e3e65",
+      "raw_error_details": [
+        {
+          "row": 5,
+          "column": 2,
+          "raw": "98452",
+          "reference": "98 452"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "raw": "41181",
+          "reference": "41 181"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "raw": "35007",
+          "reference": "35 007"
+        }
+      ],
+      "effective_corrections": [
+        {
+          "row": 5,
+          "column": 2,
+          "before": "98452",
+          "after": "98 452"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "before": "41181",
+          "after": "41 181"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "before": "35007",
+          "after": "35 007"
+        }
+      ],
+      "audited_set_events_including_undone_controls": [
+        {
+          "event": 17,
+          "id": "original-4-1",
+          "before": "98452",
+          "after": "98 452"
+        },
+        {
+          "event": 19,
+          "id": "original-4-2",
+          "before": "41181",
+          "after": "41 181"
+        },
+        {
+          "event": 21,
+          "id": "original-4-3",
+          "before": "35007",
+          "after": "35 007"
+        }
+      ]
+    }
+  ],
+  "total_cells": 260,
+  "raw_errors": 19,
+  "corrected_errors": 0
+}

@@ -1,0 +1,58 @@
+{
+  "documents": [
+    {
+      "file": "ag-energy-round-up-2017-02-24.pdf",
+      "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry & Grain Market News",
+      "revision": "Report dated February 24, 2017",
+      "original_publisher_url": "https://www.ams.usda.gov/mnreports/lswagenergy.pdf",
+      "download_url": "https://raw.githubusercontent.com/jsvine/pdfplumber/4c64b92d5caccd71c645e98e0fabb0c4dba7ff45/examples/pdfs/ag-energy-round-up-2017-02-24.pdf",
+      "mirror_repository": "https://github.com/jsvine/pdfplumber",
+      "mirror_revision": "4c64b92d5caccd71c645e98e0fabb0c4dba7ff45",
+      "sha256": "4b9774416291f79421a85fac7ecbb8bf2bc625df9a7207d9dcd3ba845f3146fb",
+      "bytes": 50918,
+      "pages": 1,
+      "pdf_metadata": {
+        "/Title": "National Ag Energy",
+        "/Author": "LGMN, Des Moines, IA",
+        "/Keywords": "National Ag Energy ethanol biodiesel bioenergy",
+        "/CreationDate": "D:20170224133144-06'00'",
+        "/ModDate": "D:20170224133144-06'00'",
+        "/Producer": "Microsoft\u00ae Excel\u00ae 2013",
+        "/Creator": "Microsoft\u00ae Excel\u00ae 2013"
+      },
+      "license": "Public domain in the United States (U.S. federal government work, 17 USC 105)",
+      "license_evidence_url": "https://www.nal.usda.gov/programs/speccoll",
+      "license_evidence": "USDA states that works made by federal employees as part of their jobs are public domain and may be copied without permission. The report identifies USDA as publisher.",
+      "retrieved_utc": "2026-10-19T20:23:46.037806+00:00",
+      "acquisition_command": [
+        ".venv/bin/python",
+        "scripts/acquire.py"
+      ]
+    },
+    {
+      "file": "background-checks.pdf",
+      "publisher": "Federal Bureau of Investigation, NICS",
+      "revision": "November 2015; archived single-page extract, printed page 1 of 205",
+      "original_publisher_url": "https://www.fbi.gov/file-repository/nics_firearm_checks_-_month_year_by_state_type.pdf/view",
+      "download_url": "https://raw.githubusercontent.com/jsvine/pdfplumber/4c64b92d5caccd71c645e98e0fabb0c4dba7ff45/examples/pdfs/background-checks.pdf",
+      "mirror_repository": "https://github.com/jsvine/pdfplumber",
+      "mirror_revision": "4c64b92d5caccd71c645e98e0fabb0c4dba7ff45",
+      "sha256": "4f0ae6e017b0e97de211da8fd97316e55bd927af5740d6ce95e1b7b1539f9407",
+      "bytes": 90468,
+      "pages": 1,
+      "pdf_metadata": {
+        "/Producer": "Mac OS X 10.9.5 Quartz PDFContext",
+        "/CreationDate": "D:20151212184957Z00'00'",
+        "/ModDate": "D:20151212184957Z00'00'"
+      },
+      "license": "Public domain in the United States (U.S. federal government work, 17 USC 105)",
+      "license_evidence_url": "https://www.fbi.gov/privacy-policy",
+      "license_evidence": "FBI permits copying/distributing unattributed Bureau-provided information, subject to restrictions on implying endorsement and use of its seal. Table data are a federal government work; no endorsement is implied.",
+      "retrieved_utc": "2026-10-19T20:23:46.040330+00:00",
+      "acquisition_command": [
+        ".venv/bin/python",
+        "scripts/acquire.py"
+      ]
+    }
+  ]
+}

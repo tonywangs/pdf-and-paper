@@ -1,0 +1,4549 @@
+{
+  "schema": "pdf-table-review-project/v1",
+  "source": {
+    "bytes": 90468,
+    "name": "background-checks.pdf",
+    "pages": [
+      {
+        "height": 612,
+        "rotation": 0,
+        "width": 1008
+      }
+    ],
+    "provenance": {
+      "acquisition_command": [
+        ".venv/bin/python",
+        "scripts/acquire.py"
+      ],
+      "bytes": 90468,
+      "download_url": "https://raw.githubusercontent.com/jsvine/pdfplumber/4c64b92d5caccd71c645e98e0fabb0c4dba7ff45/examples/pdfs/background-checks.pdf",
+      "file": "background-checks.pdf",
+      "license": "Public domain in the United States (U.S. federal government work, 17 USC 105)",
+      "license_evidence": "FBI permits copying/distributing unattributed Bureau-provided information, subject to restrictions on implying endorsement and use of its seal. Table data are a federal government work; no endorsement is implied.",
+      "license_evidence_url": "https://www.fbi.gov/privacy-policy",
+      "mirror_repository": "https://github.com/jsvine/pdfplumber",
+      "mirror_revision": "4c64b92d5caccd71c645e98e0fabb0c4dba7ff45",
+      "original_publisher_url": "https://www.fbi.gov/file-repository/nics_firearm_checks_-_month_year_by_state_type.pdf/view",
+      "pages": 1,
+      "pdf_metadata": {
+        "/CreationDate": "D:20151212184957Z00'00'",
+        "/ModDate": "D:20151212184957Z00'00'",
+        "/Producer": "Mac OS X 10.9.5 Quartz PDFContext"
+      },
+      "publisher": "Federal Bureau of Investigation, NICS",
+      "retrieved_utc": "2026-10-19T20:23:46.040330+00:00",
+      "revision": "November 2015; archived single-page extract, printed page 1 of 205",
+      "sha256": "4f0ae6e017b0e97de211da8fd97316e55bd927af5740d6ce95e1b7b1539f9407"
+    },
+    "sha256": "4f0ae6e017b0e97de211da8fd97316e55bd927af5740d6ce95e1b7b1539f9407"
+  },
+  "tables": [
+    {
+      "created_at": "2026-10-19T20:30:09.869068+00:00",
+      "engine": {
+        "algorithm": "explicit-columns-word-lines-v1",
+        "name": "pdfplumber",
+        "version": "0.11.10"
+      },
+      "events": [
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 0
+          },
+          "at": "2026-10-19T20:30:13.272715+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 0
+          },
+          "at": "2026-10-19T20:30:13.879712+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 0
+          },
+          "at": "2026-10-19T20:30:14.491322+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 0
+          },
+          "at": "2026-10-19T20:30:14.877165+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 1
+          },
+          "at": "2026-10-19T20:30:15.285521+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 1
+          },
+          "at": "2026-10-19T20:30:15.663135+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 1
+          },
+          "at": "2026-10-19T20:30:16.076785+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 1
+          },
+          "at": "2026-10-19T20:30:16.463280+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 2
+          },
+          "at": "2026-10-19T20:30:16.908925+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 2
+          },
+          "at": "2026-10-19T20:30:17.259772+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 2
+          },
+          "at": "2026-10-19T20:30:17.660280+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 2
+          },
+          "at": "2026-10-19T20:30:18.083673+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 3
+          },
+          "at": "2026-10-19T20:30:18.501446+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 3
+          },
+          "at": "2026-10-19T20:30:18.969273+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 3
+          },
+          "at": "2026-10-19T20:30:19.395783+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 3
+          },
+          "at": "2026-10-19T20:30:19.851090+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 4
+          },
+          "at": "2026-10-19T20:30:20.256264+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "set",
+            "row": 4,
+            "value": "98 452"
+          },
+          "at": "2026-10-19T20:30:20.862247+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 4
+          },
+          "at": "2026-10-19T20:30:21.158757+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "set",
+            "row": 4,
+            "value": "41 181"
+          },
+          "at": "2026-10-19T20:30:21.689899+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 4
+          },
+          "at": "2026-10-19T20:30:22.009092+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "set",
+            "row": 4,
+            "value": "35 007"
+          },
+          "at": "2026-10-19T20:30:22.654721+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 4
+          },
+          "at": "2026-10-19T20:30:22.978049+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 5
+          },
+          "at": "2026-10-19T20:30:23.408688+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 5
+          },
+          "at": "2026-10-19T20:30:23.763405+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 5
+          },
+          "at": "2026-10-19T20:30:24.273160+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 5
+          },
+          "at": "2026-10-19T20:30:24.649395+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 6
+          },
+          "at": "2026-10-19T20:30:25.246630+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 6
+          },
+          "at": "2026-10-19T20:30:25.663923+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 6
+          },
+          "at": "2026-10-19T20:30:26.153145+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 6
+          },
+          "at": "2026-10-19T20:30:26.652327+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 7
+          },
+          "at": "2026-10-19T20:30:26.987987+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 7
+          },
+          "at": "2026-10-19T20:30:27.463069+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 7
+          },
+          "at": "2026-10-19T20:30:27.959667+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 7
+          },
+          "at": "2026-10-19T20:30:28.461055+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 8
+          },
+          "at": "2026-10-19T20:30:28.871507+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 8
+          },
+          "at": "2026-10-19T20:30:29.281624+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 8
+          },
+          "at": "2026-10-19T20:30:29.769248+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 8
+          },
+          "at": "2026-10-19T20:30:30.170474+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 9
+          },
+          "at": "2026-10-19T20:30:30.748676+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 9
+          },
+          "at": "2026-10-19T20:30:31.271560+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 9
+          },
+          "at": "2026-10-19T20:30:31.777892+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 9
+          },
+          "at": "2026-10-19T20:30:32.288637+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 10
+          },
+          "at": "2026-10-19T20:30:32.985234+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 10
+          },
+          "at": "2026-10-19T20:30:33.584534+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 10
+          },
+          "at": "2026-10-19T20:30:34.289119+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 10
+          },
+          "at": "2026-10-19T20:30:34.954461+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 11
+          },
+          "at": "2026-10-19T20:30:35.773489+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 11
+          },
+          "at": "2026-10-19T20:30:36.454589+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 11
+          },
+          "at": "2026-10-19T20:30:37.152052+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 11
+          },
+          "at": "2026-10-19T20:30:37.979749+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 12
+          },
+          "at": "2026-10-19T20:30:38.561610+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 12
+          },
+          "at": "2026-10-19T20:30:39.067790+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 12
+          },
+          "at": "2026-10-19T20:30:39.577940+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 12
+          },
+          "at": "2026-10-19T20:30:40.372737+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 13
+          },
+          "at": "2026-10-19T20:30:41.362145+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 13
+          },
+          "at": "2026-10-19T20:30:42.280041+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 13
+          },
+          "at": "2026-10-19T20:30:43.352478+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 13
+          },
+          "at": "2026-10-19T20:30:44.545087+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 14
+          },
+          "at": "2026-10-19T20:30:45.450589+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 14
+          },
+          "at": "2026-10-19T20:30:46.257607+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 14
+          },
+          "at": "2026-10-19T20:30:46.981167+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 14
+          },
+          "at": "2026-10-19T20:30:47.559455+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 15
+          },
+          "at": "2026-10-19T20:30:47.973513+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 15
+          },
+          "at": "2026-10-19T20:30:48.657007+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 15
+          },
+          "at": "2026-10-19T20:30:49.461622+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 15
+          },
+          "at": "2026-10-19T20:30:50.062034+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 16
+          },
+          "at": "2026-10-19T20:30:50.879638+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 16
+          },
+          "at": "2026-10-19T20:30:51.465351+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 16
+          },
+          "at": "2026-10-19T20:30:51.969069+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 16
+          },
+          "at": "2026-10-19T20:30:52.472712+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 17
+          },
+          "at": "2026-10-19T20:30:53.165380+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 17
+          },
+          "at": "2026-10-19T20:30:53.771698+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 17
+          },
+          "at": "2026-10-19T20:30:54.276407+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 17
+          },
+          "at": "2026-10-19T20:30:54.867369+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 18
+          },
+          "at": "2026-10-19T20:30:55.559355+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 18
+          },
+          "at": "2026-10-19T20:30:56.176404+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 18
+          },
+          "at": "2026-10-19T20:30:56.685355+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 18
+          },
+          "at": "2026-10-19T20:30:57.353145+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 19
+          },
+          "at": "2026-10-19T20:30:58.371279+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 19
+          },
+          "at": "2026-10-19T20:30:58.986229+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 19
+          },
+          "at": "2026-10-19T20:30:59.795691+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 19
+          },
+          "at": "2026-10-19T20:31:00.566766+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 20
+          },
+          "at": "2026-10-19T20:31:01.199394+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 20
+          },
+          "at": "2026-10-19T20:31:02.055772+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 20
+          },
+          "at": "2026-10-19T20:31:02.752030+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 20
+          },
+          "at": "2026-10-19T20:31:03.284141+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 21
+          },
+          "at": "2026-10-19T20:31:04.161203+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 21
+          },
+          "at": "2026-10-19T20:31:04.860615+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 21
+          },
+          "at": "2026-10-19T20:31:05.856324+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 21
+          },
+          "at": "2026-10-19T20:31:06.373001+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 22
+          },
+          "at": "2026-10-19T20:31:07.060114+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 22
+          },
+          "at": "2026-10-19T20:31:07.707600+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 22
+          },
+          "at": "2026-10-19T20:31:08.688114+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 22
+          },
+          "at": "2026-10-19T20:31:09.354181+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 23
+          },
+          "at": "2026-10-19T20:31:09.973604+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 23
+          },
+          "at": "2026-10-19T20:31:10.662085+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 23
+          },
+          "at": "2026-10-19T20:31:11.645387+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 23
+          },
+          "at": "2026-10-19T20:31:12.467080+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 24
+          },
+          "at": "2026-10-19T20:31:13.186966+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 24
+          },
+          "at": "2026-10-19T20:31:13.876029+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 24
+          },
+          "at": "2026-10-19T20:31:14.589399+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 24
+          },
+          "at": "2026-10-19T20:31:15.262763+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 25
+          },
+          "at": "2026-10-19T20:31:15.789954+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 25
+          },
+          "at": "2026-10-19T20:31:16.415277+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 25
+          },
+          "at": "2026-10-19T20:31:16.989119+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 25
+          },
+          "at": "2026-10-19T20:31:17.553639+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 26
+          },
+          "at": "2026-10-19T20:31:18.081523+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 26
+          },
+          "at": "2026-10-19T20:31:18.692476+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 26
+          },
+          "at": "2026-10-19T20:31:19.359850+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 26
+          },
+          "at": "2026-10-19T20:31:19.962895+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 27
+          },
+          "at": "2026-10-19T20:31:20.648929+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 27
+          },
+          "at": "2026-10-19T20:31:21.219430+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 27
+          },
+          "at": "2026-10-19T20:31:21.875914+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 27
+          },
+          "at": "2026-10-19T20:31:22.902046+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 28
+          },
+          "at": "2026-10-19T20:31:23.564256+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 28
+          },
+          "at": "2026-10-19T20:31:24.596670+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 28
+          },
+          "at": "2026-10-19T20:31:25.378720+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 28
+          },
+          "at": "2026-10-19T20:31:26.091244+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 29
+          },
+          "at": "2026-10-19T20:31:27.166605+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 29
+          },
+          "at": "2026-10-19T20:31:28.167977+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 29
+          },
+          "at": "2026-10-19T20:31:28.706449+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 29
+          },
+          "at": "2026-10-19T20:31:29.284435+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 30
+          },
+          "at": "2026-10-19T20:31:29.989397+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 30
+          },
+          "at": "2026-10-19T20:31:31.075362+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 30
+          },
+          "at": "2026-10-19T20:31:31.796776+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 30
+          },
+          "at": "2026-10-19T20:31:32.906814+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 31
+          },
+          "at": "2026-10-19T20:31:33.994886+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 31
+          },
+          "at": "2026-10-19T20:31:35.070811+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 31
+          },
+          "at": "2026-10-19T20:31:35.774303+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 31
+          },
+          "at": "2026-10-19T20:31:36.769366+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 32
+          },
+          "at": "2026-10-19T20:31:37.793756+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 32
+          },
+          "at": "2026-10-19T20:31:38.501410+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 32
+          },
+          "at": "2026-10-19T20:31:39.956521+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 32
+          },
+          "at": "2026-10-19T20:31:41.370978+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 33
+          },
+          "at": "2026-10-19T20:31:42.769341+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 33
+          },
+          "at": "2026-10-19T20:31:44.153976+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 33
+          },
+          "at": "2026-10-19T20:31:45.385692+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 33
+          },
+          "at": "2026-10-19T20:31:46.647591+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 34
+          },
+          "at": "2026-10-19T20:31:47.975961+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 34
+          },
+          "at": "2026-10-19T20:31:49.174752+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 34
+          },
+          "at": "2026-10-19T20:31:50.646275+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 34
+          },
+          "at": "2026-10-19T20:31:51.965737+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 35
+          },
+          "at": "2026-10-19T20:31:53.180489+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 35
+          },
+          "at": "2026-10-19T20:31:54.371020+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 35
+          },
+          "at": "2026-10-19T20:31:55.651177+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 35
+          },
+          "at": "2026-10-19T20:31:56.665258+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 36
+          },
+          "at": "2026-10-19T20:31:57.707083+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 36
+          },
+          "at": "2026-10-19T20:31:58.886679+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 36
+          },
+          "at": "2026-10-19T20:31:59.973289+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 36
+          },
+          "at": "2026-10-19T20:32:01.014120+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 37
+          },
+          "at": "2026-10-19T20:32:02.186182+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 37
+          },
+          "at": "2026-10-19T20:32:02.999977+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 37
+          },
+          "at": "2026-10-19T20:32:04.103640+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 37
+          },
+          "at": "2026-10-19T20:32:05.219398+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 38
+          },
+          "at": "2026-10-19T20:32:06.205050+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 38
+          },
+          "at": "2026-10-19T20:32:07.246538+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 38
+          },
+          "at": "2026-10-19T20:32:08.327186+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 38
+          },
+          "at": "2026-10-19T20:32:09.504493+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 39
+          },
+          "at": "2026-10-19T20:32:10.600139+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 39
+          },
+          "at": "2026-10-19T20:32:11.746679+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 39
+          },
+          "at": "2026-10-19T20:32:12.791948+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 39
+          },
+          "at": "2026-10-19T20:32:13.868900+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 40
+          },
+          "at": "2026-10-19T20:32:14.963192+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 40
+          },
+          "at": "2026-10-19T20:32:15.953003+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 40
+          },
+          "at": "2026-10-19T20:32:17.075338+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 40
+          },
+          "at": "2026-10-19T20:32:18.164669+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 41
+          },
+          "at": "2026-10-19T20:32:19.177834+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 41
+          },
+          "at": "2026-10-19T20:32:20.255067+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 41
+          },
+          "at": "2026-10-19T20:32:21.384918+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 41
+          },
+          "at": "2026-10-19T20:32:22.529956+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 42
+          },
+          "at": "2026-10-19T20:32:23.493623+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 42
+          },
+          "at": "2026-10-19T20:32:24.516556+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 42
+          },
+          "at": "2026-10-19T20:32:25.602713+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 42
+          },
+          "at": "2026-10-19T20:32:26.708791+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 43
+          },
+          "at": "2026-10-19T20:32:27.832819+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 43
+          },
+          "at": "2026-10-19T20:32:28.829190+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 43
+          },
+          "at": "2026-10-19T20:32:29.885711+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 43
+          },
+          "at": "2026-10-19T20:32:30.979793+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 44
+          },
+          "at": "2026-10-19T20:32:32.050619+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 44
+          },
+          "at": "2026-10-19T20:32:33.159705+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 44
+          },
+          "at": "2026-10-19T20:32:34.351450+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 44
+          },
+          "at": "2026-10-19T20:32:35.262950+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 45
+          },
+          "at": "2026-10-19T20:32:36.407060+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 45
+          },
+          "at": "2026-10-19T20:32:37.655597+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 45
+          },
+          "at": "2026-10-19T20:32:38.723020+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 45
+          },
+          "at": "2026-10-19T20:32:39.827906+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 46
+          },
+          "at": "2026-10-19T20:32:40.805026+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 46
+          },
+          "at": "2026-10-19T20:32:41.871401+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 46
+          },
+          "at": "2026-10-19T20:32:42.866640+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 46
+          },
+          "at": "2026-10-19T20:32:43.915380+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 47
+          },
+          "at": "2026-10-19T20:32:44.915343+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 47
+          },
+          "at": "2026-10-19T20:32:45.915397+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 47
+          },
+          "at": "2026-10-19T20:32:46.898770+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 47
+          },
+          "at": "2026-10-19T20:32:47.976605+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 48
+          },
+          "at": "2026-10-19T20:32:49.033515+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 48
+          },
+          "at": "2026-10-19T20:32:50.077262+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 48
+          },
+          "at": "2026-10-19T20:32:51.176787+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 48
+          },
+          "at": "2026-10-19T20:32:52.209299+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 49
+          },
+          "at": "2026-10-19T20:32:53.256641+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 49
+          },
+          "at": "2026-10-19T20:32:54.316826+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 49
+          },
+          "at": "2026-10-19T20:32:55.501215+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 49
+          },
+          "at": "2026-10-19T20:32:56.575951+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 50
+          },
+          "at": "2026-10-19T20:32:57.666799+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 50
+          },
+          "at": "2026-10-19T20:32:58.689770+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 50
+          },
+          "at": "2026-10-19T20:32:59.801359+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 50
+          },
+          "at": "2026-10-19T20:33:00.819782+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 51
+          },
+          "at": "2026-10-19T20:33:02.394107+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 51
+          },
+          "at": "2026-10-19T20:33:03.578121+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 51
+          },
+          "at": "2026-10-19T20:33:04.792602+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 51
+          },
+          "at": "2026-10-19T20:33:06.063417+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 52
+          },
+          "at": "2026-10-19T20:33:07.144294+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 52
+          },
+          "at": "2026-10-19T20:33:08.557978+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 52
+          },
+          "at": "2026-10-19T20:33:10.158510+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 52
+          },
+          "at": "2026-10-19T20:33:11.349236+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 53
+          },
+          "at": "2026-10-19T20:33:12.382035+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 53
+          },
+          "at": "2026-10-19T20:33:13.406726+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 53
+          },
+          "at": "2026-10-19T20:33:14.483777+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 53
+          },
+          "at": "2026-10-19T20:33:15.495743+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 54
+          },
+          "at": "2026-10-19T20:33:16.514422+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 54
+          },
+          "at": "2026-10-19T20:33:17.558440+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 54
+          },
+          "at": "2026-10-19T20:33:18.664839+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 54
+          },
+          "at": "2026-10-19T20:33:19.732061+00:00"
+        },
+        {
+          "action": {
+            "column": 0,
+            "kind": "review",
+            "row": 55
+          },
+          "at": "2026-10-19T20:33:20.960483+00:00"
+        },
+        {
+          "action": {
+            "column": 1,
+            "kind": "review",
+            "row": 55
+          },
+          "at": "2026-10-19T20:33:22.093344+00:00"
+        },
+        {
+          "action": {
+            "column": 2,
+            "kind": "review",
+            "row": 55
+          },
+          "at": "2026-10-19T20:33:23.107559+00:00"
+        },
+        {
+          "action": {
+            "column": 3,
+            "kind": "review",
+            "row": 55
+          },
+          "at": "2026-10-19T20:33:24.185434+00:00"
+        }
+      ],
+      "id": "95af16c3-0e04-4f40-92d9-e9918b98dd12",
+      "original": [
+        [
+          {
+            "bbox": [
+              33,
+              79,
+              111,
+              86.92112000000003
+            ],
+            "id": "original-0-0",
+            "reviewed": false,
+            "value": "Alabama"
+          },
+          {
+            "bbox": [
+              111,
+              79,
+              146,
+              86.92112000000003
+            ],
+            "id": "original-0-1",
+            "reviewed": false,
+            "value": "18,870"
+          },
+          {
+            "bbox": [
+              146,
+              79,
+              180,
+              86.92112000000003
+            ],
+            "id": "original-0-2",
+            "reviewed": false,
+            "value": "23,022"
+          },
+          {
+            "bbox": [
+              180,
+              79,
+              212,
+              86.92112000000003
+            ],
+            "id": "original-0-3",
+            "reviewed": false,
+            "value": "22,650"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              86.92112000000003,
+              111,
+              94.12112000000002
+            ],
+            "id": "original-1-0",
+            "reviewed": false,
+            "value": "Alaska"
+          },
+          {
+            "bbox": [
+              111,
+              86.92112000000003,
+              146,
+              94.12112000000002
+            ],
+            "id": "original-1-1",
+            "reviewed": false,
+            "value": "209"
+          },
+          {
+            "bbox": [
+              146,
+              86.92112000000003,
+              180,
+              94.12112000000002
+            ],
+            "id": "original-1-2",
+            "reviewed": false,
+            "value": "3,062"
+          },
+          {
+            "bbox": [
+              180,
+              86.92112000000003,
+              212,
+              94.12112000000002
+            ],
+            "id": "original-1-3",
+            "reviewed": false,
+            "value": "3,209"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              94.12112000000002,
+              111,
+              101.32111999999998
+            ],
+            "id": "original-2-0",
+            "reviewed": false,
+            "value": "Arizona"
+          },
+          {
+            "bbox": [
+              111,
+              94.12112000000002,
+              146,
+              101.32111999999998
+            ],
+            "id": "original-2-1",
+            "reviewed": false,
+            "value": "2,303"
+          },
+          {
+            "bbox": [
+              146,
+              94.12112000000002,
+              180,
+              101.32111999999998
+            ],
+            "id": "original-2-2",
+            "reviewed": false,
+            "value": "12,382"
+          },
+          {
+            "bbox": [
+              180,
+              94.12112000000002,
+              212,
+              101.32111999999998
+            ],
+            "id": "original-2-3",
+            "reviewed": false,
+            "value": "9,041"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              101.32111999999998,
+              111,
+              108.52111999999997
+            ],
+            "id": "original-3-0",
+            "reviewed": false,
+            "value": "Arkansas"
+          },
+          {
+            "bbox": [
+              111,
+              101.32111999999998,
+              146,
+              108.52111999999997
+            ],
+            "id": "original-3-1",
+            "reviewed": false,
+            "value": "3,298"
+          },
+          {
+            "bbox": [
+              146,
+              101.32111999999998,
+              180,
+              108.52111999999997
+            ],
+            "id": "original-3-2",
+            "reviewed": false,
+            "value": "6,359"
+          },
+          {
+            "bbox": [
+              180,
+              101.32111999999998,
+              212,
+              108.52111999999997
+            ],
+            "id": "original-3-3",
+            "reviewed": false,
+            "value": "11,611"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              108.52111999999997,
+              111,
+              115.73611999999997
+            ],
+            "id": "original-4-0",
+            "reviewed": false,
+            "value": "California"
+          },
+          {
+            "bbox": [
+              111,
+              108.52111999999997,
+              146,
+              115.73611999999997
+            ],
+            "id": "original-4-1",
+            "reviewed": false,
+            "value": "98452"
+          },
+          {
+            "bbox": [
+              146,
+              108.52111999999997,
+              180,
+              115.73611999999997
+            ],
+            "id": "original-4-2",
+            "reviewed": false,
+            "value": "41181"
+          },
+          {
+            "bbox": [
+              180,
+              108.52111999999997,
+              212,
+              115.73611999999997
+            ],
+            "id": "original-4-3",
+            "reviewed": false,
+            "value": "35007"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              115.73611999999997,
+              111,
+              122.95111999999997
+            ],
+            "id": "original-5-0",
+            "reviewed": false,
+            "value": "Colorado"
+          },
+          {
+            "bbox": [
+              111,
+              115.73611999999997,
+              146,
+              122.95111999999997
+            ],
+            "id": "original-5-1",
+            "reviewed": false,
+            "value": "4,144"
+          },
+          {
+            "bbox": [
+              146,
+              115.73611999999997,
+              180,
+              122.95111999999997
+            ],
+            "id": "original-5-2",
+            "reviewed": false,
+            "value": "19,784"
+          },
+          {
+            "bbox": [
+              180,
+              115.73611999999997,
+              212,
+              122.95111999999997
+            ],
+            "id": "original-5-3",
+            "reviewed": false,
+            "value": "16,082"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              122.95111999999997,
+              111,
+              130.15112
+            ],
+            "id": "original-6-0",
+            "reviewed": false,
+            "value": "Connecticut"
+          },
+          {
+            "bbox": [
+              111,
+              122.95111999999997,
+              146,
+              130.15112
+            ],
+            "id": "original-6-1",
+            "reviewed": false,
+            "value": "9,631"
+          },
+          {
+            "bbox": [
+              146,
+              122.95111999999997,
+              180,
+              130.15112
+            ],
+            "id": "original-6-2",
+            "reviewed": false,
+            "value": "11,594"
+          },
+          {
+            "bbox": [
+              180,
+              122.95111999999997,
+              212,
+              130.15112
+            ],
+            "id": "original-6-3",
+            "reviewed": false,
+            "value": "5,072"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              130.15112,
+              111,
+              137.35112
+            ],
+            "id": "original-7-0",
+            "reviewed": false,
+            "value": "Delaware"
+          },
+          {
+            "bbox": [
+              111,
+              130.15112,
+              146,
+              137.35112
+            ],
+            "id": "original-7-1",
+            "reviewed": false,
+            "value": "204"
+          },
+          {
+            "bbox": [
+              146,
+              130.15112,
+              180,
+              137.35112
+            ],
+            "id": "original-7-2",
+            "reviewed": false,
+            "value": "2,152"
+          },
+          {
+            "bbox": [
+              180,
+              130.15112,
+              212,
+              137.35112
+            ],
+            "id": "original-7-3",
+            "reviewed": false,
+            "value": "2,424"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              137.35112,
+              111,
+              144.55112
+            ],
+            "id": "original-8-0",
+            "reviewed": false,
+            "value": "District of Columbia"
+          },
+          {
+            "bbox": [
+              111,
+              137.35112,
+              146,
+              144.55112
+            ],
+            "id": "original-8-1",
+            "reviewed": false,
+            "value": "8"
+          },
+          {
+            "bbox": [
+              146,
+              137.35112,
+              180,
+              144.55112
+            ],
+            "id": "original-8-2",
+            "reviewed": false,
+            "value": "54"
+          },
+          {
+            "bbox": [
+              180,
+              137.35112,
+              212,
+              144.55112
+            ],
+            "id": "original-8-3",
+            "reviewed": false,
+            "value": "2"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              144.55112,
+              111,
+              151.75112
+            ],
+            "id": "original-9-0",
+            "reviewed": false,
+            "value": "Florida"
+          },
+          {
+            "bbox": [
+              111,
+              144.55112,
+              146,
+              151.75112
+            ],
+            "id": "original-9-1",
+            "reviewed": false,
+            "value": "15,907"
+          },
+          {
+            "bbox": [
+              146,
+              144.55112,
+              180,
+              151.75112
+            ],
+            "id": "original-9-2",
+            "reviewed": false,
+            "value": "50,796"
+          },
+          {
+            "bbox": [
+              180,
+              144.55112,
+              212,
+              151.75112
+            ],
+            "id": "original-9-3",
+            "reviewed": false,
+            "value": "28,981"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              151.75112,
+              111,
+              158.95111999999997
+            ],
+            "id": "original-10-0",
+            "reviewed": false,
+            "value": "Georgia"
+          },
+          {
+            "bbox": [
+              111,
+              151.75112,
+              146,
+              158.95111999999997
+            ],
+            "id": "original-10-1",
+            "reviewed": false,
+            "value": "14,111"
+          },
+          {
+            "bbox": [
+              146,
+              151.75112,
+              180,
+              158.95111999999997
+            ],
+            "id": "original-10-2",
+            "reviewed": false,
+            "value": "16,635"
+          },
+          {
+            "bbox": [
+              180,
+              151.75112,
+              212,
+              158.95111999999997
+            ],
+            "id": "original-10-3",
+            "reviewed": false,
+            "value": "15,227"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              158.95111999999997,
+              111,
+              166.15112
+            ],
+            "id": "original-11-0",
+            "reviewed": false,
+            "value": "Guam"
+          },
+          {
+            "bbox": [
+              111,
+              158.95111999999997,
+              146,
+              166.15112
+            ],
+            "id": "original-11-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              158.95111999999997,
+              180,
+              166.15112
+            ],
+            "id": "original-11-2",
+            "reviewed": false,
+            "value": "100"
+          },
+          {
+            "bbox": [
+              180,
+              158.95111999999997,
+              212,
+              166.15112
+            ],
+            "id": "original-11-3",
+            "reviewed": false,
+            "value": "55"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              166.15112,
+              111,
+              173.36112
+            ],
+            "id": "original-12-0",
+            "reviewed": false,
+            "value": "Hawaii"
+          },
+          {
+            "bbox": [
+              111,
+              166.15112,
+              146,
+              173.36112
+            ],
+            "id": "original-12-1",
+            "reviewed": false,
+            "value": "1,248"
+          },
+          {
+            "bbox": [
+              146,
+              166.15112,
+              180,
+              173.36112
+            ],
+            "id": "original-12-2",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              180,
+              166.15112,
+              212,
+              173.36112
+            ],
+            "id": "original-12-3",
+            "reviewed": false,
+            "value": "0"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              173.36112,
+              111,
+              180.57111999999998
+            ],
+            "id": "original-13-0",
+            "reviewed": false,
+            "value": "Idaho"
+          },
+          {
+            "bbox": [
+              111,
+              173.36112,
+              146,
+              180.57111999999998
+            ],
+            "id": "original-13-1",
+            "reviewed": false,
+            "value": "1,944"
+          },
+          {
+            "bbox": [
+              146,
+              173.36112,
+              180,
+              180.57111999999998
+            ],
+            "id": "original-13-2",
+            "reviewed": false,
+            "value": "3,609"
+          },
+          {
+            "bbox": [
+              180,
+              173.36112,
+              212,
+              180.57111999999998
+            ],
+            "id": "original-13-3",
+            "reviewed": false,
+            "value": "5,227"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              180.57111999999998,
+              111,
+              187.77111999999997
+            ],
+            "id": "original-14-0",
+            "reviewed": false,
+            "value": "Illinois"
+          },
+          {
+            "bbox": [
+              111,
+              180.57111999999998,
+              146,
+              187.77111999999997
+            ],
+            "id": "original-14-1",
+            "reviewed": false,
+            "value": "87,190"
+          },
+          {
+            "bbox": [
+              146,
+              180.57111999999998,
+              180,
+              187.77111999999997
+            ],
+            "id": "original-14-2",
+            "reviewed": false,
+            "value": "24,412"
+          },
+          {
+            "bbox": [
+              180,
+              180.57111999999998,
+              212,
+              187.77111999999997
+            ],
+            "id": "original-14-3",
+            "reviewed": false,
+            "value": "17,227"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              187.77111999999997,
+              111,
+              194.97111999999998
+            ],
+            "id": "original-15-0",
+            "reviewed": false,
+            "value": "Indiana"
+          },
+          {
+            "bbox": [
+              111,
+              187.77111999999997,
+              146,
+              194.97111999999998
+            ],
+            "id": "original-15-1",
+            "reviewed": false,
+            "value": "81,935"
+          },
+          {
+            "bbox": [
+              146,
+              187.77111999999997,
+              180,
+              194.97111999999998
+            ],
+            "id": "original-15-2",
+            "reviewed": false,
+            "value": "25,519"
+          },
+          {
+            "bbox": [
+              180,
+              187.77111999999997,
+              212,
+              194.97111999999998
+            ],
+            "id": "original-15-3",
+            "reviewed": false,
+            "value": "20,227"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              194.97111999999998,
+              111,
+              202.17112
+            ],
+            "id": "original-16-0",
+            "reviewed": false,
+            "value": "Iowa"
+          },
+          {
+            "bbox": [
+              111,
+              194.97111999999998,
+              146,
+              202.17112
+            ],
+            "id": "original-16-1",
+            "reviewed": false,
+            "value": "8,785"
+          },
+          {
+            "bbox": [
+              146,
+              194.97111999999998,
+              180,
+              202.17112
+            ],
+            "id": "original-16-2",
+            "reviewed": false,
+            "value": "267"
+          },
+          {
+            "bbox": [
+              180,
+              194.97111999999998,
+              212,
+              202.17112
+            ],
+            "id": "original-16-3",
+            "reviewed": false,
+            "value": "4,596"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              202.17112,
+              111,
+              209.37112
+            ],
+            "id": "original-17-0",
+            "reviewed": false,
+            "value": "Kansas"
+          },
+          {
+            "bbox": [
+              111,
+              202.17112,
+              146,
+              209.37112
+            ],
+            "id": "original-17-1",
+            "reviewed": false,
+            "value": "894"
+          },
+          {
+            "bbox": [
+              146,
+              202.17112,
+              180,
+              209.37112
+            ],
+            "id": "original-17-2",
+            "reviewed": false,
+            "value": "7,086"
+          },
+          {
+            "bbox": [
+              180,
+              202.17112,
+              212,
+              209.37112
+            ],
+            "id": "original-17-3",
+            "reviewed": false,
+            "value": "8,702"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              209.37112,
+              111,
+              216.57111999999998
+            ],
+            "id": "original-18-0",
+            "reviewed": false,
+            "value": "Kentucky"
+          },
+          {
+            "bbox": [
+              111,
+              209.37112,
+              146,
+              216.57111999999998
+            ],
+            "id": "original-18-1",
+            "reviewed": false,
+            "value": "264,140"
+          },
+          {
+            "bbox": [
+              146,
+              209.37112,
+              180,
+              216.57111999999998
+            ],
+            "id": "original-18-2",
+            "reviewed": false,
+            "value": "12,155"
+          },
+          {
+            "bbox": [
+              180,
+              209.37112,
+              212,
+              216.57111999999998
+            ],
+            "id": "original-18-3",
+            "reviewed": false,
+            "value": "14,847"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              216.57111999999998,
+              111,
+              223.77111999999997
+            ],
+            "id": "original-19-0",
+            "reviewed": false,
+            "value": "Louisiana"
+          },
+          {
+            "bbox": [
+              111,
+              216.57111999999998,
+              146,
+              223.77111999999997
+            ],
+            "id": "original-19-1",
+            "reviewed": false,
+            "value": "1,945"
+          },
+          {
+            "bbox": [
+              146,
+              216.57111999999998,
+              180,
+              223.77111999999997
+            ],
+            "id": "original-19-2",
+            "reviewed": false,
+            "value": "14,708"
+          },
+          {
+            "bbox": [
+              180,
+              216.57111999999998,
+              212,
+              223.77111999999997
+            ],
+            "id": "original-19-3",
+            "reviewed": false,
+            "value": "17,368"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              223.77111999999997,
+              111,
+              230.98611999999997
+            ],
+            "id": "original-20-0",
+            "reviewed": false,
+            "value": "Maine"
+          },
+          {
+            "bbox": [
+              111,
+              223.77111999999997,
+              146,
+              230.98611999999997
+            ],
+            "id": "original-20-1",
+            "reviewed": false,
+            "value": "299"
+          },
+          {
+            "bbox": [
+              146,
+              223.77111999999997,
+              180,
+              230.98611999999997
+            ],
+            "id": "original-20-2",
+            "reviewed": false,
+            "value": "4,048"
+          },
+          {
+            "bbox": [
+              180,
+              223.77111999999997,
+              212,
+              230.98611999999997
+            ],
+            "id": "original-20-3",
+            "reviewed": false,
+            "value": "4,387"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              230.98611999999997,
+              111,
+              238.20111999999997
+            ],
+            "id": "original-21-0",
+            "reviewed": false,
+            "value": "Mariana Islands"
+          },
+          {
+            "bbox": [
+              111,
+              230.98611999999997,
+              146,
+              238.20111999999997
+            ],
+            "id": "original-21-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              230.98611999999997,
+              180,
+              238.20111999999997
+            ],
+            "id": "original-21-2",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              180,
+              230.98611999999997,
+              212,
+              238.20111999999997
+            ],
+            "id": "original-21-3",
+            "reviewed": false,
+            "value": "0"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              238.20111999999997,
+              111,
+              245.40112
+            ],
+            "id": "original-22-0",
+            "reviewed": false,
+            "value": "Maryland"
+          },
+          {
+            "bbox": [
+              111,
+              238.20111999999997,
+              146,
+              245.40112
+            ],
+            "id": "original-22-1",
+            "reviewed": false,
+            "value": "1,512"
+          },
+          {
+            "bbox": [
+              146,
+              238.20111999999997,
+              180,
+              245.40112
+            ],
+            "id": "original-22-2",
+            "reviewed": false,
+            "value": "3,220"
+          },
+          {
+            "bbox": [
+              180,
+              238.20111999999997,
+              212,
+              245.40112
+            ],
+            "id": "original-22-3",
+            "reviewed": false,
+            "value": "8,310"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              245.40112,
+              111,
+              252.60112
+            ],
+            "id": "original-23-0",
+            "reviewed": false,
+            "value": "Massachusetts"
+          },
+          {
+            "bbox": [
+              111,
+              245.40112,
+              146,
+              252.60112
+            ],
+            "id": "original-23-1",
+            "reviewed": false,
+            "value": "5,214"
+          },
+          {
+            "bbox": [
+              146,
+              245.40112,
+              180,
+              252.60112
+            ],
+            "id": "original-23-2",
+            "reviewed": false,
+            "value": "6,083"
+          },
+          {
+            "bbox": [
+              180,
+              245.40112,
+              212,
+              252.60112
+            ],
+            "id": "original-23-3",
+            "reviewed": false,
+            "value": "3,931"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              252.60112,
+              111,
+              259.80111999999997
+            ],
+            "id": "original-24-0",
+            "reviewed": false,
+            "value": "Michigan"
+          },
+          {
+            "bbox": [
+              111,
+              252.60112,
+              146,
+              259.80111999999997
+            ],
+            "id": "original-24-1",
+            "reviewed": false,
+            "value": "16,786"
+          },
+          {
+            "bbox": [
+              146,
+              252.60112,
+              180,
+              259.80111999999997
+            ],
+            "id": "original-24-2",
+            "reviewed": false,
+            "value": "13,634"
+          },
+          {
+            "bbox": [
+              180,
+              252.60112,
+              212,
+              259.80111999999997
+            ],
+            "id": "original-24-3",
+            "reviewed": false,
+            "value": "17,604"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              259.80111999999997,
+              111,
+              267.00112
+            ],
+            "id": "original-25-0",
+            "reviewed": false,
+            "value": "Minnesota"
+          },
+          {
+            "bbox": [
+              111,
+              259.80111999999997,
+              146,
+              267.00112
+            ],
+            "id": "original-25-1",
+            "reviewed": false,
+            "value": "18,939"
+          },
+          {
+            "bbox": [
+              146,
+              259.80111999999997,
+              180,
+              267.00112
+            ],
+            "id": "original-25-2",
+            "reviewed": false,
+            "value": "9,373"
+          },
+          {
+            "bbox": [
+              180,
+              259.80111999999997,
+              212,
+              267.00112
+            ],
+            "id": "original-25-3",
+            "reviewed": false,
+            "value": "14,173"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              267.00112,
+              111,
+              274.20111999999995
+            ],
+            "id": "original-26-0",
+            "reviewed": false,
+            "value": "Mississippi"
+          },
+          {
+            "bbox": [
+              111,
+              267.00112,
+              146,
+              274.20111999999995
+            ],
+            "id": "original-26-1",
+            "reviewed": false,
+            "value": "618"
+          },
+          {
+            "bbox": [
+              146,
+              267.00112,
+              180,
+              274.20111999999995
+            ],
+            "id": "original-26-2",
+            "reviewed": false,
+            "value": "9,785"
+          },
+          {
+            "bbox": [
+              180,
+              267.00112,
+              212,
+              274.20111999999995
+            ],
+            "id": "original-26-3",
+            "reviewed": false,
+            "value": "13,191"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              274.20111999999995,
+              111,
+              281.40112
+            ],
+            "id": "original-27-0",
+            "reviewed": false,
+            "value": "Missouri"
+          },
+          {
+            "bbox": [
+              111,
+              274.20111999999995,
+              146,
+              281.40112
+            ],
+            "id": "original-27-1",
+            "reviewed": false,
+            "value": "5,884"
+          },
+          {
+            "bbox": [
+              146,
+              274.20111999999995,
+              180,
+              281.40112
+            ],
+            "id": "original-27-2",
+            "reviewed": false,
+            "value": "21,135"
+          },
+          {
+            "bbox": [
+              180,
+              274.20111999999995,
+              212,
+              281.40112
+            ],
+            "id": "original-27-3",
+            "reviewed": false,
+            "value": "22,852"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              281.40112,
+              111,
+              288.61112
+            ],
+            "id": "original-28-0",
+            "reviewed": false,
+            "value": "Montana"
+          },
+          {
+            "bbox": [
+              111,
+              281.40112,
+              146,
+              288.61112
+            ],
+            "id": "original-28-1",
+            "reviewed": false,
+            "value": "852"
+          },
+          {
+            "bbox": [
+              146,
+              281.40112,
+              180,
+              288.61112
+            ],
+            "id": "original-28-2",
+            "reviewed": false,
+            "value": "2,848"
+          },
+          {
+            "bbox": [
+              180,
+              281.40112,
+              212,
+              288.61112
+            ],
+            "id": "original-28-3",
+            "reviewed": false,
+            "value": "5,170"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              288.61112,
+              111,
+              295.82111999999995
+            ],
+            "id": "original-29-0",
+            "reviewed": false,
+            "value": "Nebraska"
+          },
+          {
+            "bbox": [
+              111,
+              288.61112,
+              146,
+              295.82111999999995
+            ],
+            "id": "original-29-1",
+            "reviewed": false,
+            "value": "4,258"
+          },
+          {
+            "bbox": [
+              146,
+              288.61112,
+              180,
+              295.82111999999995
+            ],
+            "id": "original-29-2",
+            "reviewed": false,
+            "value": "173"
+          },
+          {
+            "bbox": [
+              180,
+              288.61112,
+              212,
+              295.82111999999995
+            ],
+            "id": "original-29-3",
+            "reviewed": false,
+            "value": "3,724"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              295.82111999999995,
+              111,
+              303.02112
+            ],
+            "id": "original-30-0",
+            "reviewed": false,
+            "value": "Nevada"
+          },
+          {
+            "bbox": [
+              111,
+              295.82111999999995,
+              146,
+              303.02112
+            ],
+            "id": "original-30-1",
+            "reviewed": false,
+            "value": "1,543"
+          },
+          {
+            "bbox": [
+              146,
+              295.82111999999995,
+              180,
+              303.02112
+            ],
+            "id": "original-30-2",
+            "reviewed": false,
+            "value": "4,889"
+          },
+          {
+            "bbox": [
+              180,
+              295.82111999999995,
+              212,
+              303.02112
+            ],
+            "id": "original-30-3",
+            "reviewed": false,
+            "value": "3,272"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              303.02112,
+              111,
+              310.22112
+            ],
+            "id": "original-31-0",
+            "reviewed": false,
+            "value": "New Hampshire"
+          },
+          {
+            "bbox": [
+              111,
+              303.02112,
+              146,
+              310.22112
+            ],
+            "id": "original-31-1",
+            "reviewed": false,
+            "value": "3,630"
+          },
+          {
+            "bbox": [
+              146,
+              303.02112,
+              180,
+              310.22112
+            ],
+            "id": "original-31-2",
+            "reviewed": false,
+            "value": "4,847"
+          },
+          {
+            "bbox": [
+              180,
+              303.02112,
+              212,
+              310.22112
+            ],
+            "id": "original-31-3",
+            "reviewed": false,
+            "value": "4,165"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              310.22112,
+              111,
+              317.42112
+            ],
+            "id": "original-32-0",
+            "reviewed": false,
+            "value": "New Jersey"
+          },
+          {
+            "bbox": [
+              111,
+              310.22112,
+              146,
+              317.42112
+            ],
+            "id": "original-32-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              310.22112,
+              180,
+              317.42112
+            ],
+            "id": "original-32-2",
+            "reviewed": false,
+            "value": "3,462"
+          },
+          {
+            "bbox": [
+              180,
+              310.22112,
+              212,
+              317.42112
+            ],
+            "id": "original-32-3",
+            "reviewed": false,
+            "value": "4,704"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              317.42112,
+              111,
+              324.62112
+            ],
+            "id": "original-33-0",
+            "reviewed": false,
+            "value": "New Mexico"
+          },
+          {
+            "bbox": [
+              111,
+              317.42112,
+              146,
+              324.62112
+            ],
+            "id": "original-33-1",
+            "reviewed": false,
+            "value": "829"
+          },
+          {
+            "bbox": [
+              146,
+              317.42112,
+              180,
+              324.62112
+            ],
+            "id": "original-33-2",
+            "reviewed": false,
+            "value": "5,247"
+          },
+          {
+            "bbox": [
+              180,
+              317.42112,
+              212,
+              324.62112
+            ],
+            "id": "original-33-3",
+            "reviewed": false,
+            "value": "4,974"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              324.62112,
+              111,
+              331.82111999999995
+            ],
+            "id": "original-34-0",
+            "reviewed": false,
+            "value": "New York"
+          },
+          {
+            "bbox": [
+              111,
+              324.62112,
+              146,
+              331.82111999999995
+            ],
+            "id": "original-34-1",
+            "reviewed": false,
+            "value": "2,906"
+          },
+          {
+            "bbox": [
+              146,
+              324.62112,
+              180,
+              331.82111999999995
+            ],
+            "id": "original-34-2",
+            "reviewed": false,
+            "value": "8,650"
+          },
+          {
+            "bbox": [
+              180,
+              324.62112,
+              212,
+              331.82111999999995
+            ],
+            "id": "original-34-3",
+            "reviewed": false,
+            "value": "23,519"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              331.82111999999995,
+              111,
+              339.02112
+            ],
+            "id": "original-35-0",
+            "reviewed": false,
+            "value": "North Carolina"
+          },
+          {
+            "bbox": [
+              111,
+              331.82111999999995,
+              146,
+              339.02112
+            ],
+            "id": "original-35-1",
+            "reviewed": false,
+            "value": "22,469"
+          },
+          {
+            "bbox": [
+              146,
+              331.82111999999995,
+              180,
+              339.02112
+            ],
+            "id": "original-35-2",
+            "reviewed": false,
+            "value": "1,370"
+          },
+          {
+            "bbox": [
+              180,
+              331.82111999999995,
+              212,
+              339.02112
+            ],
+            "id": "original-35-3",
+            "reviewed": false,
+            "value": "20,107"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              339.02112,
+              111,
+              346.23112
+            ],
+            "id": "original-36-0",
+            "reviewed": false,
+            "value": "North Dakota"
+          },
+          {
+            "bbox": [
+              111,
+              339.02112,
+              146,
+              346.23112
+            ],
+            "id": "original-36-1",
+            "reviewed": false,
+            "value": "453"
+          },
+          {
+            "bbox": [
+              146,
+              339.02112,
+              180,
+              346.23112
+            ],
+            "id": "original-36-2",
+            "reviewed": false,
+            "value": "1,720"
+          },
+          {
+            "bbox": [
+              180,
+              339.02112,
+              212,
+              346.23112
+            ],
+            "id": "original-36-3",
+            "reviewed": false,
+            "value": "3,744"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              346.23112,
+              111,
+              353.44111999999996
+            ],
+            "id": "original-37-0",
+            "reviewed": false,
+            "value": "Ohio"
+          },
+          {
+            "bbox": [
+              111,
+              346.23112,
+              146,
+              353.44111999999996
+            ],
+            "id": "original-37-1",
+            "reviewed": false,
+            "value": "9,338"
+          },
+          {
+            "bbox": [
+              146,
+              346.23112,
+              180,
+              353.44111999999996
+            ],
+            "id": "original-37-2",
+            "reviewed": false,
+            "value": "34,878"
+          },
+          {
+            "bbox": [
+              180,
+              346.23112,
+              212,
+              353.44111999999996
+            ],
+            "id": "original-37-3",
+            "reviewed": false,
+            "value": "31,817"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              353.44111999999996,
+              111,
+              360.64112
+            ],
+            "id": "original-38-0",
+            "reviewed": false,
+            "value": "Oklahoma"
+          },
+          {
+            "bbox": [
+              111,
+              353.44111999999996,
+              146,
+              360.64112
+            ],
+            "id": "original-38-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              353.44111999999996,
+              180,
+              360.64112
+            ],
+            "id": "original-38-2",
+            "reviewed": false,
+            "value": "15,005"
+          },
+          {
+            "bbox": [
+              180,
+              353.44111999999996,
+              212,
+              360.64112
+            ],
+            "id": "original-38-3",
+            "reviewed": false,
+            "value": "14,753"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              360.64112,
+              111,
+              367.84112
+            ],
+            "id": "original-39-0",
+            "reviewed": false,
+            "value": "Oregon"
+          },
+          {
+            "bbox": [
+              111,
+              360.64112,
+              146,
+              367.84112
+            ],
+            "id": "original-39-1",
+            "reviewed": false,
+            "value": "35"
+          },
+          {
+            "bbox": [
+              146,
+              360.64112,
+              180,
+              367.84112
+            ],
+            "id": "original-39-2",
+            "reviewed": false,
+            "value": "13,586"
+          },
+          {
+            "bbox": [
+              180,
+              360.64112,
+              212,
+              367.84112
+            ],
+            "id": "original-39-3",
+            "reviewed": false,
+            "value": "11,832"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              367.84112,
+              111,
+              375.04112
+            ],
+            "id": "original-40-0",
+            "reviewed": false,
+            "value": "Pennsylvania"
+          },
+          {
+            "bbox": [
+              111,
+              367.84112,
+              146,
+              375.04112
+            ],
+            "id": "original-40-1",
+            "reviewed": false,
+            "value": "24,136"
+          },
+          {
+            "bbox": [
+              146,
+              367.84112,
+              180,
+              375.04112
+            ],
+            "id": "original-40-2",
+            "reviewed": false,
+            "value": "62,752"
+          },
+          {
+            "bbox": [
+              180,
+              367.84112,
+              212,
+              375.04112
+            ],
+            "id": "original-40-3",
+            "reviewed": false,
+            "value": "16,297"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              375.04112,
+              111,
+              382.24112
+            ],
+            "id": "original-41-0",
+            "reviewed": false,
+            "value": "Puerto Rico"
+          },
+          {
+            "bbox": [
+              111,
+              375.04112,
+              146,
+              382.24112
+            ],
+            "id": "original-41-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              375.04112,
+              180,
+              382.24112
+            ],
+            "id": "original-41-2",
+            "reviewed": false,
+            "value": "1,033"
+          },
+          {
+            "bbox": [
+              180,
+              375.04112,
+              212,
+              382.24112
+            ],
+            "id": "original-41-3",
+            "reviewed": false,
+            "value": "170"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              382.24112,
+              111,
+              389.44112
+            ],
+            "id": "original-42-0",
+            "reviewed": false,
+            "value": "Rhode Island"
+          },
+          {
+            "bbox": [
+              111,
+              382.24112,
+              146,
+              389.44112
+            ],
+            "id": "original-42-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              382.24112,
+              180,
+              389.44112
+            ],
+            "id": "original-42-2",
+            "reviewed": false,
+            "value": "954"
+          },
+          {
+            "bbox": [
+              180,
+              382.24112,
+              212,
+              389.44112
+            ],
+            "id": "original-42-3",
+            "reviewed": false,
+            "value": "932"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              389.44112,
+              111,
+              396.64112
+            ],
+            "id": "original-43-0",
+            "reviewed": false,
+            "value": "South Carolina"
+          },
+          {
+            "bbox": [
+              111,
+              389.44112,
+              146,
+              396.64112
+            ],
+            "id": "original-43-1",
+            "reviewed": false,
+            "value": "7,284"
+          },
+          {
+            "bbox": [
+              146,
+              389.44112,
+              180,
+              396.64112
+            ],
+            "id": "original-43-2",
+            "reviewed": false,
+            "value": "11,452"
+          },
+          {
+            "bbox": [
+              180,
+              389.44112,
+              212,
+              396.64112
+            ],
+            "id": "original-43-3",
+            "reviewed": false,
+            "value": "10,393"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              396.64112,
+              111,
+              403.85612000000003
+            ],
+            "id": "original-44-0",
+            "reviewed": false,
+            "value": "South Dakota"
+          },
+          {
+            "bbox": [
+              111,
+              396.64112,
+              146,
+              403.85612000000003
+            ],
+            "id": "original-44-1",
+            "reviewed": false,
+            "value": "819"
+          },
+          {
+            "bbox": [
+              146,
+              396.64112,
+              180,
+              403.85612000000003
+            ],
+            "id": "original-44-2",
+            "reviewed": false,
+            "value": "2,765"
+          },
+          {
+            "bbox": [
+              180,
+              396.64112,
+              212,
+              403.85612000000003
+            ],
+            "id": "original-44-3",
+            "reviewed": false,
+            "value": "5,484"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              403.85612000000003,
+              111,
+              411.07112
+            ],
+            "id": "original-45-0",
+            "reviewed": false,
+            "value": "Tennessee"
+          },
+          {
+            "bbox": [
+              111,
+              403.85612000000003,
+              146,
+              411.07112
+            ],
+            "id": "original-45-1",
+            "reviewed": false,
+            "value": "9,509"
+          },
+          {
+            "bbox": [
+              146,
+              403.85612000000003,
+              180,
+              411.07112
+            ],
+            "id": "original-45-2",
+            "reviewed": false,
+            "value": "28,815"
+          },
+          {
+            "bbox": [
+              180,
+              403.85612000000003,
+              212,
+              411.07112
+            ],
+            "id": "original-45-3",
+            "reviewed": false,
+            "value": "24,023"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              411.07112,
+              111,
+              418.27112
+            ],
+            "id": "original-46-0",
+            "reviewed": false,
+            "value": "Texas"
+          },
+          {
+            "bbox": [
+              111,
+              411.07112,
+              146,
+              418.27112
+            ],
+            "id": "original-46-1",
+            "reviewed": false,
+            "value": "21,550"
+          },
+          {
+            "bbox": [
+              146,
+              411.07112,
+              180,
+              418.27112
+            ],
+            "id": "original-46-2",
+            "reviewed": false,
+            "value": "56,941"
+          },
+          {
+            "bbox": [
+              180,
+              411.07112,
+              212,
+              418.27112
+            ],
+            "id": "original-46-3",
+            "reviewed": false,
+            "value": "51,670"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              418.27112,
+              111,
+              425.47112
+            ],
+            "id": "original-47-0",
+            "reviewed": false,
+            "value": "Utah"
+          },
+          {
+            "bbox": [
+              111,
+              418.27112,
+              146,
+              425.47112
+            ],
+            "id": "original-47-1",
+            "reviewed": false,
+            "value": "10,429"
+          },
+          {
+            "bbox": [
+              146,
+              418.27112,
+              180,
+              425.47112
+            ],
+            "id": "original-47-2",
+            "reviewed": false,
+            "value": "4,314"
+          },
+          {
+            "bbox": [
+              180,
+              418.27112,
+              212,
+              425.47112
+            ],
+            "id": "original-47-3",
+            "reviewed": false,
+            "value": "5,857"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              425.47112,
+              111,
+              432.67112
+            ],
+            "id": "original-48-0",
+            "reviewed": false,
+            "value": "Vermont"
+          },
+          {
+            "bbox": [
+              111,
+              425.47112,
+              146,
+              432.67112
+            ],
+            "id": "original-48-1",
+            "reviewed": false,
+            "value": "0"
+          },
+          {
+            "bbox": [
+              146,
+              425.47112,
+              180,
+              432.67112
+            ],
+            "id": "original-48-2",
+            "reviewed": false,
+            "value": "1,189"
+          },
+          {
+            "bbox": [
+              180,
+              425.47112,
+              212,
+              432.67112
+            ],
+            "id": "original-48-3",
+            "reviewed": false,
+            "value": "1,826"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              432.67112,
+              111,
+              439.87112
+            ],
+            "id": "original-49-0",
+            "reviewed": false,
+            "value": "Virgin Islands"
+          },
+          {
+            "bbox": [
+              111,
+              432.67112,
+              146,
+              439.87112
+            ],
+            "id": "original-49-1",
+            "reviewed": false,
+            "value": "93"
+          },
+          {
+            "bbox": [
+              146,
+              432.67112,
+              180,
+              439.87112
+            ],
+            "id": "original-49-2",
+            "reviewed": false,
+            "value": "13"
+          },
+          {
+            "bbox": [
+              180,
+              432.67112,
+              212,
+              439.87112
+            ],
+            "id": "original-49-3",
+            "reviewed": false,
+            "value": "2"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              439.87112,
+              111,
+              447.07112
+            ],
+            "id": "original-50-0",
+            "reviewed": false,
+            "value": "Virginia"
+          },
+          {
+            "bbox": [
+              111,
+              439.87112,
+              146,
+              447.07112
+            ],
+            "id": "original-50-1",
+            "reviewed": false,
+            "value": "622"
+          },
+          {
+            "bbox": [
+              146,
+              439.87112,
+              180,
+              447.07112
+            ],
+            "id": "original-50-2",
+            "reviewed": false,
+            "value": "24,052"
+          },
+          {
+            "bbox": [
+              180,
+              439.87112,
+              212,
+              447.07112
+            ],
+            "id": "original-50-3",
+            "reviewed": false,
+            "value": "22,348"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              447.07112,
+              111,
+              454.27112
+            ],
+            "id": "original-51-0",
+            "reviewed": false,
+            "value": "Washington"
+          },
+          {
+            "bbox": [
+              111,
+              447.07112,
+              146,
+              454.27112
+            ],
+            "id": "original-51-1",
+            "reviewed": false,
+            "value": "10,314"
+          },
+          {
+            "bbox": [
+              146,
+              447.07112,
+              180,
+              454.27112
+            ],
+            "id": "original-51-2",
+            "reviewed": false,
+            "value": "15,822"
+          },
+          {
+            "bbox": [
+              180,
+              447.07112,
+              212,
+              454.27112
+            ],
+            "id": "original-51-3",
+            "reviewed": false,
+            "value": "12,425"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              454.27112,
+              111,
+              461.48112000000003
+            ],
+            "id": "original-52-0",
+            "reviewed": false,
+            "value": "West Virginia"
+          },
+          {
+            "bbox": [
+              111,
+              454.27112,
+              146,
+              461.48112000000003
+            ],
+            "id": "original-52-1",
+            "reviewed": false,
+            "value": "2,217"
+          },
+          {
+            "bbox": [
+              146,
+              454.27112,
+              180,
+              461.48112000000003
+            ],
+            "id": "original-52-2",
+            "reviewed": false,
+            "value": "6,953"
+          },
+          {
+            "bbox": [
+              180,
+              454.27112,
+              212,
+              461.48112000000003
+            ],
+            "id": "original-52-3",
+            "reviewed": false,
+            "value": "11,561"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              461.48112000000003,
+              111,
+              468.69112
+            ],
+            "id": "original-53-0",
+            "reviewed": false,
+            "value": "Wisconsin"
+          },
+          {
+            "bbox": [
+              111,
+              461.48112000000003,
+              146,
+              468.69112
+            ],
+            "id": "original-53-1",
+            "reviewed": false,
+            "value": "5,867"
+          },
+          {
+            "bbox": [
+              146,
+              461.48112000000003,
+              180,
+              468.69112
+            ],
+            "id": "original-53-2",
+            "reviewed": false,
+            "value": "13,700"
+          },
+          {
+            "bbox": [
+              180,
+              461.48112000000003,
+              212,
+              468.69112
+            ],
+            "id": "original-53-3",
+            "reviewed": false,
+            "value": "17,759"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              468.69112,
+              111,
+              475.89112
+            ],
+            "id": "original-54-0",
+            "reviewed": false,
+            "value": "Wyoming"
+          },
+          {
+            "bbox": [
+              111,
+              468.69112,
+              146,
+              475.89112
+            ],
+            "id": "original-54-1",
+            "reviewed": false,
+            "value": "383"
+          },
+          {
+            "bbox": [
+              146,
+              468.69112,
+              180,
+              475.89112
+            ],
+            "id": "original-54-2",
+            "reviewed": false,
+            "value": "1,745"
+          },
+          {
+            "bbox": [
+              180,
+              468.69112,
+              212,
+              475.89112
+            ],
+            "id": "original-54-3",
+            "reviewed": false,
+            "value": "2,372"
+          }
+        ],
+        [
+          {
+            "bbox": [
+              33,
+              475.89112,
+              111,
+              483
+            ],
+            "id": "original-55-0",
+            "reviewed": false,
+            "value": "Totals"
+          },
+          {
+            "bbox": [
+              111,
+              475.89112,
+              146,
+              483
+            ],
+            "id": "original-55-1",
+            "reviewed": false,
+            "value": "804,006"
+          },
+          {
+            "bbox": [
+              146,
+              475.89112,
+              180,
+              483
+            ],
+            "id": "original-55-2",
+            "reviewed": false,
+            "value": "671,330"
+          },
+          {
+            "bbox": [
+              180,
+              475.89112,
+              212,
+              483
+            ],
+            "id": "original-55-3",
+            "reviewed": false,
+            "value": "636,903"
+          }
+        ]
+      ],
+      "page": 1,
+      "reason": "Suggestions only: verify every value against the source.",
+      "region": [
+        33,
+        79,
+        212,
+        483
+      ],
+      "resolved_grid": {
+        "columns": [
+          33,
+          111,
+          146,
+          180,
+          212
+        ],
+        "rows": [
+          79,
+          86.92112000000003,
+          94.12112000000002,
+          101.32111999999998,
+          108.52111999999997,
+          115.73611999999997,
+          122.95111999999997,
+          130.15112,
+          137.35112,
+          144.55112,
+          151.75112,
+          158.95111999999997,
+          166.15112,
+          173.36112,
+          180.57111999999998,
+          187.77111999999997,
+          194.97111999999998,
+          202.17112,
+          209.37112,
+          216.57111999999998,
+          223.77111999999997,
+          230.98611999999997,
+          238.20111999999997,
+          245.40112,
+          252.60112,
+          259.80111999999997,
+          267.00112,
+          274.20111999999995,
+          281.40112,
+          288.61112,
+          295.82111999999995,
+          303.02112,
+          310.22112,
+          317.42112,
+          324.62112,
+          331.82111999999995,
+          339.02112,
+          346.23112,
+          353.44111999999996,
+          360.64112,
+          367.84112,
+          375.04112,
+          382.24112,
+          389.44112,
+          396.64112,
+          403.85612000000003,
+          411.07112,
+          418.27112,
+          425.47112,
+          432.67112,
+          439.87112,
+          447.07112,
+          454.27112,
+          461.48112000000003,
+          468.69112,
+          475.89112,
+          483
+        ]
+      },
+      "settings": {
+        "columns": [
+          111,
+          146,
+          180
+        ],
+        "layout": "simple",
+        "rows": [],
+        "tolerance": 3
+      },
+      "status": "extracted",
+      "title": "FBI · NICS · Nov 2015 · first four columns"
+    }
+  ],
+  "ui": {
+    "active": "95af16c3-0e04-4f40-92d9-e9918b98dd12",
+    "page": "1",
+    "title": "FBI · NICS · Nov 2015 · first four columns",
+    "region": "33, 79, 212, 483",
+    "columns": "111, 146, 180",
+    "rows": "",
+    "layout": "simple",
+    "tolerance": "3",
+    "zoom": "100"
+  }
+}
