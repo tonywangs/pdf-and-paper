@@ -1,0 +1,1364 @@
+{
+  "query": "ownership",
+  "mode": "term",
+  "file": "",
+  "semantics": "desk-v1: Markdown is raw source. Tokens are Unicode letters, combining marks, or numbers; NFC then locale-independent lowercase, accents retained. Term mode accepts one complete token. Phrase mode matches consecutive tokens within one line, ignoring punctuation. Literal mode is case-sensitive exact substring within one line (overlaps included). No stemming, Boolean, wildcard, regex or field syntax. LF, CRLF and CR delimit lines. Results ordered by filename (UTF-16), then line and offset. Columns and offsets are UTF-16 code units, 1-based columns, exclusive end column. UTF-8 BOM is retained as a character. Full totals are computed; at most 2000 passages are exported.",
+  "coverage": {
+    "submitted": 20,
+    "indexed": 20,
+    "rejected": 0,
+    "failed": 0
+  },
+  "manifest": [
+    {
+      "name": "ch00-00-introduction.md",
+      "hash": "2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273",
+      "status": "indexed",
+      "bytes": 10839
+    },
+    {
+      "name": "ch01-02-hello-world.md",
+      "hash": "645189892417cf5431fafb29c4e9b413db2c8cb07fb99e993efaf3c3e9d7a143",
+      "status": "indexed",
+      "bytes": 7690
+    },
+    {
+      "name": "ch01-03-hello-cargo.md",
+      "hash": "61369f359b84b646fc3773eb569a26bc18ba6edb4cf2be06a84472c7054c0e39",
+      "status": "indexed",
+      "bytes": 11025
+    },
+    {
+      "name": "ch02-00-guessing-game-tutorial.md",
+      "hash": "bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0",
+      "status": "indexed",
+      "bytes": 40398
+    },
+    {
+      "name": "ch03-01-variables-and-mutability.md",
+      "hash": "f8e3bd09891f35846d61ec183508fcd4e88ef3450da1107cb6749eeddc815f60",
+      "status": "indexed",
+      "bytes": 9435
+    },
+    {
+      "name": "ch03-02-data-types.md",
+      "hash": "edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90",
+      "status": "indexed",
+      "bytes": 17272
+    },
+    {
+      "name": "ch03-03-how-functions-work.md",
+      "hash": "e7e7b8a143345a7deaf64163ea8a728526fe6d6af6e42f3a5191cd682ae0f268",
+      "status": "indexed",
+      "bytes": 10772
+    },
+    {
+      "name": "ch03-05-control-flow.md",
+      "hash": "dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6",
+      "status": "indexed",
+      "bytes": 17064
+    },
+    {
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "status": "indexed",
+      "bytes": 25352
+    },
+    {
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "status": "indexed",
+      "bytes": 10608
+    },
+    {
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "status": "indexed",
+      "bytes": 13237
+    },
+    {
+      "name": "ch05-01-defining-structs.md",
+      "hash": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+      "status": "indexed",
+      "bytes": 13693
+    },
+    {
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "status": "indexed",
+      "bytes": 11585
+    },
+    {
+      "name": "ch05-03-method-syntax.md",
+      "hash": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "status": "indexed",
+      "bytes": 12204
+    },
+    {
+      "name": "ch06-01-defining-an-enum.md",
+      "hash": "d0958df229fd25f89f140896449ce69bbd6f40db8398a99e4a53635dba0438f2",
+      "status": "indexed",
+      "bytes": 15757
+    },
+    {
+      "name": "ch06-02-match.md",
+      "hash": "db9a32dfa0c24d89d74362e0bbdb9e5793a6e61fe3aa487b67897b1cb3f90899",
+      "status": "indexed",
+      "bytes": 12595
+    },
+    {
+      "name": "ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "hash": "9a47196bd42516d57eaa32a2813db3f89d404ef3a02f78fb465329acc9c95571",
+      "status": "indexed",
+      "bytes": 8018
+    },
+    {
+      "name": "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "hash": "ed9bb2ccb89214a0a47050c4870105a36916c35e634ea68486e5cc669804286b",
+      "status": "indexed",
+      "bytes": 15311
+    },
+    {
+      "name": "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "hash": "0eb94c4c75fd6fc0cf8f4f13170b277888f72da4d1603a3f6094859e1de95a8f",
+      "status": "indexed",
+      "bytes": 13686
+    },
+    {
+      "name": "ch08-01-vectors.md",
+      "hash": "8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f",
+      "status": "indexed",
+      "bytes": 11646
+    }
+  ],
+  "total": 102,
+  "matchingDocuments": [
+    "ch00-00-introduction.md",
+    "ch02-00-guessing-game-tutorial.md",
+    "ch03-02-data-types.md",
+    "ch03-05-control-flow.md",
+    "ch04-01-what-is-ownership.md",
+    "ch04-02-references-and-borrowing.md",
+    "ch04-03-slices.md",
+    "ch05-01-defining-structs.md",
+    "ch05-02-example-structs.md",
+    "ch05-03-method-syntax.md",
+    "ch08-01-vectors.md"
+  ],
+  "truncated": false,
+  "results": [
+    {
+      "id": "[\"ch00-00-introduction.md\",\"2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273\",122,44,53]",
+      "name": "ch00-00-introduction.md",
+      "hash": "2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273",
+      "line": 122,
+      "column": 45,
+      "endColumn": 54,
+      "passage": "In **Chapter 4**, you’ll learn about Rust’s ownership system. **Chapter 5**",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch02-00-guessing-game-tutorial.md\",\"bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0\",931,0,9]",
+      "name": "ch02-00-guessing-game-tutorial.md",
+      "hash": "bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0",
+      "line": 931,
+      "column": 1,
+      "endColumn": 10,
+      "passage": "ownership, a feature that makes Rust different from other languages. Chapter 5",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch03-02-data-types.md\",\"edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90\",383,34,43]",
+      "name": "ch03-02-data-types.md",
+      "hash": "edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90",
+      "line": 383,
+      "column": 35,
+      "endColumn": 44,
+      "passage": "[stack-and-heap]: ch04-01-what-is-ownership.html#the-stack-and-the-heap",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch03-05-control-flow.md\",\"dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6\",394,47,56]",
+      "name": "ch03-05-control-flow.md",
+      "hash": "dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6",
+      "line": 394,
+      "column": 48,
+      "endColumn": 57,
+      "passage": "commonly exist in other programming languages: ownership.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",1,11,20]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 1,
+      "column": 12,
+      "endColumn": 21,
+      "passage": "## What Is Ownership?",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",3,1,10]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 3,
+      "column": 2,
+      "endColumn": 11,
+      "passage": "_Ownership_ is a set of rules that govern how a Rust program manages memory.",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",8,20,29]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 8,
+      "column": 21,
+      "endColumn": 30,
+      "passage": "through a system of ownership with a set of rules that the compiler checks. If",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",10,3,12]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 10,
+      "column": 4,
+      "endColumn": 13,
+      "passage": "of ownership will slow down your program while it’s running.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",12,8,17]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 12,
+      "column": 9,
+      "endColumn": 18,
+      "passage": "Because ownership is a new concept for many programmers, it does take some time",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",14,21,30]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 14,
+      "column": 22,
+      "endColumn": 31,
+      "passage": "and the rules of the ownership system, the easier you’ll find it to naturally",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",17,20,29]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 17,
+      "column": 21,
+      "endColumn": 30,
+      "passage": "When you understand ownership, you’ll have a solid foundation for understanding",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",18,66,75]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 18,
+      "column": 67,
+      "endColumn": 76,
+      "passage": "the features that make Rust unique. In this chapter, you’ll learn ownership by",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",27,47,56]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 27,
+      "column": 48,
+      "endColumn": 57,
+      "passage": "> you have to make certain decisions. Parts of ownership will be described in",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",82,2,11]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 82,
+      "column": 3,
+      "endColumn": 12,
+      "passage": "> ownership addresses. Once you understand ownership, you won’t need to think",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",82,43,52]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 82,
+      "column": 44,
+      "endColumn": 53,
+      "passage": "> ownership addresses. Once you understand ownership, you won’t need to think",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",84,2,11]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 84,
+      "column": 3,
+      "endColumn": 12,
+      "passage": "> ownership is to manage heap data can help explain why it works the way it",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",87,4,13]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 87,
+      "column": 5,
+      "endColumn": 14,
+      "passage": "### Ownership Rules",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",89,32,41]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 89,
+      "column": 33,
+      "endColumn": 42,
+      "passage": "First, let’s take a look at the ownership rules. Keep these rules in mind as we",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",104,22,31]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 104,
+      "column": 23,
+      "endColumn": 32,
+      "passage": "As a first example of ownership, we’ll look at the scope of some variables. A",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",120,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 120,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-01/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",136,27,36]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 136,
+      "column": 28,
+      "endColumn": 37,
+      "passage": "To illustrate the rules of ownership, we need a data type that is more complex",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",145,58,67]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 145,
+      "column": 59,
+      "endColumn": 68,
+      "passage": "We’ll concentrate on the parts of `String` that relate to ownership. These",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",147,58,67]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 147,
+      "column": 59,
+      "endColumn": 68,
+      "passage": "the standard library or created by you. We’ll discuss non-ownership aspects of",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",174,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 174,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-01-can-mutate-string/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",216,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 216,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-02-string-scope/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",248,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 248,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-02/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",262,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 262,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-03-string-move/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",328,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 328,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-04-cant-use-after-move/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",335,42,51]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 335,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "{{#include ../listings/ch04-understanding-ownership/no-listing-04-cant-use-after-move/output.txt}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",363,66,75]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 363,
+      "column": 67,
+      "endColumn": 76,
+      "passage": "The inverse of this is true for the relationship between scoping, ownership, and",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",369,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 369,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-04b-replacement-drop/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",403,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 403,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-05-clone/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",419,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 419,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-06-copy/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",458,4,13]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 458,
+      "column": 5,
+      "endColumn": 14,
+      "passage": "### Ownership and Functions",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",465,70,79]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 465,
+      "column": 71,
+      "endColumn": 80,
+      "passage": "<Listing number=\"4-3\" file-name=\"src/main.rs\" caption=\"Functions with ownership and scope annotated\">",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",468,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 468,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-03/src/main.rs}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",473,48,57]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 473,
+      "column": 49,
+      "endColumn": 58,
+      "passage": "If we tried to use `s` after the call to `takes_ownership`, Rust would throw a",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",476,4,13]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 476,
+      "column": 5,
+      "endColumn": 14,
+      "passage": "the ownership rules prevent you from doing so.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",480,35,44]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 480,
+      "column": 36,
+      "endColumn": 45,
+      "passage": "Returning values can also transfer ownership. Listing 4-4 shows an example of a",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",484,68,77]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 484,
+      "column": 69,
+      "endColumn": 78,
+      "passage": "<Listing number=\"4-4\" file-name=\"src/main.rs\" caption=\"Transferring ownership of return values\">",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",487,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 487,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-04/src/main.rs}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",492,4,13]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 492,
+      "column": 5,
+      "endColumn": 14,
+      "passage": "The ownership of a variable follows the same pattern every time: Assigning a",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",494,70,79]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 494,
+      "column": 71,
+      "endColumn": 80,
+      "passage": "heap goes out of scope, the value will be cleaned up by `drop` unless ownership",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",497,25,34]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 497,
+      "column": 26,
+      "endColumn": 35,
+      "passage": "While this works, taking ownership and then returning ownership with every",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",497,54,63]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 497,
+      "column": 55,
+      "endColumn": 64,
+      "passage": "While this works, taking ownership and then returning ownership with every",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",499,9,18]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 499,
+      "column": 10,
+      "endColumn": 19,
+      "passage": "not take ownership? It’s quite annoying that anything we pass in also needs to",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",505,65,74]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 505,
+      "column": 66,
+      "endColumn": 75,
+      "passage": "<Listing number=\"4-5\" file-name=\"src/main.rs\" caption=\"Returning ownership of parameters\">",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",508,50,59]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 508,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-05/src/main.rs}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-01-what-is-ownership.md\",\"873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba\",515,13,22]",
+      "name": "ch04-01-what-is-ownership.md",
+      "hash": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "line": 515,
+      "column": 14,
+      "endColumn": 23,
+      "passage": "transferring ownership: references.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",13,56,65]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 13,
+      "column": 57,
+      "endColumn": 66,
+      "passage": "reference to an object as a parameter instead of taking ownership of the value:",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",18,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 18,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-07-reference/src/main.rs:all}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",27,26,35]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 27,
+      "column": 27,
+      "endColumn": 36,
+      "passage": "some value without taking ownership of it. Figure 4-6 depicts this concept.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",44,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 44,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-07-reference/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",55,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 55,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-08-reference-with-annotations/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",60,52,61]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 60,
+      "column": 53,
+      "endColumn": 62,
+      "passage": "when `s` stops being used, because `s` doesn’t have ownership. When functions",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",62,40,49]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 62,
+      "column": 41,
+      "endColumn": 50,
+      "passage": "return the values in order to give back ownership, because we never had",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",63,0,9]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 63,
+      "column": 1,
+      "endColumn": 10,
+      "passage": "ownership.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",75,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 75,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-06/src/main.rs}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",83,42,51]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 83,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "{{#include ../listings/ch04-understanding-ownership/listing-04-06/output.txt}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",97,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 97,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-09-fixes-listing-04-06/src/main.rs}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",114,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 114,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-10-multiple-mut-not-allowed/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",122,42,51]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 122,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "{{#include ../listings/ch04-understanding-ownership/no-listing-10-multiple-mut-not-allowed/output.txt}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",150,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 150,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-11-muts-in-separate-scopes/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",157,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 157,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-12-immutable-and-mutable-not-allowed/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",163,42,51]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 163,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "{{#include ../listings/ch04-understanding-ownership/no-listing-12-immutable-and-mutable-not-allowed/output.txt}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",180,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 180,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-13-reference-scope-ends/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",210,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 210,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-14-dangling-reference/src/main.rs}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",218,42,51]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 218,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "{{#include ../listings/ch04-understanding-ownership/no-listing-14-dangling-reference/output.txt}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",236,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 236,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-15-dangling-reference-annotated/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",249,50,59]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 249,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-16-no-dangle/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-02-references-and-borrowing.md\",\"7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4\",252,33,42]",
+      "name": "ch04-02-references-and-borrowing.md",
+      "hash": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "line": 252,
+      "column": 34,
+      "endColumn": 43,
+      "passage": "This works without any problems. Ownership is moved out, and nothing is",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",5,34,43]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 5,
+      "column": 35,
+      "endColumn": 44,
+      "passage": "of reference, so it does not have ownership.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",25,0,9]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 25,
+      "column": 1,
+      "endColumn": 10,
+      "passage": "ownership, so this is fine. (In idiomatic Rust, functions do not take ownership",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",25,70,79]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 25,
+      "column": 71,
+      "endColumn": 80,
+      "passage": "ownership, so this is fine. (In idiomatic Rust, functions do not take ownership",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",34,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 34,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-07/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",44,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 44,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-07/src/main.rs:as_bytes}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",50,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 50,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-07/src/main.rs:iter}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",72,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 72,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-07/src/main.rs:inside_for}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",85,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 85,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-08/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",117,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 117,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-17-slice/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",186,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 186,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-18-first-word-slice/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",219,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 219,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/no-listing-19-slice-error/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",227,42,51]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 227,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "{{#include ../listings/ch04-understanding-ownership/no-listing-19-slice-error/output.txt}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",272,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 272,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-09/src/main.rs:here}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",289,50,59]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 289,
+      "column": 51,
+      "endColumn": 60,
+      "passage": "{{#rustdoc_include ../listings/ch04-understanding-ownership/listing-04-09/src/main.rs:usage}}",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",321,16,25]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 321,
+      "column": 17,
+      "endColumn": 26,
+      "passage": "The concepts of ownership, borrowing, and slices ensure memory safety in Rust",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch04-03-slices.md\",\"fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb\",327,0,9]",
+      "name": "ch04-03-slices.md",
+      "hash": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "line": 327,
+      "column": 1,
+      "endColumn": 10,
+      "passage": "Ownership affects how lots of other parts of Rust work, so we’ll talk about",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch05-01-defining-structs.md\",\"344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7\",226,6,15]",
+      "name": "ch05-01-defining-structs.md",
+      "hash": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+      "line": 226,
+      "column": 7,
+      "endColumn": 16,
+      "passage": "> ### Ownership of Struct Data",
+      "match": "Ownership"
+    },
+    {
+      "id": "[\"ch05-01-defining-structs.md\",\"344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7\",312,24,33]",
+      "name": "ch05-01-defining-structs.md",
+      "hash": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+      "line": 312,
+      "column": 25,
+      "endColumn": 34,
+      "passage": "[move]: ch04-01-what-is-ownership.html#variables-and-data-interacting-with-move",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-01-defining-structs.md\",\"344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7\",313,24,33]",
+      "name": "ch05-01-defining-structs.md",
+      "hash": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+      "line": 313,
+      "column": 25,
+      "endColumn": 34,
+      "passage": "[copy]: ch04-01-what-is-ownership.html#stack-only-data-copy",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-02-example-structs.md\",\"bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557\",93,5,14]",
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "line": 93,
+      "column": 6,
+      "endColumn": 15,
+      "passage": "take ownership of it. This way, `main` retains its ownership and can continue",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-02-example-structs.md\",\"bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557\",93,51,60]",
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "line": 93,
+      "column": 52,
+      "endColumn": 61,
+      "passage": "take ownership of it. This way, `main` retains its ownership and can continue",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-02-example-structs.md\",\"bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557\",197,40,49]",
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "line": 197,
+      "column": 41,
+      "endColumn": 50,
+      "passage": "macro][dbg]<!-- ignore -->, which takes ownership of an expression (as opposed",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-02-example-structs.md\",\"bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557\",200,32,41]",
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "line": 200,
+      "column": 33,
+      "endColumn": 42,
+      "passage": "of that expression, and returns ownership of the value.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-02-example-structs.md\",\"bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557\",216,8,17]",
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "line": 216,
+      "column": 9,
+      "endColumn": 18,
+      "passage": "returns ownership of the expression’s value, the `width` field will get the",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-02-example-structs.md\",\"bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557\",218,5,14]",
+      "name": "ch05-02-example-structs.md",
+      "hash": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "line": 218,
+      "column": 6,
+      "endColumn": 15,
+      "passage": "take ownership of `rect1`, so we use a reference to `rect1` in the next call.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-03-method-syntax.md\",\"7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a\",47,42,51]",
+      "name": "ch05-03-method-syntax.md",
+      "hash": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "line": 47,
+      "column": 43,
+      "endColumn": 52,
+      "passage": "`rectangle: &Rectangle`. Methods can take ownership of `self`, borrow `self`",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-03-method-syntax.md\",\"7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a\",52,31,40]",
+      "name": "ch05-03-method-syntax.md",
+      "hash": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "line": 52,
+      "column": 32,
+      "endColumn": 41,
+      "passage": "version: We don’t want to take ownership, and we just want to read the data in",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-03-method-syntax.md\",\"7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a\",55,48,57]",
+      "name": "ch05-03-method-syntax.md",
+      "hash": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "line": 55,
+      "column": 49,
+      "endColumn": 58,
+      "passage": "the first parameter. Having a method that takes ownership of the instance by",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-03-method-syntax.md\",\"7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a\",139,9,18]",
+      "name": "ch05-03-method-syntax.md",
+      "hash": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "line": 139,
+      "column": 10,
+      "endColumn": 19,
+      "passage": "> making ownership ergonomic in practice.",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch05-03-method-syntax.md\",\"7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a\",174,29,38]",
+      "name": "ch05-03-method-syntax.md",
+      "hash": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "line": 174,
+      "column": 30,
+      "endColumn": 39,
+      "passage": "and we want `main` to retain ownership of `rect2` so that we can use it again",
+      "match": "ownership"
+    },
+    {
+      "id": "[\"ch08-01-vectors.md\",\"8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f\",123,0,9]",
+      "name": "ch08-01-vectors.md",
+      "hash": "8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f",
+      "line": 123,
+      "column": 1,
+      "endColumn": 10,
+      "passage": "ownership and borrowing rules (covered in Chapter 4) to ensure that this",
+      "match": "ownership"
+    }
+  ],
+  "selected": [],
+  "provenance": {
+    "collection": "The Rust Programming Language",
+    "repository": "https://github.com/rust-lang/book",
+    "revision": "1500248d8f230566e4ec9f27fcbb8fe9e2898ab1",
+    "license": "MIT OR Apache-2.0",
+    "files": [
+      {
+        "name": "ch00-00-introduction.md",
+        "path": "src/ch00-00-introduction.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch00-00-introduction.md",
+        "sha256": "2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273",
+        "bytes": 10839,
+        "kind": "document"
+      },
+      {
+        "name": "ch01-02-hello-world.md",
+        "path": "src/ch01-02-hello-world.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch01-02-hello-world.md",
+        "sha256": "645189892417cf5431fafb29c4e9b413db2c8cb07fb99e993efaf3c3e9d7a143",
+        "bytes": 7690,
+        "kind": "document"
+      },
+      {
+        "name": "ch01-03-hello-cargo.md",
+        "path": "src/ch01-03-hello-cargo.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch01-03-hello-cargo.md",
+        "sha256": "61369f359b84b646fc3773eb569a26bc18ba6edb4cf2be06a84472c7054c0e39",
+        "bytes": 11025,
+        "kind": "document"
+      },
+      {
+        "name": "ch02-00-guessing-game-tutorial.md",
+        "path": "src/ch02-00-guessing-game-tutorial.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch02-00-guessing-game-tutorial.md",
+        "sha256": "bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0",
+        "bytes": 40398,
+        "kind": "document"
+      },
+      {
+        "name": "ch03-01-variables-and-mutability.md",
+        "path": "src/ch03-01-variables-and-mutability.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-01-variables-and-mutability.md",
+        "sha256": "f8e3bd09891f35846d61ec183508fcd4e88ef3450da1107cb6749eeddc815f60",
+        "bytes": 9435,
+        "kind": "document"
+      },
+      {
+        "name": "ch03-02-data-types.md",
+        "path": "src/ch03-02-data-types.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-02-data-types.md",
+        "sha256": "edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90",
+        "bytes": 17272,
+        "kind": "document"
+      },
+      {
+        "name": "ch03-03-how-functions-work.md",
+        "path": "src/ch03-03-how-functions-work.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-03-how-functions-work.md",
+        "sha256": "e7e7b8a143345a7deaf64163ea8a728526fe6d6af6e42f3a5191cd682ae0f268",
+        "bytes": 10772,
+        "kind": "document"
+      },
+      {
+        "name": "ch03-05-control-flow.md",
+        "path": "src/ch03-05-control-flow.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-05-control-flow.md",
+        "sha256": "dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6",
+        "bytes": 17064,
+        "kind": "document"
+      },
+      {
+        "name": "ch04-01-what-is-ownership.md",
+        "path": "src/ch04-01-what-is-ownership.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-01-what-is-ownership.md",
+        "sha256": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+        "bytes": 25352,
+        "kind": "document"
+      },
+      {
+        "name": "ch04-02-references-and-borrowing.md",
+        "path": "src/ch04-02-references-and-borrowing.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-02-references-and-borrowing.md",
+        "sha256": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+        "bytes": 10608,
+        "kind": "document"
+      },
+      {
+        "name": "ch04-03-slices.md",
+        "path": "src/ch04-03-slices.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-03-slices.md",
+        "sha256": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+        "bytes": 13237,
+        "kind": "document"
+      },
+      {
+        "name": "ch05-01-defining-structs.md",
+        "path": "src/ch05-01-defining-structs.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-01-defining-structs.md",
+        "sha256": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+        "bytes": 13693,
+        "kind": "document"
+      },
+      {
+        "name": "ch05-02-example-structs.md",
+        "path": "src/ch05-02-example-structs.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-02-example-structs.md",
+        "sha256": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+        "bytes": 11585,
+        "kind": "document"
+      },
+      {
+        "name": "ch05-03-method-syntax.md",
+        "path": "src/ch05-03-method-syntax.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-03-method-syntax.md",
+        "sha256": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+        "bytes": 12204,
+        "kind": "document"
+      },
+      {
+        "name": "ch06-01-defining-an-enum.md",
+        "path": "src/ch06-01-defining-an-enum.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch06-01-defining-an-enum.md",
+        "sha256": "d0958df229fd25f89f140896449ce69bbd6f40db8398a99e4a53635dba0438f2",
+        "bytes": 15757,
+        "kind": "document"
+      },
+      {
+        "name": "ch06-02-match.md",
+        "path": "src/ch06-02-match.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch06-02-match.md",
+        "sha256": "db9a32dfa0c24d89d74362e0bbdb9e5793a6e61fe3aa487b67897b1cb3f90899",
+        "bytes": 12595,
+        "kind": "document"
+      },
+      {
+        "name": "ch07-02-defining-modules-to-control-scope-and-privacy.md",
+        "path": "src/ch07-02-defining-modules-to-control-scope-and-privacy.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-02-defining-modules-to-control-scope-and-privacy.md",
+        "sha256": "9a47196bd42516d57eaa32a2813db3f89d404ef3a02f78fb465329acc9c95571",
+        "bytes": 8018,
+        "kind": "document"
+      },
+      {
+        "name": "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+        "path": "src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+        "sha256": "ed9bb2ccb89214a0a47050c4870105a36916c35e634ea68486e5cc669804286b",
+        "bytes": 15311,
+        "kind": "document"
+      },
+      {
+        "name": "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+        "path": "src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+        "sha256": "0eb94c4c75fd6fc0cf8f4f13170b277888f72da4d1603a3f6094859e1de95a8f",
+        "bytes": 13686,
+        "kind": "document"
+      },
+      {
+        "name": "ch08-01-vectors.md",
+        "path": "src/ch08-01-vectors.md",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch08-01-vectors.md",
+        "sha256": "8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f",
+        "bytes": 11646,
+        "kind": "document"
+      },
+      {
+        "name": "LICENSE-MIT",
+        "path": "LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/LICENSE-MIT",
+        "sha256": "0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720",
+        "bytes": 1071,
+        "kind": "license"
+      },
+      {
+        "name": "LICENSE-APACHE",
+        "path": "LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/LICENSE-APACHE",
+        "sha256": "0f2763086f981043fb18879abfa15e75ecfc188219ef9eba4483f45ce7438e1c",
+        "bytes": 10847,
+        "kind": "license"
+      },
+      {
+        "name": "COPYRIGHT",
+        "path": "COPYRIGHT",
+        "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/COPYRIGHT",
+        "sha256": "5acc946020b533f2ebfbbc87a35e56ab05dd48c269675cf20e289e0357e27fe8",
+        "bytes": 219,
+        "kind": "license"
+      }
+    ]
+  }
+}

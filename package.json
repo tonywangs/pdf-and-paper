@@ -1,0 +1,1 @@
+{"name":"document-search-desk","private":true,"type":"module","scripts":{"test":"node --test tests/engine.test.mjs && python3 tests/verify_corpus.py","browser":"node tests/browser.mjs"},"devDependencies":{"playwright":"1.61.1"}}
