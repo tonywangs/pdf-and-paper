@@ -1,0 +1,65 @@
+{
+  "controlled_examples": true,
+  "source_sha256": "e9bcccab300b88487cc0106c54cf954835776761b6dac1eb22e3f4fe48875491",
+  "target": "for Educators and Librarians",
+  "engines": {
+    "pymupdf": "1.26.7",
+    "pypdf": "6.1.3"
+  },
+  "cases": [
+    {
+      "case": "original",
+      "description": "Unmodified title-page extraction: visible text is recoverable.",
+      "pdf_sha256": "621685069c91d707e296f6f40b2e95813f641653ca1e1d02d9d125350a4b9996",
+      "region_text_detected": true,
+      "pypdf_target_on_page": true,
+      "unapplied_annotation": false,
+      "expectations_passed": true
+    },
+    {
+      "case": "masked",
+      "description": "A black rectangle covers the subtitle; underlying text remains.",
+      "pdf_sha256": "4a353421b46a0c9ce97a118ac582d7edce1d8508825d118a9e028c26786528ee",
+      "region_text_detected": true,
+      "pypdf_target_on_page": true,
+      "unapplied_annotation": false,
+      "expectations_passed": true
+    },
+    {
+      "case": "applied",
+      "description": "Redaction is applied and the file saved with garbage collection.",
+      "pdf_sha256": "dd6ba21cecae6c819093eec795a2efe50b9060be367787c8b0df53f292f3e6c6",
+      "region_text_detected": false,
+      "pypdf_target_on_page": false,
+      "unapplied_annotation": false,
+      "expectations_passed": true
+    },
+    {
+      "case": "annotation",
+      "description": "A redaction annotation is added but never applied.",
+      "pdf_sha256": "7247a453e023204840db63fe18594e4efc2748704be44d7fe2c7eed58a3bef28",
+      "region_text_detected": true,
+      "pypdf_target_on_page": true,
+      "unapplied_annotation": true,
+      "expectations_passed": true
+    },
+    {
+      "case": "rotated",
+      "description": "The masked title page is rotated clockwise 90 degrees.",
+      "pdf_sha256": "b2cb5154fbdfcfcd775cef0fa7185d0115672e99e83a924e63f7b2be7c544995",
+      "region_text_detected": true,
+      "pypdf_target_on_page": true,
+      "unapplied_annotation": false,
+      "expectations_passed": true
+    },
+    {
+      "case": "decorative",
+      "description": "An ordinary rectangle in a blank margin is selected; it is not called a redaction.",
+      "pdf_sha256": "0dac4a004696c685a7bfad6225a4b095c8a2a0d8a96e562ff9d1f5fd8a795002",
+      "region_text_detected": false,
+      "pypdf_target_on_page": true,
+      "unapplied_annotation": false,
+      "expectations_passed": true
+    }
+  ]
+}
