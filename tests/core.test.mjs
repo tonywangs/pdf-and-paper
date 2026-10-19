@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {pixelDiff,suggest,assign,rowsFor,validate,escapeHTML} from '../public/core.mjs';
+const page=(text,shade=200)=>({text,fingerprint:[shade,shade,shade],ink:shade===255?0:.2});
+test('ambiguous repeated and blank pages remain unmatched',()=>{const p=[page('same duplicate repeated words'),page('same duplicate repeated words'),page('',255)];const r=suggest(p,p);assert.ok(r.every(x=>x.b===null&&!x.confirmed));});
+test('unique correspondence survives inserted pages',()=>{const a=[page('Alpha unique long introductory chapter about the ocean'),page('Beta different lengthy chapter concerning mountains')];const b=[page('totally novel inserted page with completely new words'),...a];assert.deepEqual(suggest(a,b).map(r=>r.b),[1,2]);});
+test('manual reassignment releases occupant and accounts for all pages',()=>{const s={old:{pages:[{},{}]},new:{pages:[{},{},{}]},matches:[{a:0,b:0,confirmed:true},{a:1,b:1,confirmed:true}],insertions:{}};assign(s,0,1);assert.equal(s.matches[1].b,null);assert.equal(s.matches[1].confirmed,false);assert.equal(rowsFor(s).length,4);assert.deepEqual(rowsFor(s).filter(r=>r.b!==null).map(r=>r.b).sort(),[0,1,2]);assert.ok(validate(s));});
+test('invalid correspondence cannot silently duplicate a page',()=>{assert.throws(()=>validate({old:{pages:[{},{}]},new:{pages:[{}]},matches:[{a:0,b:0},{a:1,b:0}]}));});
+const raster=(width,height,values)=>({width,height,data:Uint8ClampedArray.from(values)});
+test('strict RGB tolerance, dimensions and white padding',()=>{const a=raster(1,1,[255,255,255,255]),b=raster(1,1,[235,255,255,255]);assert.equal(pixelDiff(a,b,20).changed,0);assert.equal(pixelDiff(a,b,19).changed,1);const c=raster(2,1,[255,255,255,255,255,255,255,255]);const d=pixelDiff(a,c);assert.equal(d.changed,0);assert.equal(d.sizeChanged,true);assert.throws(()=>pixelDiff(a,b,NaN));});
+test('markup in filenames is escaped for portable reports',()=>assert.equal(escapeHTML('<img onerror="x">'), '&lt;img onerror=&quot;x&quot;&gt;'));
+
+test('blank thumbnails do not compete with genuine text matches',()=>{const a=[page('A unique substantial text page about boats and oceans'),page('Another unrelated text page about forests and trees')];const b=[...a,page('',255)];assert.deepEqual(suggest(a,b).map(r=>r.b),[0,1]);});

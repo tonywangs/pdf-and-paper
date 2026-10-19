@@ -1,0 +1,31 @@
+{
+  "browser": "Chromium via Playwright",
+  "realPages": [
+    86,
+    81
+  ],
+  "workflow": [
+    "file import",
+    "manual wrong match and correction",
+    "difference navigation",
+    "reload recovery",
+    "tolerance change clears reviews",
+    "standalone HTML export",
+    "all page references and embedded source images checked byte-for-byte",
+    "forget recovery",
+    "demo button with provenance"
+  ],
+  "controlled": [
+    "duplicates unresolved",
+    "blanks unresolved",
+    "deletion correction",
+    "malformed refusal preserves recovery",
+    "encrypted refusal preserves recovery"
+  ],
+  "report": {
+    "bytes": 34428685,
+    "sha256": "6169d633a901bf23e939654857b77d7caf3acef1d3f29709c52450fec63920e4",
+    "saved": "/tmp/pdf-revision-artifacts/real-report.html"
+  },
+  "pageErrors": []
+}
