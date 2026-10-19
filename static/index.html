@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PDF Table Review Desk</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<header><a class="brand" href="/">▦ <span>Table Review Desk</span></a><span class="local">● Local workspace</span><button id="saveProject">Save project file</button><label class="button secondary">Open project<input id="projectFile" type="file" accept=".json,application/json" hidden></label></header>
+<main>
+<section class="intro"><div><p class="eyebrow">FROM PDF TO TRUSTED DATA</p><h1>Extract. Inspect. Make it yours.</h1><p>Keep every value connected to its source, with a history you can take with you.</p></div><label class="button primary">Import PDF<input id="pdfFile" type="file" accept="application/pdf,.pdf" hidden></label></section>
+<div id="message" role="status" aria-live="polite">Choose a PDF or open one of the real-document examples below.</div>
+<section class="demo-strip"><strong>Try a real document</strong><button data-demo="ethanol">USDA / Ethanol</button><button data-demo="biomass">USDA / Biomass</button><button data-demo="nics">FBI / Background checks</button><span>Public-domain source data · frozen reference</span></section>
+<section id="workspace" class="workspace" hidden>
+<aside class="setup"><p class="eyebrow">01 / SELECT</p><h2>Source & regions</h2><div id="sourceName" class="source-name"></div><details><summary>Source identity</summary><pre id="sourceDetails"></pre></details>
+<label class="button secondary reconnect">Reconnect matching PDF<input id="reconnect" type="file" accept=".pdf" hidden></label>
+<label>Page <input id="page" type="number" min="1" value="1"></label>
+<label>Region name <input id="title" value="Selected region" maxlength="200"></label>
+<label>Selection tool<select id="tool"><option value="region">Drag a region</option><option value="column">Click column separators</option><option value="row">Click row separators</option></select></label>
+<label>Region · x₀, y₀, x₁, y₁<input id="region" placeholder="Drag on the source page"></label>
+<label>Column separators · x points<input id="columns" placeholder="e.g. 175, 245, 310"></label>
+<label>Row separators · y points<input id="rows" placeholder="Auto-detect text lines"></label>
+<label>Layout<select id="layout"><option value="simple">Single-line, rectangular cells</option><option value="multiline">Multiline cells · explicit rows</option><option value="merged">Merged cells · unsupported</option><option value="multipage">Multipage table · unsupported</option></select></label>
+<label>Line tolerance · points<input id="tolerance" type="number" min="0.1" max="10" step="0.1" value="3"></label>
+<button id="extract" class="primary wide">Extract selected region →</button><p class="hint">Choose data rows, then place separators between columns. Blank cells are retained. Merged cells are not inferred.</p>
+<h3>Region ledger</h3><div id="regions"></div>
+</aside>
+<div class="review-area">
+<section class="panel source-panel"><div class="panel-head"><div><p class="eyebrow">02 / INSPECT</p><h2>Source page</h2></div><span id="pageLabel" class="badge"></span><label class="zoom">Zoom<select id="zoom"><option value="100">Fit</option><option value="150">150%</option><option value="200">200%</option></select></label></div><div class="page-scroll"><svg id="sourceSvg" xmlns="http://www.w3.org/2000/svg" aria-label="PDF source page; drag to select a table" role="img"><image id="pageImage" x="0" y="0"/><g id="guides"></g><rect id="selection" class="selection"/><rect id="highlight" class="highlight"/></svg></div><div class="legend"><span>▧ Selected region</span><span class="amber">▧ Inspected cell</span><span>Coordinates in PDF points, from top left</span></div></section>
+<section class="panel table-panel"><div class="panel-head"><div><p class="eyebrow">03 / REVIEW</p><h2 id="tableTitle">Select and extract a region</h2></div><span id="reviewCount" class="badge">No table yet</span><button id="export" class="primary">Export CSV + provenance</button></div><p class="hint table-note">Suggestions are unverified. Click a cell to inspect its source, correct it, and mark it reviewed.</p>
+<div class="table-scroll"><table id="grid" aria-label="Extracted table"></table></div>
+<div class="edit-tools"><button id="undo">↶ Undo last edit</button><button data-action="insert_row">+ Row before</button><button data-action="insert_column">+ Column before</button><button data-action="delete_row">Delete row</button><button data-action="delete_column">Delete column</button><button data-move="up">Row ↑</button><button data-move="down">Row ↓</button><button data-move="left">Column ←</button><button data-move="right">Column →</button></div>
+<div id="inspector" class="inspector" hidden><div><h3 id="cellLabel">Cell</h3><span class="eyebrow">ORIGINAL EXTRACTION</span><pre id="originalValue"></pre><p id="cellSource" class="hint"></p></div><div><label>Reviewed value<textarea id="cellValue" rows="2"></textarea></label><div class="actions"><button id="correct" class="primary">Save correction</button><button id="review">Mark reviewed</button></div></div></div>
+<details class="history"><summary id="historySummary">Correction & structure history</summary><ol id="history"></ol></details></section>
+</div></section>
+<section class="notes"><div><h3>A record, not just a spreadsheet</h3><p>Exports include exact UTF-8 CSV strings and a separate manifest with source hash, region, settings, cell links, and full edit history. Deleted values remain in history; undo restores them.</p></div><div><h3>Review is a human decision</h3><p>No OCR or accuracy score. Scans, encrypted files, rotated pages, merged cells, and automatic multipage stitching are unsupported. Multiline cells need explicit row separators.</p></div><div><h3>Your files stay here</h3><p>PDFs stay in this local app’s data directory. Reviews autosave in this browser. Save a project file for backup or transfer; reconnecting requires the same PDF hash. Spreadsheet imports should treat all columns as text.</p></div></section>
+</main><footer>PDF Table Review Desk · A local workbench for traceable data <span>10 MiB / PDF · 100 pages · 10,000 cells / region</span></footer>
+</body></html>
