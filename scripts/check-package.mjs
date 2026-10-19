@@ -1,0 +1,4 @@
+import {readdir,stat,readFile} from 'node:fs/promises';import assert from 'node:assert/strict';
+const files=[];async function walk(dir){for(const e of await readdir(dir,{withFileTypes:true})){if(['.git','node_modules','.agents','.codex'].includes(e.name))continue;const p=dir==='.'?e.name:dir+'/'+e.name;if(e.isDirectory())await walk(p);else if(e.isFile())files.push(p);else throw Error('Unexpected link: '+p);}}await walk('.');let bytes=0;
+for(const p of files){const s=await stat(p);assert.ok(s.size<=10*1024*1024,`${p} exceeds 10 MiB`);assert.ok(!p.endsWith('.log')||p==='results/tests.log',`Unpublishable log: ${p}`);bytes+=s.size;}
+assert.ok(bytes<=32*1024*1024,'Tree exceeds 32 MiB');assert.ok(files.length<=1000,'Tree exceeds 1000 files');console.log(JSON.stringify({files:files.length,bytes,largest:(await Promise.all(files.map(async p=>({file:p,bytes:(await stat(p)).size})))).sort((a,b)=>b.bytes-a.bytes).slice(0,5)},null,2));

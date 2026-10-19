@@ -1,0 +1,41 @@
+{
+  "documents": [
+    {
+      "file": "draft.pdf",
+      "title": "Cloud Computing Synopsis and Recommendations",
+      "publication": "NIST SP 800-146",
+      "revision": "May 2011 draft, NIST archive copy with 2 added historical cover pages",
+      "url": "https://csrc.nist.gov/files/pubs/sp/800/146/final/docs/draft-nist-sp800-146.pdf",
+      "retrieved_utc": "2026-10-19T17:07:28.138Z",
+      "sha256": "169fde4351759fd173a31c7f81748a3d240dcfc364d236a7a98f02dfce49db21",
+      "bytes": 2052399,
+      "pages": 86,
+      "license_evidence": {
+        "pdf_page": 13,
+        "section": "1.1 Authority",
+        "excerpt": "is not subject to copyright, though attribution is desired."
+      }
+    },
+    {
+      "file": "final.pdf",
+      "title": "Cloud Computing Synopsis and Recommendations",
+      "publication": "NIST SP 800-146",
+      "revision": "May 2012 final (published 2012-05-29)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-146.pdf",
+      "retrieved_utc": "2026-10-19T17:07:28.265Z",
+      "sha256": "03dd14aafeb121566b5c79167824327e8e3b1ed1cb5bd68989370ca8f23cf55c",
+      "bytes": 1517698,
+      "pages": 81,
+      "license_evidence": {
+        "pdf_page": 11,
+        "section": "1.1 Authority",
+        "excerpt": "is not subject to copyright, though attribution is desired."
+      }
+    }
+  ],
+  "publication_record": "https://csrc.nist.gov/pubs/sp/800/146/final",
+  "license": "US government public-domain work; NIST worldwide permission to reprint and create derivatives",
+  "license_policy": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+  "credit": "Badger, Grance, Patt-Corner and Voas. Cloud Computing Synopsis and Recommendations, NIST SP 800-146 (2011 draft; 2012 final). Republished courtesy of the National Institute of Standards and Technology.",
+  "notes": "Original complete PDF bytes, not controlled edits. Historical documents are not current guidance. Draft PDF positions include two archival cover pages. Reproduce: node scripts/fetch-demo.mjs"
+}
