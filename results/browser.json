@@ -1,0 +1,32 @@
+{
+  "workflow": [
+    "demo",
+    "metadata",
+    "reorder",
+    "reload recovery",
+    "preview image",
+    "project download",
+    "project restore",
+    "EPUB download",
+    "verify unchanged folder",
+    "detect changed and missing source",
+    "reject corrupt project without replacing current",
+    "new folder import"
+  ],
+  "reader": {
+    "engine": "EPUB.js 0.3.93 in Chromium",
+    "input": "actual browser-exported EPUB",
+    "checks": [
+      "TOC populated",
+      "original contents link reaches Chapter II after reordering",
+      "image decoded with positive natural width",
+      "TOC selects Chapter III",
+      "previous goes to Chapter I in changed spine"
+    ]
+  },
+  "artifacts": "/tmp/epub-browser-artifacts",
+  "export_sha256": "bb07c025c626187c38b7f93ef3b2ade214400ce364f2597fe54cd5c3be22035b",
+  "project_sha256": "6ee7c50375cb82d4ccaf98cd28f067a0322a13a97e23bc8d56c3e8145360ee21",
+  "illustration_screenshot": "results/reader-image.png",
+  "consoleErrors": []
+}

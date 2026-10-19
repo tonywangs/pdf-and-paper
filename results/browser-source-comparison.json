@@ -1,0 +1,8 @@
+{
+  "epub": "/tmp/epub-browser-artifacts/book.epub",
+  "chapters_text_equal": 5,
+  "images_hash_and_alt_equal": 4,
+  "internal_links_resolved": 8,
+  "spine_and_navigation_equal": true,
+  "source_hashes_unchanged": true
+}
