@@ -1,0 +1,42 @@
+{
+  "browser": "Chromium via Playwright 1.56.1",
+  "checks": [
+    "multi-PDF file import",
+    "62 source thumbnails",
+    "select, rotate, duplicate, reorder, remove",
+    "IndexedDB reload",
+    "project download and import",
+    "missing and changed sources block export",
+    "matching original recovery",
+    "PDF and manifest downloads",
+    "MuPDF independent reopening and raster comparison",
+    "project-switch regression",
+    "real demo button"
+  ],
+  "evidence": [
+    {
+      "outputPage": 1,
+      "sourcePage": 3,
+      "width": 540,
+      "height": 720,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 113
+    },
+    {
+      "outputPage": 2,
+      "sourcePage": 2,
+      "width": 612,
+      "height": 792,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 6054
+    },
+    {
+      "outputPage": 3,
+      "sourcePage": 3,
+      "width": 540,
+      "height": 720,
+      "pixelMeanAbsoluteError": 0,
+      "textCharacters": 113
+    }
+  ]
+}

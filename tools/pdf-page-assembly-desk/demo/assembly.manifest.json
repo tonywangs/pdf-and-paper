@@ -1,0 +1,87 @@
+{
+  "format": "pdf-desk-manifest",
+  "version": 1,
+  "outputSha256": "a25aa36a87b3a49ccf97f3881852d82eda1781d048349cac63a8f7b91eb47d7f",
+  "pages": [
+    {
+      "outputPage": 1,
+      "sourceSha256": "69a6d3c1512ed26a2d4f10eb950ba2044cf2a9bdfe46e6f22e1f6edba857e6d1",
+      "sourceName": "irs-webinar.pdf",
+      "sourcePage": 3,
+      "addedRotation": 90,
+      "rotation": 90,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 540
+      },
+      "cropBox": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "outputPage": 2,
+      "sourceSha256": "48d4916cd3a1c19fe9536c46048219d2d158e96e083bae10334caa6b49f3c85d",
+      "sourceName": "irs-publication.pdf",
+      "sourcePage": 2,
+      "addedRotation": 0,
+      "rotation": 0,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 612,
+        "height": 792
+      },
+      "cropBox": {
+        "x": 0,
+        "y": 0,
+        "width": 612,
+        "height": 792
+      }
+    },
+    {
+      "outputPage": 3,
+      "sourceSha256": "69a6d3c1512ed26a2d4f10eb950ba2044cf2a9bdfe46e6f22e1f6edba857e6d1",
+      "sourceName": "irs-webinar.pdf",
+      "sourcePage": 3,
+      "addedRotation": 270,
+      "rotation": 270,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 540
+      },
+      "cropBox": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "outputPage": 4,
+      "sourceSha256": "48d4916cd3a1c19fe9536c46048219d2d158e96e083bae10334caa6b49f3c85d",
+      "sourceName": "irs-publication.pdf",
+      "sourcePage": 1,
+      "addedRotation": 180,
+      "rotation": 180,
+      "mediaBox": {
+        "x": 0,
+        "y": 0,
+        "width": 612,
+        "height": 792
+      },
+      "cropBox": {
+        "x": 0,
+        "y": 0,
+        "width": 612,
+        "height": 792
+      }
+    }
+  ]
+}

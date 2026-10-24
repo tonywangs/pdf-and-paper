@@ -1,0 +1,28 @@
+[
+  {
+    "file": "irs-publication.pdf",
+    "url": "https://www.irs.gov/pub/irs-prior/p1693--2008.pdf",
+    "title": "IRS Publication 1693 (2008)",
+    "sha256": "48d4916cd3a1c19fe9536c46048219d2d158e96e083bae10334caa6b49f3c85d",
+    "license": "U.S. federal government work; public domain in the United States (17 USC 105).",
+    "licenseEvidence": [
+      "https://www.copyright.gov/history/copyright-exhibit/lifecycle/",
+      "https://www.irs.gov/pub/irs-prior/p1693--2008.pdf"
+    ],
+    "licenseNote": "IRS-authored official publications. Publication 1693 explicitly states public-domain status under Title 17 Section 105. Webinar is an official IRS-authored presentation. No endorsement implied; these historical documents are layout fixtures, not current tax guidance. Explicit notice appears on PDF pages 4, 11 and 18.",
+    "acquired": "2026-10-19"
+  },
+  {
+    "file": "irs-webinar.pdf",
+    "url": "https://www.irs.gov/pub/info_return/AIR_May_24_2016_Webinar_Presentatiion.pdf",
+    "title": "IRS AIR webinar, May 24, 2016",
+    "sha256": "69a6d3c1512ed26a2d4f10eb950ba2044cf2a9bdfe46e6f22e1f6edba857e6d1",
+    "license": "U.S. federal government work; public domain in the United States (17 USC 105).",
+    "licenseEvidence": [
+      "https://www.copyright.gov/history/copyright-exhibit/lifecycle/",
+      "https://www.irs.gov/pub/irs-prior/p1693--2008.pdf"
+    ],
+    "licenseNote": "IRS-authored official publications. Publication 1693 explicitly states public-domain status under Title 17 Section 105. Webinar is an official IRS-authored presentation. No endorsement implied; these historical documents are layout fixtures, not current tax guidance.",
+    "acquired": "2026-10-19"
+  }
+]
