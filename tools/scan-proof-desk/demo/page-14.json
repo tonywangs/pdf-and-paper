@@ -1,0 +1,396 @@
+{
+  "file": "demo/scans/14.jpg",
+  "scan": 14,
+  "printed_page": 4,
+  "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0014/full/pct:50.0/0/default.jpg",
+  "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=14",
+  "sha256": "a5684d8c13778f467b1f2586ac378d4d8e1688f98e8bf32aae9f89da045c7883",
+  "regions": [
+    {
+      "id": "r1",
+      "bbox": {
+        "x0": 88,
+        "y0": 76,
+        "x1": 792,
+        "y1": 112
+      },
+      "confidence": 94,
+      "original": "4 BLUEBEARD.",
+      "corrected": "4 BLUEBEARD."
+    },
+    {
+      "id": "r2",
+      "bbox": {
+        "x0": 90,
+        "y0": 151,
+        "x1": 1296,
+        "y1": 196
+      },
+      "confidence": 96,
+      "original": "she was so busy entertaining them that she did not think about the",
+      "corrected": "she was so busy entertaining them that she did not think about the"
+    },
+    {
+      "id": "r3",
+      "bbox": {
+        "x0": 90,
+        "y0": 208,
+        "x1": 1296,
+        "y1": 252
+      },
+      "confidence": 96,
+      "original": "keys. But presently, in looking for the key of one of the great",
+      "corrected": "keys. But presently, in looking for the key of one of the great"
+    },
+    {
+      "id": "r4",
+      "bbox": {
+        "x0": 90,
+        "y0": 266,
+        "x1": 1033,
+        "y1": 308
+      },
+      "confidence": 95,
+      "original": "treasure-chests, something seemed to burn her hand.",
+      "corrected": "treasure-chests, something seemed to burn her hand."
+    },
+    {
+      "id": "r5",
+      "bbox": {
+        "x0": 174,
+        "y0": 322,
+        "x1": 1293,
+        "y1": 364
+      },
+      "confidence": 95,
+      "original": "It was the key of the little closet at the end of the long gallery.",
+      "corrected": "It was the key of the little closet at the end of the long gallery."
+    },
+    {
+      "id": "r6",
+      "bbox": {
+        "x0": 173,
+        "y0": 377,
+        "x1": 1293,
+        "y1": 421
+      },
+      "confidence": 96,
+      "original": "Her guests were busy admiring the beautiful ornaments and",
+      "corrected": "Her guests were busy admiring the beautiful ornaments and"
+    },
+    {
+      "id": "r7",
+      "bbox": {
+        "x0": 90,
+        "y0": 434,
+        "x1": 1292,
+        "y1": 475
+      },
+      "confidence": 96,
+      "original": "dresses that Bluebeard had presented to his pretty bride; so she",
+      "corrected": "dresses that Bluebeard had presented to his pretty bride; so she"
+    },
+    {
+      "id": "r8",
+      "bbox": {
+        "x0": 89,
+        "y0": 492,
+        "x1": 1291,
+        "y1": 533
+      },
+      "confidence": 96,
+      "original": "stole softly from the room, ran like a hare down the narrow pas-",
+      "corrected": "stole softly from the room, ran like a hare down the narrow pas-"
+    },
+    {
+      "id": "r9",
+      "bbox": {
+        "x0": 88,
+        "y0": 547,
+        "x1": 1290,
+        "y1": 589
+      },
+      "confidence": 95,
+      "original": "sage, and fitted the key into the lock. For a moment she paused,",
+      "corrected": "sage, and fitted the key into the lock. For a moment she paused,"
+    },
+    {
+      "id": "r10",
+      "bbox": {
+        "x0": 90,
+        "y0": 604,
+        "x1": 1290,
+        "y1": 645
+      },
+      "confidence": 95,
+      "original": "remembering her husband’s command, but her curiosity was too",
+      "corrected": "remembering her husband’s command, but her curiosity was too"
+    },
+    {
+      "id": "r11",
+      "bbox": {
+        "x0": 87,
+        "y0": 660,
+        "x1": 1290,
+        "y1": 700
+      },
+      "confidence": 94,
+      "original": "much for her; she turned the key, and entered the room. She ut-",
+      "corrected": "much for her; she turned the key, and entered the room. She ut-"
+    },
+    {
+      "id": "r12",
+      "bbox": {
+        "x0": 88,
+        "y0": 716,
+        "x1": 1291,
+        "y1": 757
+      },
+      "confidence": 96,
+      "original": "tered a cry of horror, and the key fell from her trembling hand, for",
+      "corrected": "tered a cry of horror, and the key fell from her trembling hand, for"
+    },
+    {
+      "id": "r13",
+      "bbox": {
+        "x0": 88,
+        "y0": 771,
+        "x1": 1291,
+        "y1": 812
+      },
+      "confidence": 96,
+      "original": "the sight which met her wondering gaze froze the blood in her",
+      "corrected": "the sight which met her wondering gaze froze the blood in her"
+    },
+    {
+      "id": "r14",
+      "bbox": {
+        "x0": 87,
+        "y0": 828,
+        "x1": 1289,
+        "y1": 868
+      },
+      "confidence": 95,
+      "original": "veins. Upon the floor lay the bodies of all the lovely ladies Blue-",
+      "corrected": "veins. Upon the floor lay the bodies of all the lovely ladies Blue-"
+    },
+    {
+      "id": "r15",
+      "bbox": {
+        "x0": 87,
+        "y0": 883,
+        "x1": 1289,
+        "y1": 925
+      },
+      "confidence": 91,
+      "original": "beard had married, and who had disappeared so mysteriously!",
+      "corrected": "beard had married, and who had disappeared so mysteriously!"
+    },
+    {
+      "id": "r16",
+      "bbox": {
+        "x0": 87,
+        "y0": 938,
+        "x1": 1290,
+        "y1": 981
+      },
+      "confidence": 96,
+      "original": "Their heads were severed from their bodies, and hung in a row",
+      "corrected": "Their heads were severed from their bodies, and hung in a row"
+    },
+    {
+      "id": "r17",
+      "bbox": {
+        "x0": 87,
+        "y0": 994,
+        "x1": 364,
+        "y1": 1033
+      },
+      "confidence": 90,
+      "original": "upon the wall!!",
+      "corrected": "upon the wall!!"
+    },
+    {
+      "id": "r18",
+      "bbox": {
+        "x0": 168,
+        "y0": 1050,
+        "x1": 1288,
+        "y1": 1092
+      },
+      "confidence": 95,
+      "original": "With a sinking heart, and cheeks as white as snow, Fatima re-",
+      "corrected": "With a sinking heart, and cheeks as white as snow, Fatima re-"
+    },
+    {
+      "id": "r19",
+      "bbox": {
+        "x0": 87,
+        "y0": 1105,
+        "x1": 1287,
+        "y1": 1145
+      },
+      "confidence": 94,
+      "original": "turned to her guests; but she was too terrified to attend to their com-",
+      "corrected": "turned to her guests; but she was too terrified to attend to their com-"
+    },
+    {
+      "id": "r20",
+      "bbox": {
+        "x0": 88,
+        "y0": 1161,
+        "x1": 1289,
+        "y1": 1205
+      },
+      "confidence": 93,
+      "original": "fort or to attempt to entertain them; so oné by one they bade their",
+      "corrected": "fort or to attempt to entertain them; so oné by one they bade their"
+    },
+    {
+      "id": "r21",
+      "bbox": {
+        "x0": 86,
+        "y0": 1216,
+        "x1": 1289,
+        "y1": 1257
+      },
+      "confidence": 96,
+      "original": "hostess good-bye, and went home, until at last there was no one left",
+      "corrected": "hostess good-bye, and went home, until at last there was no one left"
+    },
+    {
+      "id": "r22",
+      "bbox": {
+        "x0": 85,
+        "y0": 1272,
+        "x1": 667,
+        "y1": 1311
+      },
+      "confidence": 96,
+      "original": "with her except her sister Anne.",
+      "corrected": "with her except her sister Anne."
+    },
+    {
+      "id": "r23",
+      "bbox": {
+        "x0": 170,
+        "y0": 1328,
+        "x1": 1287,
+        "y1": 1372
+      },
+      "confidence": 95,
+      "original": "It was then that Fatima noticed a spot of blood upon the fatal",
+      "corrected": "It was then that Fatima noticed a spot of blood upon the fatal"
+    },
+    {
+      "id": "r24",
+      "bbox": {
+        "x0": 85,
+        "y0": 1382,
+        "x1": 1287,
+        "y1": 1428
+      },
+      "confidence": 95,
+      "original": "key! She wiped it carefully, but the spot remained; then she",
+      "corrected": "key! She wiped it carefully, but the spot remained; then she"
+    },
+    {
+      "id": "r25",
+      "bbox": {
+        "x0": 85,
+        "y0": 1439,
+        "x1": 1288,
+        "y1": 1485
+      },
+      "confidence": 95,
+      "original": "washed it and scoured it with sand; but it was all in vain, for it",
+      "corrected": "washed it and scoured it with sand; but it was all in vain, for it"
+    },
+    {
+      "id": "r26",
+      "bbox": {
+        "x0": 84,
+        "y0": 1495,
+        "x1": 1287,
+        "y1": 1539
+      },
+      "confidence": 96,
+      "original": "was a fairy key, and as fast as she washed away the blood on one",
+      "corrected": "was a fairy key, and as fast as she washed away the blood on one"
+    },
+    {
+      "id": "r27",
+      "bbox": {
+        "x0": 84,
+        "y0": 1549,
+        "x1": 606,
+        "y1": 1589
+      },
+      "confidence": 95,
+      "original": "side it appeared on the other.",
+      "corrected": "side it appeared on the other."
+    },
+    {
+      "id": "r28",
+      "bbox": {
+        "x0": 192,
+        "y0": 1605,
+        "x1": 1285,
+        "y1": 1652
+      },
+      "confidence": 96,
+      "original": "Early the next evening, Bluebeard unexpectedly returned.",
+      "corrected": "Early the next evening, Bluebeard unexpectedly returned."
+    },
+    {
+      "id": "r29",
+      "bbox": {
+        "x0": 86,
+        "y0": 1660,
+        "x1": 1287,
+        "y1": 1706
+      },
+      "confidence": 94,
+      "original": "He had met a horseman by the way, he said, ‘who had told him",
+      "corrected": "He had met a horseman by the way, he said, ‘who had told him"
+    },
+    {
+      "id": "r30",
+      "bbox": {
+        "x0": 85,
+        "y0": 1716,
+        "x1": 1289,
+        "y1": 1766
+      },
+      "confidence": 95,
+      "original": "that the “business” had already been settled, so that it was no longer",
+      "corrected": "that the “business” had already been settled, so that it was no longer"
+    },
+    {
+      "id": "r31",
+      "bbox": {
+        "x0": 84,
+        "y0": 1773,
+        "x1": 839,
+        "y1": 1816
+      },
+      "confidence": 96,
+      "original": "necessary for him to continue his journey.",
+      "corrected": "necessary for him to continue his journey."
+    },
+    {
+      "id": "r32",
+      "bbox": {
+        "x0": 169,
+        "y0": 1828,
+        "x1": 1288,
+        "y1": 1886
+      },
+      "confidence": 96,
+      "original": "Fatima tried to welcome her husband with every appearance",
+      "corrected": "Fatima tried to welcome her husband with every appearance"
+    }
+  ],
+  "rawText": "4 BLUEBEARD.\n\nshe was so busy entertaining them that she did not think about the\nkeys. But presently, in looking for the key of one of the great\ntreasure-chests, something seemed to burn her hand.\n\nIt was the key of the little closet at the end of the long gallery.\n\nHer guests were busy admiring the beautiful ornaments and\ndresses that Bluebeard had presented to his pretty bride; so she\nstole softly from the room, ran like a hare down the narrow pas-\nsage, and fitted the key into the lock. For a moment she paused,\nremembering her husband’s command, but her curiosity was too\nmuch for her; she turned the key, and entered the room. She ut-\ntered a cry of horror, and the key fell from her trembling hand, for\nthe sight which met her wondering gaze froze the blood in her\nveins. Upon the floor lay the bodies of all the lovely ladies Blue-\nbeard had married, and who had disappeared so mysteriously!\nTheir heads were severed from their bodies, and hung in a row\nupon the wall!!\n\nWith a sinking heart, and cheeks as white as snow, Fatima re-\nturned to her guests; but she was too terrified to attend to their com-\nfort or to attempt to entertain them; so oné by one they bade their\nhostess good-bye, and went home, until at last there was no one left\nwith her except her sister Anne.\n\nIt was then that Fatima noticed a spot of blood upon the fatal\nkey! She wiped it carefully, but the spot remained; then she\nwashed it and scoured it with sand; but it was all in vain, for it\nwas a fairy key, and as fast as she washed away the blood on one\nside it appeared on the other.\n\nEarly the next evening, Bluebeard unexpectedly returned.\nHe had met a horseman by the way, he said, ‘who had told him\nthat the “business” had already been settled, so that it was no longer\nnecessary for him to continue his journey.\n\nFatima tried to welcome her husband with every appearance\n",
+  "engine": "Tesseract.js 7.0.0 / English LSTM / PSM 3"
+}

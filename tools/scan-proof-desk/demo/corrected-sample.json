@@ -1,0 +1,31 @@
+{
+  "scan": 14,
+  "method": "Edited line r29 in the browser, reloaded, then exported project; other sample lines unchanged.",
+  "lines": [
+    {
+      "id": "r28",
+      "original": "Early the next evening, Bluebeard unexpectedly returned.",
+      "corrected": "Early the next evening, Bluebeard unexpectedly returned."
+    },
+    {
+      "id": "r29",
+      "original": "He had met a horseman by the way, he said, ‘who had told him",
+      "corrected": "He had met a horseman by the way, he said, who had told him"
+    },
+    {
+      "id": "r30",
+      "original": "that the “business” had already been settled, so that it was no longer",
+      "corrected": "that the “business” had already been settled, so that it was no longer"
+    },
+    {
+      "id": "r31",
+      "original": "necessary for him to continue his journey.",
+      "corrected": "necessary for him to continue his journey."
+    },
+    {
+      "id": "r32",
+      "original": "Fatima tried to welcome her husband with every appearance",
+      "corrected": "Fatima tried to welcome her husband with every appearance"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "The Story of Bluebeard, and other stories,",
+  "item_url": "https://www.loc.gov/item/05021568/",
+  "rights_html": [
+    "<p>The books in this collection are in the public domain and are free to use and reuse.</p>\r\n<p>Credit Line: Library of Congress</p>\r\n<p>More about <a href=\"/legal/\">Copyright and other Restrictions</a>.</p>\r\n<p>For guidance about compiling full citations consult <a href=\"https://www.loc.gov/teachers/usingprimarysources/citing.html\">Citing Primary Sources</a>.</p>\r\n"
+  ],
+  "rights_evidence_url": "https://www.loc.gov/item/05021568/?fo=json",
+  "retrieved": "2026-10-19",
+  "credit": "Library of Congress",
+  "pages": [
+    {
+      "file": "demo/scans/14.jpg",
+      "scan": 14,
+      "printed_page": 4,
+      "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0014/full/pct:50.0/0/default.jpg",
+      "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=14",
+      "sha256": "a5684d8c13778f467b1f2586ac378d4d8e1688f98e8bf32aae9f89da045c7883"
+    },
+    {
+      "file": "demo/scans/15.jpg",
+      "scan": 15,
+      "printed_page": 5,
+      "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0015/full/pct:50.0/0/default.jpg",
+      "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=15",
+      "sha256": "364e1c063eccd2cb33cd6cc4138a3d801a3a3062c6c794fea0bff2d990f885f6"
+    },
+    {
+      "file": "demo/scans/16.jpg",
+      "scan": 16,
+      "printed_page": 6,
+      "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0016/full/pct:50.0/0/default.jpg",
+      "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=16",
+      "sha256": "aea30a66a6980b33dc1c77fd57875072bf1ae8b495ac539f58eef77e027fd6de"
+    },
+    {
+      "file": "demo/scans/17.jpg",
+      "scan": 17,
+      "printed_page": 7,
+      "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0017/full/pct:50.0/0/default.jpg",
+      "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=17",
+      "sha256": "9b7a8d4d1e36954c30c56616ced51248444cf3f4f9cb2aefddc3d149460468c4"
+    },
+    {
+      "file": "demo/scans/18.jpg",
+      "scan": 18,
+      "printed_page": 8,
+      "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:storyofbluebeard00unse:storyofbluebeard00unse_0018/full/pct:50.0/0/default.jpg",
+      "source_url": "https://www.loc.gov/resource/gdcmassbookdig.storyofbluebeard00unse/?sp=18",
+      "sha256": "0763ba9b89a2fe4ae8f429a853fcd22b97835001a76a4b489b45e195be4e4f80"
+    }
+  ]
+}
