@@ -1,0 +1,446 @@
+{
+  "method": "Manually transcribed by the implementing agent from PDFium-rendered page images before extraction. No extractor output used. Independent checking required; not a human-certified benchmark.",
+  "frozen_utc": "2026-10-19T20:23:46.041321+00:00",
+  "tables": [
+    {
+      "id": "ethanol",
+      "file": "ag-energy-round-up-2017-02-24.pdf",
+      "page": 1,
+      "title": "Ethanol ($/gal), USDA 2017-02-24",
+      "scope": "All six data rows; first four columns; report-link column excluded. Column headings are contextual metadata, not CSV rows.",
+      "columns": [
+        "Location",
+        "W/E 02/24/17",
+        "Last Week",
+        "Year Ago"
+      ],
+      "rows": [
+        [
+          "Iowa",
+          "1.35 - 1.42",
+          "1.38 - 1.43",
+          "1.27 - 1.35"
+        ],
+        [
+          "Minnesota",
+          "1.38 - 1.48",
+          "1.40 - 1.49",
+          "1.28 - 1.35"
+        ],
+        [
+          "Nebraska",
+          "1.38 - 1.40",
+          "1.36 - 1.43",
+          "1.27 - 1.35"
+        ],
+        [
+          "South Dakota",
+          "1.48 - 1.55",
+          "1.49 - 1.55",
+          "1.28 - 1.34"
+        ],
+        [
+          "Eastern Cornbelt",
+          "1.49 - 1.51",
+          "1.50 - 1.53",
+          "1.35 - 1.40"
+        ],
+        [
+          "Wisconsin",
+          "unq",
+          "unq",
+          "1.27 - 1.34"
+        ]
+      ],
+      "source_sha256": "4b9774416291f79421a85fac7ecbb8bf2bc625df9a7207d9dcd3ba845f3146fb"
+    },
+    {
+      "id": "biomass",
+      "file": "ag-energy-round-up-2017-02-24.pdf",
+      "page": 1,
+      "title": "Bio Mass (IA/MN/NE/SD/KS/MO/IL), USDA 2017-02-24",
+      "scope": "Complete three-row, four-column data body; section title and shared header retained as metadata.",
+      "columns": [
+        "Material",
+        "W/E 02/24/17",
+        "Last Week",
+        "Year Ago"
+      ],
+      "rows": [
+        [
+          "Cornstalks",
+          "41.25",
+          "39.38",
+          "52.00"
+        ],
+        [
+          "Straw",
+          "55.71",
+          "54.29",
+          "58.33"
+        ],
+        [
+          "Grass",
+          "61.46",
+          "59.17",
+          "63.75"
+        ]
+      ],
+      "source_sha256": "4b9774416291f79421a85fac7ecbb8bf2bc625df9a7207d9dcd3ba845f3146fb"
+    },
+    {
+      "id": "nics",
+      "file": "background-checks.pdf",
+      "page": 1,
+      "title": "NICS Firearm Background Checks, November 2015",
+      "scope": "All 55 state/territory rows plus Totals; first four columns only. These are checks, not firearm sales.",
+      "columns": [
+        "State/Territory",
+        "Permit",
+        "Handgun",
+        "Long Gun"
+      ],
+      "rows": [
+        [
+          "Alabama",
+          "18,870",
+          "23,022",
+          "22,650"
+        ],
+        [
+          "Alaska",
+          "209",
+          "3,062",
+          "3,209"
+        ],
+        [
+          "Arizona",
+          "2,303",
+          "12,382",
+          "9,041"
+        ],
+        [
+          "Arkansas",
+          "3,298",
+          "6,359",
+          "11,611"
+        ],
+        [
+          "California",
+          "98 452",
+          "41 181",
+          "35 007"
+        ],
+        [
+          "Colorado",
+          "4,144",
+          "19,784",
+          "16,082"
+        ],
+        [
+          "Connecticut",
+          "9,631",
+          "11,594",
+          "5,072"
+        ],
+        [
+          "Delaware",
+          "204",
+          "2,152",
+          "2,424"
+        ],
+        [
+          "District of Columbia",
+          "8",
+          "54",
+          "2"
+        ],
+        [
+          "Florida",
+          "15,907",
+          "50,796",
+          "28,981"
+        ],
+        [
+          "Georgia",
+          "14,111",
+          "16,635",
+          "15,227"
+        ],
+        [
+          "Guam",
+          "0",
+          "100",
+          "55"
+        ],
+        [
+          "Hawaii",
+          "1,248",
+          "0",
+          "0"
+        ],
+        [
+          "Idaho",
+          "1,944",
+          "3,609",
+          "5,227"
+        ],
+        [
+          "Illinois",
+          "87,190",
+          "24,412",
+          "17,227"
+        ],
+        [
+          "Indiana",
+          "81,935",
+          "25,519",
+          "20,227"
+        ],
+        [
+          "Iowa",
+          "8,785",
+          "267",
+          "4,596"
+        ],
+        [
+          "Kansas",
+          "894",
+          "7,086",
+          "8,702"
+        ],
+        [
+          "Kentucky",
+          "264,140",
+          "12,155",
+          "14,847"
+        ],
+        [
+          "Louisiana",
+          "1,945",
+          "14,708",
+          "17,368"
+        ],
+        [
+          "Maine",
+          "299",
+          "4,048",
+          "4,387"
+        ],
+        [
+          "Mariana Islands",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "Maryland",
+          "1,512",
+          "3,220",
+          "8,310"
+        ],
+        [
+          "Massachusetts",
+          "5,214",
+          "6,083",
+          "3,931"
+        ],
+        [
+          "Michigan",
+          "16,786",
+          "13,634",
+          "17,604"
+        ],
+        [
+          "Minnesota",
+          "18,939",
+          "9,373",
+          "14,173"
+        ],
+        [
+          "Mississippi",
+          "618",
+          "9,785",
+          "13,191"
+        ],
+        [
+          "Missouri",
+          "5,884",
+          "21,135",
+          "22,852"
+        ],
+        [
+          "Montana",
+          "852",
+          "2,848",
+          "5,170"
+        ],
+        [
+          "Nebraska",
+          "4,258",
+          "173",
+          "3,724"
+        ],
+        [
+          "Nevada",
+          "1,543",
+          "4,889",
+          "3,272"
+        ],
+        [
+          "New Hampshire",
+          "3,630",
+          "4,847",
+          "4,165"
+        ],
+        [
+          "New Jersey",
+          "0",
+          "3,462",
+          "4,704"
+        ],
+        [
+          "New Mexico",
+          "829",
+          "5,247",
+          "4,974"
+        ],
+        [
+          "New York",
+          "2,906",
+          "8,650",
+          "23,519"
+        ],
+        [
+          "North Carolina",
+          "22,469",
+          "1,370",
+          "20,107"
+        ],
+        [
+          "North Dakota",
+          "453",
+          "1,720",
+          "3,744"
+        ],
+        [
+          "Ohio",
+          "9,338",
+          "34,878",
+          "31,817"
+        ],
+        [
+          "Oklahoma",
+          "0",
+          "15,005",
+          "14,753"
+        ],
+        [
+          "Oregon",
+          "35",
+          "13,586",
+          "11,832"
+        ],
+        [
+          "Pennsylvania",
+          "24,136",
+          "62,752",
+          "16,297"
+        ],
+        [
+          "Puerto Rico",
+          "0",
+          "1,033",
+          "170"
+        ],
+        [
+          "Rhode Island",
+          "0",
+          "954",
+          "932"
+        ],
+        [
+          "South Carolina",
+          "7,284",
+          "11,452",
+          "10,393"
+        ],
+        [
+          "South Dakota",
+          "819",
+          "2,765",
+          "5,484"
+        ],
+        [
+          "Tennessee",
+          "9,509",
+          "28,815",
+          "24,023"
+        ],
+        [
+          "Texas",
+          "21,550",
+          "56,941",
+          "51,670"
+        ],
+        [
+          "Utah",
+          "10,429",
+          "4,314",
+          "5,857"
+        ],
+        [
+          "Vermont",
+          "0",
+          "1,189",
+          "1,826"
+        ],
+        [
+          "Virgin Islands",
+          "93",
+          "13",
+          "2"
+        ],
+        [
+          "Virginia",
+          "622",
+          "24,052",
+          "22,348"
+        ],
+        [
+          "Washington",
+          "10,314",
+          "15,822",
+          "12,425"
+        ],
+        [
+          "West Virginia",
+          "2,217",
+          "6,953",
+          "11,561"
+        ],
+        [
+          "Wisconsin",
+          "5,867",
+          "13,700",
+          "17,759"
+        ],
+        [
+          "Wyoming",
+          "383",
+          "1,745",
+          "2,372"
+        ],
+        [
+          "Totals",
+          "804,006",
+          "671,330",
+          "636,903"
+        ]
+      ],
+      "source_sha256": "4f0ae6e017b0e97de211da8fd97316e55bd927af5740d6ce95e1b7b1539f9407"
+    }
+  ],
+  "revision": "v2 \u2014 independent visual erratum after preliminary extraction comparison",
+  "supersedes_sha256": "0aa31a7aa42e6bcb9f187965fdd6419d9c9947b04d2792fca274a16877ed7a57"
+}

@@ -1,0 +1,5 @@
+[
+  {"id":"ethanol","file":"ag-energy-round-up-2017-02-24.pdf","title":"USDA · Ethanol · 24 Feb 2017","page":1,"region":[20,58,380,132],"settings":{"columns":[175,245,310],"rows":[],"tolerance":3,"layout":"simple"}},
+  {"id":"biomass","file":"ag-energy-round-up-2017-02-24.pdf","title":"USDA · Biomass · 24 Feb 2017","page":1,"region":[20,182,380,219],"settings":{"columns":[175,245,310],"rows":[],"tolerance":3,"layout":"simple"}},
+  {"id":"nics","file":"background-checks.pdf","title":"FBI · NICS · Nov 2015 · first four columns","page":1,"region":[33,79,212,483],"settings":{"columns":[111,146,180],"rows":[],"tolerance":3,"layout":"simple"}}
+]
