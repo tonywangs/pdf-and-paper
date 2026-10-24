@@ -1,0 +1,2 @@
+[console_scripts]
+pdf-redaction-check = pdf_redaction_check.cli:main
