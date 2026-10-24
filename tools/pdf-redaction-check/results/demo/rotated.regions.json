@@ -1,0 +1,15 @@
+{
+  "coordinate_system": "displayed-page-points-top-left",
+  "regions": [
+    {
+      "id": "rotated",
+      "page": 1,
+      "rect": [
+        341.1349792480469,
+        105.92689514160156,
+        360.62896728515625,
+        338.1221923828125
+      ]
+    }
+  ]
+}

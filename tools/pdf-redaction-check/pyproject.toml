@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-redaction-check"
+version = "0.1.0"
+description = "Offline, region-based PDF text recovery inspection with visual evidence"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "AGPL-3.0-or-later"
+dependencies = ["PyMuPDF==1.26.7", "pypdf==6.1.3"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2", "build==1.3.0"]
+
+[project.scripts]
+pdf-redaction-check = "pdf_redaction_check.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pdf_redaction_check = ["data/*.pdf", "data/*.json", "data/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

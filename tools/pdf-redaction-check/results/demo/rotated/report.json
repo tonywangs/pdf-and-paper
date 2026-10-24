@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "input": {
+    "name": "rotated.pdf",
+    "sha256": "b2cb5154fbdfcfcd775cef0fa7185d0115672e99e83a924e63f7b2be7c544995",
+    "bytes": 597983,
+    "pages": 1
+  },
+  "coordinate_system": "displayed-page-points-top-left",
+  "engines": {
+    "pymupdf": "1.26.7",
+    "pypdf": "6.1.3"
+  },
+  "limitations": [
+    "No detected text does not certify secure redaction. Only the supplied regions are checked for positioned text.",
+    "Images, image masks, vector-outlined text and OCR are not decoded for hidden content; scanned text may remain recoverable.",
+    "Attachments, metadata, form values, annotation payloads other than redaction markers, scripts and hidden layers are not exhaustively inspected.",
+    "Historical revisions, unused objects and deleted streams are not searched. The current parsed page is not the whole file.",
+    "Inference attacks, font/encoding failures and parser differences are outside this check. Visible previews are not proof of removal.",
+    "pypdf evidence is whole-page text, not an independent spatial check; a matching fragment can occur elsewhere on that page.",
+    "Glyph bounding boxes are approximate. Any positive-area overlap is flagged; decorative rectangles are not automatically treated as redactions."
+  ],
+  "regions": [
+    {
+      "id": "rotated",
+      "page": 1,
+      "rect": [
+        341.1349792480469,
+        105.92689514160156,
+        360.62896728515625,
+        338.1221923828125
+      ],
+      "findings": [
+        "recoverable_text"
+      ],
+      "text": "for Educators and Librarians",
+      "characters": [
+        {
+          "text": "f",
+          "rect": [
+            342.2879638671875,
+            106.92689514160156,
+            365.37396240234375,
+            112.82589721679688
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "o",
+          "rect": [
+            342.2879638671875,
+            112.14590454101562,
+            365.37396240234375,
+            121.01990509033203
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "r",
+          "rect": [
+            342.2879638671875,
+            121.01991271972656,
+            365.37396240234375,
+            128.8399200439453
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": " ",
+          "rect": [
+            342.2879638671875,
+            128.8399200439453,
+            365.37396240234375,
+            132.2399139404297
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "E",
+          "rect": [
+            342.1349792480469,
+            132.2399139404297,
+            365.62896728515625,
+            143.25592041015625
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "d",
+          "rect": [
+            342.1349792480469,
+            143.25592041015625,
+            365.62896728515625,
+            153.7449188232422
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "u",
+          "rect": [
+            342.1349792480469,
+            153.659912109375,
+            365.62896728515625,
+            164.47190856933594
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "c",
+          "rect": [
+            342.1349792480469,
+            164.3529052734375,
+            365.62896728515625,
+            172.97190856933594
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "a",
+          "rect": [
+            342.1349792480469,
+            172.80191040039062,
+            365.62896728515625,
+            182.0839080810547
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "t",
+          "rect": [
+            342.1349792480469,
+            181.606201171875,
+            365.62896728515625,
+            188.9501953125
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "o",
+          "rect": [
+            342.1349792480469,
+            188.7292022705078,
+            365.62896728515625,
+            198.3511962890625
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "r",
+          "rect": [
+            342.1349792480469,
+            198.3511962890625,
+            365.62896728515625,
+            207.07220458984375
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "s",
+          "rect": [
+            342.1349792480469,
+            207.0721893310547,
+            365.62896728515625,
+            215.0111846923828
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": " ",
+          "rect": [
+            342.1349792480469,
+            215.0111846923828,
+            365.62896728515625,
+            218.07118225097656
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "a",
+          "rect": [
+            342.2879638671875,
+            218.07118225097656,
+            365.37396240234375,
+            227.54017639160156
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "n",
+          "rect": [
+            342.2879638671875,
+            227.54017639160156,
+            365.37396240234375,
+            237.19618225097656
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "d",
+          "rect": [
+            342.2879638671875,
+            237.19618225097656,
+            365.37396240234375,
+            246.75018310546875
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": " ",
+          "rect": [
+            342.2879638671875,
+            246.7501983642578,
+            365.37396240234375,
+            250.1501922607422
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "L",
+          "rect": [
+            342.1349792480469,
+            250.1501922607422,
+            365.62896728515625,
+            260.58819580078125
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "i",
+          "rect": [
+            342.1349792480469,
+            260.5881652832031,
+            365.62896728515625,
+            266.33416748046875
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "b",
+          "rect": [
+            342.1349792480469,
+            266.33416748046875,
+            365.62896728515625,
+            276.77215576171875
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "r",
+          "rect": [
+            342.1349792480469,
+            276.77215576171875,
+            365.62896728515625,
+            285.4931640625
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "a",
+          "rect": [
+            342.1349792480469,
+            285.2381591796875,
+            365.62896728515625,
+            294.5201721191406
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "r",
+          "rect": [
+            342.1349792480469,
+            294.5201721191406,
+            365.62896728515625,
+            303.2411804199219
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "i",
+          "rect": [
+            342.1349792480469,
+            303.2411804199219,
+            365.62896728515625,
+            308.9871826171875
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "a",
+          "rect": [
+            342.1349792480469,
+            308.9871826171875,
+            365.62896728515625,
+            318.2691955566406
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "n",
+          "rect": [
+            342.1349792480469,
+            318.2691955566406,
+            365.62896728515625,
+            329.1831970214844
+          ],
+          "line": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "s",
+          "rect": [
+            342.1349792480469,
+            329.1831970214844,
+            365.62896728515625,
+            337.1221923828125
+          ],
+          "line": [
+            0,
+            2
+          ]
+        }
+      ],
+      "overlapping_images": 0,
+      "independent_check": {
+        "scope": "whole_page_not_spatial",
+        "status": "all_fragments_found_on_page",
+        "matching_fragments": [
+          "for Educators and Librarians"
+        ]
+      }
+    }
+  ],
+  "redaction_annotations": [],
+  "pages": [
+    {
+      "page": 1,
+      "width": 648.0479736328125,
+      "height": 432.0479736328125,
+      "rotation": 90,
+      "pypdf_text": "CREATIVE \nCOMMONS\nfor Educators and Librarians\nCREATIVE COMMONS\n \nCHICAGO 2020\nalastore.ala.org",
+      "pypdf_error": null,
+      "text_error": null,
+      "image_error": null
+    }
+  ],
+  "errors": [],
+  "outcome": "findings_detected",
+  "checks_incomplete": false,
+  "exit_code": 1
+}

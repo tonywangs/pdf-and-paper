@@ -1,0 +1,16 @@
+{
+  "title": "Creative Commons for Educators and Librarians (publisher sample)",
+  "creator": "Creative Commons",
+  "publisher": "American Library Association",
+  "publication_year": 2020,
+  "source_url": "https://alastore.ala.org/sites/default/files/book_samples/9780838919460_sample_0.pdf",
+  "retrieved_utc": "2026-10-19",
+  "sha256": "e9bcccab300b88487cc0106c54cf954835776761b6dac1eb22e3f4fe48875491",
+  "license": "CC BY 4.0, except where otherwise noted in the source",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "PDF page 2 contains the license, suggested attribution and third-party-content notice.",
+  "attribution": "Creative Commons for Educators and Librarians, Creative Commons, licensed under CC BY 4.0, published by the American Library Association.",
+  "changes": "The packaged source is unmodified. Demo variants extract PDF page 1 (the title page) and deliberately mask, annotate, rotate or apply redaction to the subtitle, or add a decorative rectangle. These are controlled examples, not discovered vulnerabilities in the original publication.",
+  "target": "for Educators and Librarians",
+  "source_page": 1
+}
