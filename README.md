@@ -1,4 +1,4 @@
-# Marginalia
+# pdf-and-paper
 
 Document assembly, comparison, extraction, and review.
 
