@@ -1,0 +1,329 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'"><title>Document Search Desk report</title><style>body{font:16px system-ui;max-width:1000px;margin:40px auto;padding:20px;color:#172b35}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f0f4f4;padding:15px}small{overflow-wrap:anywhere}mark{background:#ffe28c}</style><h1>Document Search Desk</h1><h2>ownership · term</h2><p>File filter: All indexed files</p><p>desk-v1: Markdown is raw source. Tokens are Unicode letters, combining marks, or numbers; NFC then locale-independent lowercase, accents retained. Term mode accepts one complete token. Phrase mode matches consecutive tokens within one line, ignoring punctuation. Literal mode is case-sensitive exact substring within one line (overlaps included). No stemming, Boolean, wildcard, regex or field syntax. LF, CRLF and CR delimit lines. Results ordered by filename (UTF-16), then line and offset. Columns and offsets are UTF-16 code units, 1-based columns, exclusive end column. UTF-8 BOM is retained as a character. Full totals are computed; at most 2000 passages are exported.</p><p>Coverage: {&quot;submitted&quot;:20,&quot;indexed&quot;:20,&quot;rejected&quot;:0,&quot;failed&quot;:0}</p><p>102 occurrences in 11 documents. All passages included.</p><p>Selected: []</p><article><h3>ch00-00-introduction.md:122:45</h3><small>SHA-256 2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273</small><pre>In **Chapter 4**, you’ll learn about Rust’s <mark>ownership</mark> system. **Chapter 5**</pre></article><article><h3>ch02-00-guessing-game-tutorial.md:931:1</h3><small>SHA-256 bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0</small><pre><mark>ownership</mark>, a feature that makes Rust different from other languages. Chapter 5</pre></article><article><h3>ch03-02-data-types.md:383:35</h3><small>SHA-256 edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90</small><pre>[stack-and-heap]: ch04-01-what-is-<mark>ownership</mark>.html#the-stack-and-the-heap</pre></article><article><h3>ch03-05-control-flow.md:394:48</h3><small>SHA-256 dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6</small><pre>commonly exist in other programming languages: <mark>ownership</mark>.</pre></article><article><h3>ch04-01-what-is-ownership.md:1:12</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>## What Is <mark>Ownership</mark>?</pre></article><article><h3>ch04-01-what-is-ownership.md:3:2</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>_<mark>Ownership</mark>_ is a set of rules that govern how a Rust program manages memory.</pre></article><article><h3>ch04-01-what-is-ownership.md:8:21</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>through a system of <mark>ownership</mark> with a set of rules that the compiler checks. If</pre></article><article><h3>ch04-01-what-is-ownership.md:10:4</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>of <mark>ownership</mark> will slow down your program while it’s running.</pre></article><article><h3>ch04-01-what-is-ownership.md:12:9</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>Because <mark>ownership</mark> is a new concept for many programmers, it does take some time</pre></article><article><h3>ch04-01-what-is-ownership.md:14:22</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>and the rules of the <mark>ownership</mark> system, the easier you’ll find it to naturally</pre></article><article><h3>ch04-01-what-is-ownership.md:17:21</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>When you understand <mark>ownership</mark>, you’ll have a solid foundation for understanding</pre></article><article><h3>ch04-01-what-is-ownership.md:18:67</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>the features that make Rust unique. In this chapter, you’ll learn <mark>ownership</mark> by</pre></article><article><h3>ch04-01-what-is-ownership.md:27:48</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&gt; you have to make certain decisions. Parts of <mark>ownership</mark> will be described in</pre></article><article><h3>ch04-01-what-is-ownership.md:82:3</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&gt; <mark>ownership</mark> addresses. Once you understand ownership, you won’t need to think</pre></article><article><h3>ch04-01-what-is-ownership.md:82:44</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&gt; ownership addresses. Once you understand <mark>ownership</mark>, you won’t need to think</pre></article><article><h3>ch04-01-what-is-ownership.md:84:3</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&gt; <mark>ownership</mark> is to manage heap data can help explain why it works the way it</pre></article><article><h3>ch04-01-what-is-ownership.md:87:5</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>### <mark>Ownership</mark> Rules</pre></article><article><h3>ch04-01-what-is-ownership.md:89:33</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>First, let’s take a look at the <mark>ownership</mark> rules. Keep these rules in mind as we</pre></article><article><h3>ch04-01-what-is-ownership.md:104:23</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>As a first example of <mark>ownership</mark>, we’ll look at the scope of some variables. A</pre></article><article><h3>ch04-01-what-is-ownership.md:120:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-01/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:136:28</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>To illustrate the rules of <mark>ownership</mark>, we need a data type that is more complex</pre></article><article><h3>ch04-01-what-is-ownership.md:145:59</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>We’ll concentrate on the parts of `String` that relate to <mark>ownership</mark>. These</pre></article><article><h3>ch04-01-what-is-ownership.md:147:59</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>the standard library or created by you. We’ll discuss non-<mark>ownership</mark> aspects of</pre></article><article><h3>ch04-01-what-is-ownership.md:174:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-01-can-mutate-string/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:216:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-02-string-scope/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:248:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-02/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:262:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-03-string-move/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:328:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-04-cant-use-after-move/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:335:43</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-04-cant-use-after-move/output.txt}}</pre></article><article><h3>ch04-01-what-is-ownership.md:363:67</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>The inverse of this is true for the relationship between scoping, <mark>ownership</mark>, and</pre></article><article><h3>ch04-01-what-is-ownership.md:369:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-04b-replacement-drop/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:403:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-05-clone/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:419:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-06-copy/src/main.rs:here}}</pre></article><article><h3>ch04-01-what-is-ownership.md:458:5</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>### <mark>Ownership</mark> and Functions</pre></article><article><h3>ch04-01-what-is-ownership.md:465:71</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&lt;Listing number=&quot;4-3&quot; file-name=&quot;src/main.rs&quot; caption=&quot;Functions with <mark>ownership</mark> and scope annotated&quot;&gt;</pre></article><article><h3>ch04-01-what-is-ownership.md:468:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-03/src/main.rs}}</pre></article><article><h3>ch04-01-what-is-ownership.md:473:49</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>If we tried to use `s` after the call to `takes_<mark>ownership</mark>`, Rust would throw a</pre></article><article><h3>ch04-01-what-is-ownership.md:476:5</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>the <mark>ownership</mark> rules prevent you from doing so.</pre></article><article><h3>ch04-01-what-is-ownership.md:480:36</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>Returning values can also transfer <mark>ownership</mark>. Listing 4-4 shows an example of a</pre></article><article><h3>ch04-01-what-is-ownership.md:484:69</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&lt;Listing number=&quot;4-4&quot; file-name=&quot;src/main.rs&quot; caption=&quot;Transferring <mark>ownership</mark> of return values&quot;&gt;</pre></article><article><h3>ch04-01-what-is-ownership.md:487:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-04/src/main.rs}}</pre></article><article><h3>ch04-01-what-is-ownership.md:492:5</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>The <mark>ownership</mark> of a variable follows the same pattern every time: Assigning a</pre></article><article><h3>ch04-01-what-is-ownership.md:494:71</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>heap goes out of scope, the value will be cleaned up by `drop` unless <mark>ownership</mark></pre></article><article><h3>ch04-01-what-is-ownership.md:497:26</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>While this works, taking <mark>ownership</mark> and then returning ownership with every</pre></article><article><h3>ch04-01-what-is-ownership.md:497:55</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>While this works, taking ownership and then returning <mark>ownership</mark> with every</pre></article><article><h3>ch04-01-what-is-ownership.md:499:10</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>not take <mark>ownership</mark>? It’s quite annoying that anything we pass in also needs to</pre></article><article><h3>ch04-01-what-is-ownership.md:505:66</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>&lt;Listing number=&quot;4-5&quot; file-name=&quot;src/main.rs&quot; caption=&quot;Returning <mark>ownership</mark> of parameters&quot;&gt;</pre></article><article><h3>ch04-01-what-is-ownership.md:508:51</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-05/src/main.rs}}</pre></article><article><h3>ch04-01-what-is-ownership.md:515:14</h3><small>SHA-256 873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba</small><pre>transferring <mark>ownership</mark>: references.</pre></article><article><h3>ch04-02-references-and-borrowing.md:13:57</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>reference to an object as a parameter instead of taking <mark>ownership</mark> of the value:</pre></article><article><h3>ch04-02-references-and-borrowing.md:18:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-07-reference/src/main.rs:all}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:27:27</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>some value without taking <mark>ownership</mark> of it. Figure 4-6 depicts this concept.</pre></article><article><h3>ch04-02-references-and-borrowing.md:44:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-07-reference/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:55:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-08-reference-with-annotations/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:60:53</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>when `s` stops being used, because `s` doesn’t have <mark>ownership</mark>. When functions</pre></article><article><h3>ch04-02-references-and-borrowing.md:62:41</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>return the values in order to give back <mark>ownership</mark>, because we never had</pre></article><article><h3>ch04-02-references-and-borrowing.md:63:1</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre><mark>ownership</mark>.</pre></article><article><h3>ch04-02-references-and-borrowing.md:75:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-06/src/main.rs}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:83:43</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-06/output.txt}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:97:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-09-fixes-listing-04-06/src/main.rs}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:114:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-10-multiple-mut-not-allowed/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:122:43</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-10-multiple-mut-not-allowed/output.txt}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:150:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-11-muts-in-separate-scopes/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:157:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-12-immutable-and-mutable-not-allowed/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:163:43</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-12-immutable-and-mutable-not-allowed/output.txt}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:180:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-13-reference-scope-ends/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:210:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-14-dangling-reference/src/main.rs}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:218:43</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-14-dangling-reference/output.txt}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:236:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-15-dangling-reference-annotated/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:249:51</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-16-no-dangle/src/main.rs:here}}</pre></article><article><h3>ch04-02-references-and-borrowing.md:252:34</h3><small>SHA-256 7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4</small><pre>This works without any problems. <mark>Ownership</mark> is moved out, and nothing is</pre></article><article><h3>ch04-03-slices.md:5:35</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>of reference, so it does not have <mark>ownership</mark>.</pre></article><article><h3>ch04-03-slices.md:25:1</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre><mark>ownership</mark>, so this is fine. (In idiomatic Rust, functions do not take ownership</pre></article><article><h3>ch04-03-slices.md:25:71</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>ownership, so this is fine. (In idiomatic Rust, functions do not take <mark>ownership</mark></pre></article><article><h3>ch04-03-slices.md:34:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-07/src/main.rs:here}}</pre></article><article><h3>ch04-03-slices.md:44:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-07/src/main.rs:as_bytes}}</pre></article><article><h3>ch04-03-slices.md:50:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-07/src/main.rs:iter}}</pre></article><article><h3>ch04-03-slices.md:72:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-07/src/main.rs:inside_for}}</pre></article><article><h3>ch04-03-slices.md:85:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-08/src/main.rs:here}}</pre></article><article><h3>ch04-03-slices.md:117:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-17-slice/src/main.rs:here}}</pre></article><article><h3>ch04-03-slices.md:186:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-18-first-word-slice/src/main.rs:here}}</pre></article><article><h3>ch04-03-slices.md:219:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-19-slice-error/src/main.rs:here}}</pre></article><article><h3>ch04-03-slices.md:227:43</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#include ../listings/ch04-understanding-<mark>ownership</mark>/no-listing-19-slice-error/output.txt}}</pre></article><article><h3>ch04-03-slices.md:272:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-09/src/main.rs:here}}</pre></article><article><h3>ch04-03-slices.md:289:51</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>{{#rustdoc_include ../listings/ch04-understanding-<mark>ownership</mark>/listing-04-09/src/main.rs:usage}}</pre></article><article><h3>ch04-03-slices.md:321:17</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre>The concepts of <mark>ownership</mark>, borrowing, and slices ensure memory safety in Rust</pre></article><article><h3>ch04-03-slices.md:327:1</h3><small>SHA-256 fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb</small><pre><mark>Ownership</mark> affects how lots of other parts of Rust work, so we’ll talk about</pre></article><article><h3>ch05-01-defining-structs.md:226:7</h3><small>SHA-256 344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7</small><pre>&gt; ### <mark>Ownership</mark> of Struct Data</pre></article><article><h3>ch05-01-defining-structs.md:312:25</h3><small>SHA-256 344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7</small><pre>[move]: ch04-01-what-is-<mark>ownership</mark>.html#variables-and-data-interacting-with-move</pre></article><article><h3>ch05-01-defining-structs.md:313:25</h3><small>SHA-256 344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7</small><pre>[copy]: ch04-01-what-is-<mark>ownership</mark>.html#stack-only-data-copy</pre></article><article><h3>ch05-02-example-structs.md:93:6</h3><small>SHA-256 bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557</small><pre>take <mark>ownership</mark> of it. This way, `main` retains its ownership and can continue</pre></article><article><h3>ch05-02-example-structs.md:93:52</h3><small>SHA-256 bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557</small><pre>take ownership of it. This way, `main` retains its <mark>ownership</mark> and can continue</pre></article><article><h3>ch05-02-example-structs.md:197:41</h3><small>SHA-256 bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557</small><pre>macro][dbg]&lt;!-- ignore --&gt;, which takes <mark>ownership</mark> of an expression (as opposed</pre></article><article><h3>ch05-02-example-structs.md:200:33</h3><small>SHA-256 bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557</small><pre>of that expression, and returns <mark>ownership</mark> of the value.</pre></article><article><h3>ch05-02-example-structs.md:216:9</h3><small>SHA-256 bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557</small><pre>returns <mark>ownership</mark> of the expression’s value, the `width` field will get the</pre></article><article><h3>ch05-02-example-structs.md:218:6</h3><small>SHA-256 bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557</small><pre>take <mark>ownership</mark> of `rect1`, so we use a reference to `rect1` in the next call.</pre></article><article><h3>ch05-03-method-syntax.md:47:43</h3><small>SHA-256 7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a</small><pre>`rectangle: &amp;Rectangle`. Methods can take <mark>ownership</mark> of `self`, borrow `self`</pre></article><article><h3>ch05-03-method-syntax.md:52:32</h3><small>SHA-256 7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a</small><pre>version: We don’t want to take <mark>ownership</mark>, and we just want to read the data in</pre></article><article><h3>ch05-03-method-syntax.md:55:49</h3><small>SHA-256 7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a</small><pre>the first parameter. Having a method that takes <mark>ownership</mark> of the instance by</pre></article><article><h3>ch05-03-method-syntax.md:139:10</h3><small>SHA-256 7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a</small><pre>&gt; making <mark>ownership</mark> ergonomic in practice.</pre></article><article><h3>ch05-03-method-syntax.md:174:30</h3><small>SHA-256 7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a</small><pre>and we want `main` to retain <mark>ownership</mark> of `rect2` so that we can use it again</pre></article><article><h3>ch08-01-vectors.md:123:1</h3><small>SHA-256 8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f</small><pre><mark>ownership</mark> and borrowing rules (covered in Chapter 4) to ensure that this</pre></article><h2>Source manifest and complete matching-document set</h2><pre>{
+  &quot;manifest&quot;: [
+    {
+      &quot;name&quot;: &quot;ch00-00-introduction.md&quot;,
+      &quot;hash&quot;: &quot;2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 10839
+    },
+    {
+      &quot;name&quot;: &quot;ch01-02-hello-world.md&quot;,
+      &quot;hash&quot;: &quot;645189892417cf5431fafb29c4e9b413db2c8cb07fb99e993efaf3c3e9d7a143&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 7690
+    },
+    {
+      &quot;name&quot;: &quot;ch01-03-hello-cargo.md&quot;,
+      &quot;hash&quot;: &quot;61369f359b84b646fc3773eb569a26bc18ba6edb4cf2be06a84472c7054c0e39&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 11025
+    },
+    {
+      &quot;name&quot;: &quot;ch02-00-guessing-game-tutorial.md&quot;,
+      &quot;hash&quot;: &quot;bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 40398
+    },
+    {
+      &quot;name&quot;: &quot;ch03-01-variables-and-mutability.md&quot;,
+      &quot;hash&quot;: &quot;f8e3bd09891f35846d61ec183508fcd4e88ef3450da1107cb6749eeddc815f60&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 9435
+    },
+    {
+      &quot;name&quot;: &quot;ch03-02-data-types.md&quot;,
+      &quot;hash&quot;: &quot;edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 17272
+    },
+    {
+      &quot;name&quot;: &quot;ch03-03-how-functions-work.md&quot;,
+      &quot;hash&quot;: &quot;e7e7b8a143345a7deaf64163ea8a728526fe6d6af6e42f3a5191cd682ae0f268&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 10772
+    },
+    {
+      &quot;name&quot;: &quot;ch03-05-control-flow.md&quot;,
+      &quot;hash&quot;: &quot;dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 17064
+    },
+    {
+      &quot;name&quot;: &quot;ch04-01-what-is-ownership.md&quot;,
+      &quot;hash&quot;: &quot;873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 25352
+    },
+    {
+      &quot;name&quot;: &quot;ch04-02-references-and-borrowing.md&quot;,
+      &quot;hash&quot;: &quot;7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 10608
+    },
+    {
+      &quot;name&quot;: &quot;ch04-03-slices.md&quot;,
+      &quot;hash&quot;: &quot;fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 13237
+    },
+    {
+      &quot;name&quot;: &quot;ch05-01-defining-structs.md&quot;,
+      &quot;hash&quot;: &quot;344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 13693
+    },
+    {
+      &quot;name&quot;: &quot;ch05-02-example-structs.md&quot;,
+      &quot;hash&quot;: &quot;bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 11585
+    },
+    {
+      &quot;name&quot;: &quot;ch05-03-method-syntax.md&quot;,
+      &quot;hash&quot;: &quot;7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 12204
+    },
+    {
+      &quot;name&quot;: &quot;ch06-01-defining-an-enum.md&quot;,
+      &quot;hash&quot;: &quot;d0958df229fd25f89f140896449ce69bbd6f40db8398a99e4a53635dba0438f2&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 15757
+    },
+    {
+      &quot;name&quot;: &quot;ch06-02-match.md&quot;,
+      &quot;hash&quot;: &quot;db9a32dfa0c24d89d74362e0bbdb9e5793a6e61fe3aa487b67897b1cb3f90899&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 12595
+    },
+    {
+      &quot;name&quot;: &quot;ch07-02-defining-modules-to-control-scope-and-privacy.md&quot;,
+      &quot;hash&quot;: &quot;9a47196bd42516d57eaa32a2813db3f89d404ef3a02f78fb465329acc9c95571&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 8018
+    },
+    {
+      &quot;name&quot;: &quot;ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md&quot;,
+      &quot;hash&quot;: &quot;ed9bb2ccb89214a0a47050c4870105a36916c35e634ea68486e5cc669804286b&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 15311
+    },
+    {
+      &quot;name&quot;: &quot;ch07-04-bringing-paths-into-scope-with-the-use-keyword.md&quot;,
+      &quot;hash&quot;: &quot;0eb94c4c75fd6fc0cf8f4f13170b277888f72da4d1603a3f6094859e1de95a8f&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 13686
+    },
+    {
+      &quot;name&quot;: &quot;ch08-01-vectors.md&quot;,
+      &quot;hash&quot;: &quot;8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f&quot;,
+      &quot;status&quot;: &quot;indexed&quot;,
+      &quot;bytes&quot;: 11646
+    }
+  ],
+  &quot;matchingDocuments&quot;: [
+    &quot;ch00-00-introduction.md&quot;,
+    &quot;ch02-00-guessing-game-tutorial.md&quot;,
+    &quot;ch03-02-data-types.md&quot;,
+    &quot;ch03-05-control-flow.md&quot;,
+    &quot;ch04-01-what-is-ownership.md&quot;,
+    &quot;ch04-02-references-and-borrowing.md&quot;,
+    &quot;ch04-03-slices.md&quot;,
+    &quot;ch05-01-defining-structs.md&quot;,
+    &quot;ch05-02-example-structs.md&quot;,
+    &quot;ch05-03-method-syntax.md&quot;,
+    &quot;ch08-01-vectors.md&quot;
+  ],
+  &quot;provenance&quot;: {
+    &quot;collection&quot;: &quot;The Rust Programming Language&quot;,
+    &quot;repository&quot;: &quot;https://github.com/rust-lang/book&quot;,
+    &quot;revision&quot;: &quot;1500248d8f230566e4ec9f27fcbb8fe9e2898ab1&quot;,
+    &quot;license&quot;: &quot;MIT OR Apache-2.0&quot;,
+    &quot;files&quot;: [
+      {
+        &quot;name&quot;: &quot;ch00-00-introduction.md&quot;,
+        &quot;path&quot;: &quot;src/ch00-00-introduction.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch00-00-introduction.md&quot;,
+        &quot;sha256&quot;: &quot;2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273&quot;,
+        &quot;bytes&quot;: 10839,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch01-02-hello-world.md&quot;,
+        &quot;path&quot;: &quot;src/ch01-02-hello-world.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch01-02-hello-world.md&quot;,
+        &quot;sha256&quot;: &quot;645189892417cf5431fafb29c4e9b413db2c8cb07fb99e993efaf3c3e9d7a143&quot;,
+        &quot;bytes&quot;: 7690,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch01-03-hello-cargo.md&quot;,
+        &quot;path&quot;: &quot;src/ch01-03-hello-cargo.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch01-03-hello-cargo.md&quot;,
+        &quot;sha256&quot;: &quot;61369f359b84b646fc3773eb569a26bc18ba6edb4cf2be06a84472c7054c0e39&quot;,
+        &quot;bytes&quot;: 11025,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch02-00-guessing-game-tutorial.md&quot;,
+        &quot;path&quot;: &quot;src/ch02-00-guessing-game-tutorial.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch02-00-guessing-game-tutorial.md&quot;,
+        &quot;sha256&quot;: &quot;bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0&quot;,
+        &quot;bytes&quot;: 40398,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch03-01-variables-and-mutability.md&quot;,
+        &quot;path&quot;: &quot;src/ch03-01-variables-and-mutability.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-01-variables-and-mutability.md&quot;,
+        &quot;sha256&quot;: &quot;f8e3bd09891f35846d61ec183508fcd4e88ef3450da1107cb6749eeddc815f60&quot;,
+        &quot;bytes&quot;: 9435,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch03-02-data-types.md&quot;,
+        &quot;path&quot;: &quot;src/ch03-02-data-types.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-02-data-types.md&quot;,
+        &quot;sha256&quot;: &quot;edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90&quot;,
+        &quot;bytes&quot;: 17272,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch03-03-how-functions-work.md&quot;,
+        &quot;path&quot;: &quot;src/ch03-03-how-functions-work.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-03-how-functions-work.md&quot;,
+        &quot;sha256&quot;: &quot;e7e7b8a143345a7deaf64163ea8a728526fe6d6af6e42f3a5191cd682ae0f268&quot;,
+        &quot;bytes&quot;: 10772,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch03-05-control-flow.md&quot;,
+        &quot;path&quot;: &quot;src/ch03-05-control-flow.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-05-control-flow.md&quot;,
+        &quot;sha256&quot;: &quot;dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6&quot;,
+        &quot;bytes&quot;: 17064,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch04-01-what-is-ownership.md&quot;,
+        &quot;path&quot;: &quot;src/ch04-01-what-is-ownership.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-01-what-is-ownership.md&quot;,
+        &quot;sha256&quot;: &quot;873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba&quot;,
+        &quot;bytes&quot;: 25352,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch04-02-references-and-borrowing.md&quot;,
+        &quot;path&quot;: &quot;src/ch04-02-references-and-borrowing.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-02-references-and-borrowing.md&quot;,
+        &quot;sha256&quot;: &quot;7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4&quot;,
+        &quot;bytes&quot;: 10608,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch04-03-slices.md&quot;,
+        &quot;path&quot;: &quot;src/ch04-03-slices.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-03-slices.md&quot;,
+        &quot;sha256&quot;: &quot;fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb&quot;,
+        &quot;bytes&quot;: 13237,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch05-01-defining-structs.md&quot;,
+        &quot;path&quot;: &quot;src/ch05-01-defining-structs.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-01-defining-structs.md&quot;,
+        &quot;sha256&quot;: &quot;344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7&quot;,
+        &quot;bytes&quot;: 13693,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch05-02-example-structs.md&quot;,
+        &quot;path&quot;: &quot;src/ch05-02-example-structs.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-02-example-structs.md&quot;,
+        &quot;sha256&quot;: &quot;bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557&quot;,
+        &quot;bytes&quot;: 11585,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch05-03-method-syntax.md&quot;,
+        &quot;path&quot;: &quot;src/ch05-03-method-syntax.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-03-method-syntax.md&quot;,
+        &quot;sha256&quot;: &quot;7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a&quot;,
+        &quot;bytes&quot;: 12204,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch06-01-defining-an-enum.md&quot;,
+        &quot;path&quot;: &quot;src/ch06-01-defining-an-enum.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch06-01-defining-an-enum.md&quot;,
+        &quot;sha256&quot;: &quot;d0958df229fd25f89f140896449ce69bbd6f40db8398a99e4a53635dba0438f2&quot;,
+        &quot;bytes&quot;: 15757,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch06-02-match.md&quot;,
+        &quot;path&quot;: &quot;src/ch06-02-match.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch06-02-match.md&quot;,
+        &quot;sha256&quot;: &quot;db9a32dfa0c24d89d74362e0bbdb9e5793a6e61fe3aa487b67897b1cb3f90899&quot;,
+        &quot;bytes&quot;: 12595,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch07-02-defining-modules-to-control-scope-and-privacy.md&quot;,
+        &quot;path&quot;: &quot;src/ch07-02-defining-modules-to-control-scope-and-privacy.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-02-defining-modules-to-control-scope-and-privacy.md&quot;,
+        &quot;sha256&quot;: &quot;9a47196bd42516d57eaa32a2813db3f89d404ef3a02f78fb465329acc9c95571&quot;,
+        &quot;bytes&quot;: 8018,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md&quot;,
+        &quot;path&quot;: &quot;src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md&quot;,
+        &quot;sha256&quot;: &quot;ed9bb2ccb89214a0a47050c4870105a36916c35e634ea68486e5cc669804286b&quot;,
+        &quot;bytes&quot;: 15311,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch07-04-bringing-paths-into-scope-with-the-use-keyword.md&quot;,
+        &quot;path&quot;: &quot;src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md&quot;,
+        &quot;sha256&quot;: &quot;0eb94c4c75fd6fc0cf8f4f13170b277888f72da4d1603a3f6094859e1de95a8f&quot;,
+        &quot;bytes&quot;: 13686,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;ch08-01-vectors.md&quot;,
+        &quot;path&quot;: &quot;src/ch08-01-vectors.md&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch08-01-vectors.md&quot;,
+        &quot;sha256&quot;: &quot;8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f&quot;,
+        &quot;bytes&quot;: 11646,
+        &quot;kind&quot;: &quot;document&quot;
+      },
+      {
+        &quot;name&quot;: &quot;LICENSE-MIT&quot;,
+        &quot;path&quot;: &quot;LICENSE-MIT&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/LICENSE-MIT&quot;,
+        &quot;sha256&quot;: &quot;0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720&quot;,
+        &quot;bytes&quot;: 1071,
+        &quot;kind&quot;: &quot;license&quot;
+      },
+      {
+        &quot;name&quot;: &quot;LICENSE-APACHE&quot;,
+        &quot;path&quot;: &quot;LICENSE-APACHE&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/LICENSE-APACHE&quot;,
+        &quot;sha256&quot;: &quot;0f2763086f981043fb18879abfa15e75ecfc188219ef9eba4483f45ce7438e1c&quot;,
+        &quot;bytes&quot;: 10847,
+        &quot;kind&quot;: &quot;license&quot;
+      },
+      {
+        &quot;name&quot;: &quot;COPYRIGHT&quot;,
+        &quot;path&quot;: &quot;COPYRIGHT&quot;,
+        &quot;url&quot;: &quot;https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/COPYRIGHT&quot;,
+        &quot;sha256&quot;: &quot;5acc946020b533f2ebfbbc87a35e56ab05dd48c269675cf20e289e0357e27fe8&quot;,
+        &quot;bytes&quot;: 219,
+        &quot;kind&quot;: &quot;license&quot;
+      }
+    ]
+  }
+}</pre></html>

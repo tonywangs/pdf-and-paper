@@ -1,0 +1,192 @@
+{
+  "collection": "The Rust Programming Language",
+  "repository": "https://github.com/rust-lang/book",
+  "revision": "1500248d8f230566e4ec9f27fcbb8fe9e2898ab1",
+  "license": "MIT OR Apache-2.0",
+  "files": [
+    {
+      "name": "ch00-00-introduction.md",
+      "path": "src/ch00-00-introduction.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch00-00-introduction.md",
+      "sha256": "2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273",
+      "bytes": 10839,
+      "kind": "document"
+    },
+    {
+      "name": "ch01-02-hello-world.md",
+      "path": "src/ch01-02-hello-world.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch01-02-hello-world.md",
+      "sha256": "645189892417cf5431fafb29c4e9b413db2c8cb07fb99e993efaf3c3e9d7a143",
+      "bytes": 7690,
+      "kind": "document"
+    },
+    {
+      "name": "ch01-03-hello-cargo.md",
+      "path": "src/ch01-03-hello-cargo.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch01-03-hello-cargo.md",
+      "sha256": "61369f359b84b646fc3773eb569a26bc18ba6edb4cf2be06a84472c7054c0e39",
+      "bytes": 11025,
+      "kind": "document"
+    },
+    {
+      "name": "ch02-00-guessing-game-tutorial.md",
+      "path": "src/ch02-00-guessing-game-tutorial.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch02-00-guessing-game-tutorial.md",
+      "sha256": "bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0",
+      "bytes": 40398,
+      "kind": "document"
+    },
+    {
+      "name": "ch03-01-variables-and-mutability.md",
+      "path": "src/ch03-01-variables-and-mutability.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-01-variables-and-mutability.md",
+      "sha256": "f8e3bd09891f35846d61ec183508fcd4e88ef3450da1107cb6749eeddc815f60",
+      "bytes": 9435,
+      "kind": "document"
+    },
+    {
+      "name": "ch03-02-data-types.md",
+      "path": "src/ch03-02-data-types.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-02-data-types.md",
+      "sha256": "edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90",
+      "bytes": 17272,
+      "kind": "document"
+    },
+    {
+      "name": "ch03-03-how-functions-work.md",
+      "path": "src/ch03-03-how-functions-work.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-03-how-functions-work.md",
+      "sha256": "e7e7b8a143345a7deaf64163ea8a728526fe6d6af6e42f3a5191cd682ae0f268",
+      "bytes": 10772,
+      "kind": "document"
+    },
+    {
+      "name": "ch03-05-control-flow.md",
+      "path": "src/ch03-05-control-flow.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch03-05-control-flow.md",
+      "sha256": "dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6",
+      "bytes": 17064,
+      "kind": "document"
+    },
+    {
+      "name": "ch04-01-what-is-ownership.md",
+      "path": "src/ch04-01-what-is-ownership.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-01-what-is-ownership.md",
+      "sha256": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "bytes": 25352,
+      "kind": "document"
+    },
+    {
+      "name": "ch04-02-references-and-borrowing.md",
+      "path": "src/ch04-02-references-and-borrowing.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-02-references-and-borrowing.md",
+      "sha256": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "bytes": 10608,
+      "kind": "document"
+    },
+    {
+      "name": "ch04-03-slices.md",
+      "path": "src/ch04-03-slices.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch04-03-slices.md",
+      "sha256": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "bytes": 13237,
+      "kind": "document"
+    },
+    {
+      "name": "ch05-01-defining-structs.md",
+      "path": "src/ch05-01-defining-structs.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-01-defining-structs.md",
+      "sha256": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+      "bytes": 13693,
+      "kind": "document"
+    },
+    {
+      "name": "ch05-02-example-structs.md",
+      "path": "src/ch05-02-example-structs.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-02-example-structs.md",
+      "sha256": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "bytes": 11585,
+      "kind": "document"
+    },
+    {
+      "name": "ch05-03-method-syntax.md",
+      "path": "src/ch05-03-method-syntax.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch05-03-method-syntax.md",
+      "sha256": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "bytes": 12204,
+      "kind": "document"
+    },
+    {
+      "name": "ch06-01-defining-an-enum.md",
+      "path": "src/ch06-01-defining-an-enum.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch06-01-defining-an-enum.md",
+      "sha256": "d0958df229fd25f89f140896449ce69bbd6f40db8398a99e4a53635dba0438f2",
+      "bytes": 15757,
+      "kind": "document"
+    },
+    {
+      "name": "ch06-02-match.md",
+      "path": "src/ch06-02-match.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch06-02-match.md",
+      "sha256": "db9a32dfa0c24d89d74362e0bbdb9e5793a6e61fe3aa487b67897b1cb3f90899",
+      "bytes": 12595,
+      "kind": "document"
+    },
+    {
+      "name": "ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "path": "src/ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "sha256": "9a47196bd42516d57eaa32a2813db3f89d404ef3a02f78fb465329acc9c95571",
+      "bytes": 8018,
+      "kind": "document"
+    },
+    {
+      "name": "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "path": "src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "sha256": "ed9bb2ccb89214a0a47050c4870105a36916c35e634ea68486e5cc669804286b",
+      "bytes": 15311,
+      "kind": "document"
+    },
+    {
+      "name": "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "path": "src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "sha256": "0eb94c4c75fd6fc0cf8f4f13170b277888f72da4d1603a3f6094859e1de95a8f",
+      "bytes": 13686,
+      "kind": "document"
+    },
+    {
+      "name": "ch08-01-vectors.md",
+      "path": "src/ch08-01-vectors.md",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/src/ch08-01-vectors.md",
+      "sha256": "8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f",
+      "bytes": 11646,
+      "kind": "document"
+    },
+    {
+      "name": "LICENSE-MIT",
+      "path": "LICENSE-MIT",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/LICENSE-MIT",
+      "sha256": "0621878e61f0d0fda054bcbe02df75192c28bde1ecc8289cbd86aeba2dd72720",
+      "bytes": 1071,
+      "kind": "license"
+    },
+    {
+      "name": "LICENSE-APACHE",
+      "path": "LICENSE-APACHE",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/LICENSE-APACHE",
+      "sha256": "0f2763086f981043fb18879abfa15e75ecfc188219ef9eba4483f45ce7438e1c",
+      "bytes": 10847,
+      "kind": "license"
+    },
+    {
+      "name": "COPYRIGHT",
+      "path": "COPYRIGHT",
+      "url": "https://raw.githubusercontent.com/rust-lang/book/1500248d8f230566e4ec9f27fcbb8fe9e2898ab1/COPYRIGHT",
+      "sha256": "5acc946020b533f2ebfbbc87a35e56ab05dd48c269675cf20e289e0357e27fe8",
+      "bytes": 219,
+      "kind": "license"
+    }
+  ]
+}

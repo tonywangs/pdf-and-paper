@@ -1,0 +1,17 @@
+[
+  {"query":"ownership","mode":"term"},
+  {"query":"Rust","mode":"term"},
+  {"query":"string","mode":"term"},
+  {"query":"borrow","mode":"term"},
+  {"query":"let","mode":"term"},
+  {"query":"reference","mode":"term"},
+  {"query":"the stack","mode":"phrase"},
+  {"query":"hello world","mode":"phrase"},
+  {"query":"mutable reference","mode":"phrase"},
+  {"query":"compile-time","mode":"phrase"},
+  {"query":"println!","mode":"literal"},
+  {"query":"String::from","mode":"literal"},
+  {"query":"ship","mode":"literal"},
+  {"query":"ownership","mode":"term","file":"ch04-01-what-is-ownership.md"},
+  {"query":"notawordinthiscollectionxyz","mode":"term"}
+]
