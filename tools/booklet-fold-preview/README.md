@@ -1,0 +1,121 @@
+# Booklet Fold Preview
+
+Turn a PDF into printable folded signatures, then inspect the actual exported
+sheet images in an offline browser preview. Every source page has a visible
+sheet/side mapping. Printable PDFs retain vector text and graphics.
+
+## Install and try the real PDF
+
+Requires Python 3.10+ on a platform supported by PyMuPDF (Linux, macOS, Windows).
+Run from this checkout:
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install '.[test]'
+python scripts/demo.py
+```
+
+On Windows activate with `.venv\Scripts\activate`. On Debian/Ubuntu you may need
+the distribution's `python3-venv` package first. Installation downloads Python
+dependencies; conversion and preview use no network, account, or server.
+
+The demo prints two `file:///…/index.html` addresses. Open either in your browser.
+It converts the bundled, unmodified, openly licensed 11-page Open Logic Project
+**Sets** chapter into A4 and Letter outputs: two signatures (8 and 4 padded
+pages), three physical sheets, six PDF sides, and one blank. Every run creates a
+new directory under `build/`, preserving older outputs. [Provenance and license](demo/PROVENANCE.md).
+
+Use your own PDF:
+
+```sh
+booklet-fold input.pdf output-booklet --paper a4 --signature 16 --margin-mm 8
+```
+
+`output-booklet` must not exist. Choose `--paper letter` for US Letter.
+`--signature` is the maximum pages per signature, a multiple of four from 4 to 64
+(default 16); the last signature is padded only to the next multiple of four.
+`--margin-mm` applies to all four edges of **each half-sheet**, including either
+side of the fold. Pages are centered and scaled proportionally to fit, never
+stretched. Source crop boxes and visible page rotations are respected.
+
+Open `output-booklet/index.html` directly. Select a signature, turn through its
+cover and spreads, follow a page's link to its sheet side, or click a sheet's page
+number to return to the corresponding spread. Blank padding is explicitly
+labeled. The green fold guide appears only in the preview. All images come from
+the exported PDF, not a separate source-page mockup. Keep the output directory
+together when moving it. No internet or local web server is needed.
+
+## Print
+
+1. Open `booklet.pdf` in a PDF viewer. Select matching A4 or Letter stock and
+   **landscape, actual size / 100%, one PDF page per side**.
+2. Enable duplex **flip on short edge**. Disable the driver's booklet/n-up,
+   fit-to-page, and automatic rotation options: imposition is already done.
+3. First print PDF pages **1–2** as a one-sheet trial. Check upright faces and
+   margins after folding. Printer duplex terminology and feed behavior vary.
+4. Print the remaining front/back pairs, keeping their sequence. Fold each
+   sheet vertically down its center, with front-right as the opening page.
+   Nest sheet 1 outside sheet 2, etc., **within each signature**. Stack the
+   completed signatures in increasing order; do not nest different signatures.
+
+Manual duplex reinsertion is printer-specific. Consult your printer's manual
+and try one sheet first; this tool does not guess a feed/reinsertion sequence.
+No physical printing has been performed. Digital tests cannot establish paper
+creep, printer registration, printable margins, binding quality, or ink fidelity.
+
+## Validation
+
+```sh
+python -m pytest -q
+python scripts/demo.py
+python scripts/verify.py input.pdf output-booklet
+```
+
+The tests cover 4,112 page-count/signature combinations, a known eight-page
+layout, invalid options, annotations, encryption, and mixed sizes with all four
+quarter-turn rotations, an offset crop box, an intentional blank source page,
+and blank padding on both paper sizes. The independent verifier uses **PDFium**
+(production uses **MuPDF**) to render every source page and exported sheet. It
+fits source renderings independently and compares every half-sheet with an
+ink-normalized pixel difference, reconstructs the nested leaves, and checks
+exact page accounting. A generated `pdfium-contact.png` shows the first four
+output sides for visual inspection. The raster tolerance is documented in
+[scripts/verify.py](scripts/verify.py); it is a practical regression check, not
+a proof of fidelity for every possible PDF.
+
+Optional browser interaction smoke test (requires Chromium installation):
+
+```sh
+python -m pip install '.[browser]'
+python -m playwright install chromium
+python scripts/check_preview.py
+```
+
+## Supported formats and limits
+
+- Static, unencrypted PDFs, 1–1,000 pages, left-to-right binding. PDF positions
+  are one-based; printed page labels, bookmarks, hyperlinks, attachments,
+  accessibility tags, layers' interactivity, and digital signatures are not
+  preserved. Content is imposed as vector PDF forms, not rasterized.
+- Annotations and form fields are rejected: flatten them in a PDF editor first.
+  Damaged PDFs that require parser repair are rejected. Blank pages are allowed.
+- Source CropBox defines the visible content; content outside it is not printed.
+  Mixed sizes are supported, with independent proportional scaling per page.
+- No right-to-left binding, bleed, crop marks, creep compensation, color-profile
+  conversion, PDF/X preflight, or press-quality guarantee. Small type may become
+  too small when scaled; inspect the preview and trial print.
+- Preview images are approximately 72 dpi. Use the printable PDF to inspect fine
+  detail. Large image-heavy documents can use substantial disk space and memory.
+
+## Existing work and licensing
+
+[PDFjam](https://github.com/pdfjam/pdfjam) already offers booklet/signature
+imposition. This project makes no novelty claim: its scope is an installable
+Python workflow with offline page-to-sheet inspection and independently rendered
+validation. The placement implementation uses
+[PyMuPDF's page APIs](https://pymupdf.readthedocs.io/en/latest/page.html).
+
+Application code is AGPL-3.0-or-later; PyMuPDF is distributed under the AGPL or a
+separate commercial license. See [LICENSE](LICENSE). The bundled demo PDF is
+separately CC BY 4.0; see its attribution above.
