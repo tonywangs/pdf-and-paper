@@ -1,0 +1,182 @@
+{
+  "renderer": "MuPDF 1.28.1 (npm package)",
+  "dpi": 72,
+  "tolerance": 20,
+  "exportedOverlayRowsVerified": {
+    "controlled": 13,
+    "real": 92
+  },
+  "controlled": [
+    {
+      "old": 1,
+      "new": 1,
+      "change": "text",
+      "roi": [
+        25,
+        70,
+        220,
+        110
+      ],
+      "independentChangedPixelsInROI": 112,
+      "oldRMSE": {
+        "raw": 4.757150407544415,
+        "block2x2": 2.476382442192643,
+        "rawBelow25": true,
+        "blockBelow12": true
+      },
+      "newRMSE": {
+        "raw": 4.7570374183939315,
+        "block2x2": 2.4921529347132774,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    },
+    {
+      "old": 2,
+      "new": 2,
+      "change": "embedded image",
+      "roi": [
+        40,
+        180,
+        160,
+        300
+      ],
+      "independentChangedPixelsInROI": 13559,
+      "oldRMSE": {
+        "raw": 5.479771893062703,
+        "block2x2": 3.163731051569755,
+        "rawBelow25": true,
+        "blockBelow12": true
+      },
+      "newRMSE": {
+        "raw": 5.462032893834797,
+        "block2x2": 3.1486469316199934,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    },
+    {
+      "old": 4,
+      "new": 4,
+      "change": "rotation",
+      "independentChangedPixelsInROI": 3803,
+      "oldRMSE": {
+        "raw": 4.423983499065067,
+        "block2x2": 2.4051221382707366,
+        "rawBelow25": true,
+        "blockBelow12": true
+      },
+      "newRMSE": {
+        "raw": 4.644260436280463,
+        "block2x2": 2.5154370892550664,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    },
+    {
+      "old": 8,
+      "new": 8,
+      "change": "none",
+      "independentChangedPixelsInROI": 0,
+      "oldRMSE": {
+        "raw": 4.402663398444173,
+        "block2x2": 2.47707413090525,
+        "rawBelow25": true,
+        "blockBelow12": true
+      },
+      "newRMSE": {
+        "raw": 4.402663398444173,
+        "block2x2": 2.47707413090525,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    },
+    {
+      "old": 9,
+      "new": 9,
+      "change": "page size",
+      "independentChangedPixelsInROI": 0,
+      "oldRMSE": {
+        "raw": 4.148819711677045,
+        "block2x2": 2.2358015900343213,
+        "rawBelow25": true,
+        "blockBelow12": true
+      },
+      "newRMSE": {
+        "raw": 3.9115447360630076,
+        "block2x2": 2.107933954267912,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    }
+  ],
+  "ambiguity": "Repeated pages are pixel-identical in MuPDF and left unresolved by the app; blank pages also remain unresolved.",
+  "insertDelete": "Injected old page 3 deletion and new page 3 insertion verified by MuPDF text and browser mapping.",
+  "real": [
+    {
+      "old": 4,
+      "new": 2,
+      "oldText": "Gary Locke",
+      "newText": "John Bryson",
+      "description": "Title-page date and Secretary changed from May 2011 / Gary Locke to May 2012 / John Bryson.",
+      "independentChangedPixels": 11383,
+      "oldRMSE": {
+        "raw": 15.158905079149127,
+        "block2x2": 9.772989507893865,
+        "rawBelow25": true,
+        "blockBelow12": true
+      },
+      "newRMSE": {
+        "raw": 15.68514926210132,
+        "block2x2": 9.922147714849949,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    },
+    {
+      "old": 13,
+      "new": 11,
+      "oldText": "This document presents what is known",
+      "newText": "system and network administrators",
+      "description": "Purpose wording shortened; audience expanded to system and network administrators.",
+      "independentChangedPixels": 34442,
+      "oldRMSE": {
+        "raw": 26.433050813616727,
+        "block2x2": 14.66587852391147,
+        "rawBelow25": false,
+        "blockBelow12": false
+      },
+      "newRMSE": {
+        "raw": 20.42620345693795,
+        "block2x2": 10.3296963286437,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    },
+    {
+      "old": 15,
+      "new": 13,
+      "oldText": "personal digital assistants",
+      "newText": "tablets",
+      "description": "Cloud definition examples changed from PDAs to tablets and workstations; final adds footnotes.",
+      "independentChangedPixels": 54555,
+      "oldRMSE": {
+        "raw": 28.80686456320606,
+        "block2x2": 16.000143837139,
+        "rawBelow25": false,
+        "blockBelow12": false
+      },
+      "newRMSE": {
+        "raw": 23.71925015056665,
+        "block2x2": 11.858454649952797,
+        "rawBelow25": true,
+        "blockBelow12": true
+      }
+    }
+  ],
+  "limitations": [
+    "Representative real differences, not an exhaustive semantic audit.",
+    "Cross-renderer agreement checks FAILED for a NIST body page: raw RMSE 26.433 exceeded 25; 2x2 block-averaged RMSE 14.666 exceeded 12. Neither threshold is relaxed. Real-page metrics are reported as diagnostics, not a passed pixel-equivalence check. Independent visual inspection found matching content/layout but speckled PDF.js draft glyphs. Real difference evidence relies on separate MuPDF text/render inspection, not cross-renderer pixel equivalence. Controlled fixtures still require raw RMSE <25.",
+    "All fixture edits are injected; genuine NIST PDFs are unchanged."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "launch": "./launch.sh",
+  "sourcePages": [
+    86,
+    81
+  ],
+  "recoveredPair": [
+    3,
+    1
+  ],
+  "checks": [
+    "Current application recovers full genuine comparison",
+    "Earlier, later and overlay images match saved standalone report exactly",
+    "One-command launch serves current local application"
+  ],
+  "pageErrors": []
+}

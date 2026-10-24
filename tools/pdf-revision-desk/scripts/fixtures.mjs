@@ -1,0 +1,22 @@
+import {PDFDocument,StandardFonts,rgb,degrees} from 'pdf-lib';
+import {writeFile,mkdir} from 'node:fs/promises';
+import {createCanvas} from '@napi-rs/canvas';
+import mupdf from 'mupdf';
+await mkdir('tests/fixtures',{recursive:true});
+const timestamp=new Date('2020-01-01T00:00:00Z');
+async function create(later){const d=await PDFDocument.create();d.setCreationDate(timestamp);d.setModificationDate(timestamp);d.setTitle('INJECTED controlled PDF changes');const font=await d.embedFont(StandardFonts.Helvetica);
+const add=(title,text='')=>{const p=d.addPage([400,500]);p.drawText(title,{x:30,y:450,font,size:16});if(text)p.drawText(text,{x:30,y:410,font,size:13});return p;};
+add('INJECTED TEXT FIXTURE',later?'The measured value is 42.':'The measured value is 24.');
+let p=add('INJECTED IMAGE FIXTURE','The embedded raster below changes color.');const c=createCanvas(80,80),ctx=c.getContext('2d');ctx.fillStyle=later?'#185dc0':'#e04020';ctx.fillRect(0,0,80,80);ctx.fillStyle='#fff';ctx.fillRect(15,15,20,20);const png=await d.embedPng(c.toBuffer('image/png'));p.drawImage(png,{x:40,y:200,width:120,height:120});
+if(later)add('INJECTED INSERTION','This wholly new page was added.');else add('INJECTED DELETION','This unique obsolete page is removed.');
+p=add('INJECTED ROTATION','The entire page rotates 90 degrees.');if(later)p.setRotation(degrees(90));
+add('INJECTED DUPLICATE','Repeated indistinguishable pages require a decision.');add('INJECTED DUPLICATE','Repeated indistinguishable pages require a decision.');
+d.addPage([400,500]);
+add('UNCHANGED CONTROL','This page is identical in both fixtures.');
+p=add('INJECTED SIZE','The later page has additional white space.');if(later)p.setSize(450,500);
+return d.save();}
+const old=await create(false);await writeFile('tests/fixtures/old.pdf',old);await writeFile('tests/fixtures/new.pdf',await create(true));
+const encrypted=mupdf.Document.openDocument(old,'application/pdf');await writeFile('tests/fixtures/encrypted.pdf',encrypted.saveToBuffer('encrypt=aes-256,user-password=secret,owner-password=owner').asUint8Array());
+await writeFile('tests/fixtures/malformed.pdf','%PDF-1.7\nThis is not a document.');
+await writeFile('tests/fixtures/expected.json',JSON.stringify({label:'All changes are injected; not published revisions.',pairs:[{old:1,new:1,change:'text',roi:[25,70,220,110]},{old:2,new:2,change:'embedded image',roi:[40,180,160,300]},{old:4,new:4,change:'rotation'},{old:8,new:8,change:'none'},{old:9,new:9,change:'page size'}],unmatchedOld:[3],unmatchedNew:[3],ambiguousOld:[5,6,7],ambiguousNew:[5,6,7]},null,2)+'\n');
+console.log('Wrote deterministic controlled fixtures, malformed input and password-encrypted input.');

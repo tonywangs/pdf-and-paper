@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "generated": "2026-10-19T17:23:08.461Z",
+  "dpi": 72,
+  "tolerance": 20,
+  "renderer": "PDF.js 5.4.296",
+  "old": {
+    "name": "old.pdf",
+    "hash": "0e29e74f9d793ad68ad2edfea51e8b2222e950b93c1a191d39a973d86be72bfa",
+    "pages": 9
+  },
+  "new": {
+    "name": "new.pdf",
+    "hash": "6908deee29512e81f5f36c3e979bf3593ba9e57e5cc746b25273ff500c1aada8",
+    "pages": 9
+  },
+  "provenance": null,
+  "rows": [
+    {
+      "a": 0,
+      "b": 0,
+      "confirmed": true,
+      "reason": "Manually matched",
+      "candidates": [
+        {
+          "b": 0,
+          "score": 0.7749882557189542
+        },
+        {
+          "b": 1,
+          "score": 0.2009078839869281
+        },
+        {
+          "b": 2,
+          "score": 0.09933823529411766
+        },
+        {
+          "b": 7,
+          "score": 0.09928410947712418
+        }
+      ],
+      "score": 0.7749882557189542,
+      "changed": 94,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "confirmed": true,
+      "reason": "Manually matched",
+      "candidates": [
+        {
+          "b": 1,
+          "score": 0.9998937908496732
+        },
+        {
+          "b": 0,
+          "score": 0.20101766748366012
+        },
+        {
+          "b": 2,
+          "score": 0.09538500816993464
+        },
+        {
+          "b": 7,
+          "score": 0.09508782679738563
+        }
+      ],
+      "score": 0.9998937908496732,
+      "changed": 13500,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 2,
+      "b": null,
+      "confirmed": true,
+      "reason": "Manually marked unmatched / deleted",
+      "candidates": [
+        {
+          "b": 7,
+          "score": 0.20511029411764709
+        },
+        {
+          "b": 2,
+          "score": 0.09940870098039217
+        },
+        {
+          "b": 0,
+          "score": 0.09905994689542484
+        },
+        {
+          "b": 4,
+          "score": 0.09903237336601307
+        }
+      ],
+      "score": 0.20511029411764709,
+      "changed": 1840,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "confirmed": true,
+      "reason": "Manually matched",
+      "candidates": [
+        {
+          "b": 2,
+          "score": 0.09942504084967321
+        },
+        {
+          "b": 0,
+          "score": 0.09918555964052289
+        },
+        {
+          "b": 7,
+          "score": 0.09905739379084967
+        },
+        {
+          "b": 8,
+          "score": 0.09893127042483661
+        }
+      ],
+      "score": 0.09942504084967321,
+      "changed": 3506,
+      "total": 250000,
+      "sizeChanged": true
+    },
+    {
+      "a": 4,
+      "b": null,
+      "confirmed": false,
+      "reason": "Ambiguous candidates: manual decision required",
+      "candidates": [
+        {
+          "b": 4,
+          "score": 1
+        },
+        {
+          "b": 5,
+          "score": 1
+        },
+        {
+          "b": 2,
+          "score": 0.09876787173202616
+        },
+        {
+          "b": 7,
+          "score": 0.09867595996732026
+        }
+      ],
+      "score": 1,
+      "changed": 2304,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 5,
+      "b": null,
+      "confirmed": false,
+      "reason": "Ambiguous candidates: manual decision required",
+      "candidates": [
+        {
+          "b": 4,
+          "score": 1
+        },
+        {
+          "b": 5,
+          "score": 1
+        },
+        {
+          "b": 2,
+          "score": 0.09876787173202616
+        },
+        {
+          "b": 7,
+          "score": 0.09867595996732026
+        }
+      ],
+      "score": 1,
+      "changed": 2304,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 6,
+      "b": null,
+      "confirmed": false,
+      "reason": "Blank or almost blank: manual decision required",
+      "candidates": [
+        {
+          "b": 3,
+          "score": 1
+        },
+        {
+          "b": 6,
+          "score": 1
+        },
+        {
+          "b": 0,
+          "score": 0
+        },
+        {
+          "b": 1,
+          "score": 0
+        }
+      ],
+      "score": 1,
+      "changed": 0,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 7,
+      "b": 7,
+      "confirmed": true,
+      "reason": "Manually matched",
+      "candidates": [
+        {
+          "b": 7,
+          "score": 1
+        },
+        {
+          "b": 2,
+          "score": 0.0993453839869281
+        },
+        {
+          "b": 0,
+          "score": 0.09927236519607843
+        },
+        {
+          "b": 8,
+          "score": 0.09898029003267975
+        }
+      ],
+      "score": 1,
+      "changed": 0,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": 8,
+      "b": 8,
+      "confirmed": true,
+      "reason": "Manually matched",
+      "candidates": [
+        {
+          "b": 8,
+          "score": 0.9992631740196078
+        },
+        {
+          "b": 2,
+          "score": 0.09924019607843138
+        },
+        {
+          "b": 0,
+          "score": 0.0992264093137255
+        },
+        {
+          "b": 7,
+          "score": 0.09912479575163399
+        }
+      ],
+      "score": 0.9992631740196078,
+      "changed": 0,
+      "total": 225000,
+      "sizeChanged": true
+    },
+    {
+      "a": null,
+      "b": 2,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 1811,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 4,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 2304,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 5,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 2304,
+      "total": 200000,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 6,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 0,
+      "total": 200000,
+      "sizeChanged": false
+    }
+  ]
+}

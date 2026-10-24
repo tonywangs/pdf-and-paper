@@ -1,0 +1,32 @@
+{
+  "sourceHashes": [
+    "169fde4351759fd173a31c7f81748a3d240dcfc364d236a7a98f02dfce49db21",
+    "03dd14aafeb121566b5c79167824327e8e3b1ed1cb5bd68989370ca8f23cf55c"
+  ],
+  "representativePairs": [
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      15,
+      13
+    ]
+  ],
+  "allPagesAccountedFor": [
+    86,
+    81
+  ],
+  "correspondences": 92,
+  "unmatchedEarlier": 11,
+  "unmatchedLater": 6,
+  "check": "Blank/nonblank suggestions do not compete; representative real suggestions remain intact. All suggestions remain unreviewed."
+}

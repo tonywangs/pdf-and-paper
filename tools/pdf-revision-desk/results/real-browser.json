@@ -1,0 +1,2522 @@
+{
+  "version": 1,
+  "generated": "2026-10-19T17:25:50.240Z",
+  "dpi": 72,
+  "tolerance": 20,
+  "renderer": "PDF.js 5.4.296",
+  "old": {
+    "name": "draft.pdf",
+    "hash": "169fde4351759fd173a31c7f81748a3d240dcfc364d236a7a98f02dfce49db21",
+    "pages": 86
+  },
+  "new": {
+    "name": "final.pdf",
+    "hash": "03dd14aafeb121566b5c79167824327e8e3b1ed1cb5bd68989370ca8f23cf55c",
+    "pages": 81
+  },
+  "provenance": {
+    "documents": [
+      {
+        "file": "draft.pdf",
+        "title": "Cloud Computing Synopsis and Recommendations",
+        "publication": "NIST SP 800-146",
+        "revision": "May 2011 draft, NIST archive copy with 2 added historical cover pages",
+        "url": "https://csrc.nist.gov/files/pubs/sp/800/146/final/docs/draft-nist-sp800-146.pdf",
+        "retrieved_utc": "2026-10-19T17:07:28.138Z",
+        "sha256": "169fde4351759fd173a31c7f81748a3d240dcfc364d236a7a98f02dfce49db21",
+        "bytes": 2052399,
+        "pages": 86,
+        "license_evidence": {
+          "pdf_page": 13,
+          "section": "1.1 Authority",
+          "excerpt": "is not subject to copyright, though attribution is desired."
+        }
+      },
+      {
+        "file": "final.pdf",
+        "title": "Cloud Computing Synopsis and Recommendations",
+        "publication": "NIST SP 800-146",
+        "revision": "May 2012 final (published 2012-05-29)",
+        "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-146.pdf",
+        "retrieved_utc": "2026-10-19T17:07:28.265Z",
+        "sha256": "03dd14aafeb121566b5c79167824327e8e3b1ed1cb5bd68989370ca8f23cf55c",
+        "bytes": 1517698,
+        "pages": 81,
+        "license_evidence": {
+          "pdf_page": 11,
+          "section": "1.1 Authority",
+          "excerpt": "is not subject to copyright, though attribution is desired."
+        }
+      }
+    ],
+    "publication_record": "https://csrc.nist.gov/pubs/sp/800/146/final",
+    "license": "US government public-domain work; NIST worldwide permission to reprint and create derivatives",
+    "license_policy": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+    "credit": "Badger, Grance, Patt-Corner and Voas. Cloud Computing Synopsis and Recommendations, NIST SP 800-146 (2011 draft; 2012 final). Republished courtesy of the National Institute of Standards and Technology.",
+    "notes": "Original complete PDF bytes, not controlled edits. Historical documents are not current guidance. Draft PDF positions include two archival cover pages. Reproduce: node scripts/fetch-demo.mjs"
+  },
+  "rows": [
+    {
+      "a": 0,
+      "b": null,
+      "confirmed": false,
+      "reason": "Manually marked unmatched / deleted",
+      "candidates": [
+        {
+          "b": 0,
+          "score": 0.22487078031567237
+        },
+        {
+          "b": 80,
+          "score": 0.170837780984668
+        },
+        {
+          "b": 1,
+          "score": 0.16889039277240578
+        },
+        {
+          "b": 2,
+          "score": 0.13593239970537765
+        }
+      ],
+      "score": 0.22487078031567237,
+      "changed": 29644,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 1,
+      "b": null,
+      "confirmed": false,
+      "reason": "Low similarity: possible deletion or reflow",
+      "candidates": [
+        {
+          "b": 10,
+          "score": 0.20796952893088666
+        },
+        {
+          "b": 1,
+          "score": 0.17500163093844504
+        },
+        {
+          "b": 0,
+          "score": 0.17469396672259507
+        },
+        {
+          "b": 9,
+          "score": 0.16079921457219254
+        }
+      ],
+      "score": 0.20796952893088666,
+      "changed": 24141,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "confirmed": true,
+      "reason": "Manually matched",
+      "candidates": [
+        {
+          "b": 0,
+          "score": 0.9111041016785502
+        },
+        {
+          "b": 1,
+          "score": 0.4757945643210555
+        },
+        {
+          "b": 3,
+          "score": 0.27694882874126664
+        },
+        {
+          "b": 2,
+          "score": 0.16289596330956627
+        }
+      ],
+      "score": 0.9111041016785502,
+      "changed": 37576,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 1,
+          "score": 0.7596575737362457
+        },
+        {
+          "b": 0,
+          "score": 0.4129841360679492
+        },
+        {
+          "b": 3,
+          "score": 0.2251884374633087
+        },
+        {
+          "b": 2,
+          "score": 0.16572204435279647
+        }
+      ],
+      "score": 0.7596575737362457,
+      "changed": 12276,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 2,
+          "score": 0.8703650217584893
+        },
+        {
+          "b": 3,
+          "score": 0.20202068820949431
+        },
+        {
+          "b": 72,
+          "score": 0.18611372511542845
+        },
+        {
+          "b": 10,
+          "score": 0.17529031956569432
+        }
+      ],
+      "score": 0.8703650217584893,
+      "changed": 19687,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 3,
+          "score": 0.9630903989420627
+        },
+        {
+          "b": 0,
+          "score": 0.2768053442641425
+        },
+        {
+          "b": 1,
+          "score": 0.22315527252567693
+        },
+        {
+          "b": 7,
+          "score": 0.22314848856209152
+        }
+      ],
+      "score": 0.9630903989420627,
+      "changed": 9606,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 6,
+      "b": 4,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 4,
+          "score": 0.9509921364379085
+        },
+        {
+          "b": 5,
+          "score": 0.33317933548255585
+        },
+        {
+          "b": 6,
+          "score": 0.2882449129835616
+        },
+        {
+          "b": 44,
+          "score": 0.2295767973856209
+        }
+      ],
+      "score": 0.9509921364379085,
+      "changed": 37231,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 7,
+      "b": 5,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 5,
+          "score": 0.9515419923600071
+        },
+        {
+          "b": 4,
+          "score": 0.31791638355011975
+        },
+        {
+          "b": 6,
+          "score": 0.2338209666728327
+        },
+        {
+          "b": 53,
+          "score": 0.20860594968127438
+        }
+      ],
+      "score": 0.9515419923600071,
+      "changed": 63561,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 8,
+      "b": 6,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 6,
+          "score": 0.8666653188224375
+        },
+        {
+          "b": 4,
+          "score": 0.2860469647870334
+        },
+        {
+          "b": 5,
+          "score": 0.2171880568541971
+        },
+        {
+          "b": 29,
+          "score": 0.19054601340639649
+        }
+      ],
+      "score": 0.8666653188224375,
+      "changed": 55169,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 9,
+      "b": null,
+      "confirmed": false,
+      "reason": "Low similarity: possible deletion or reflow",
+      "candidates": [
+        {
+          "b": 7,
+          "score": 0.5237531565656566
+        },
+        {
+          "b": 11,
+          "score": 0.2623319749586582
+        },
+        {
+          "b": 47,
+          "score": 0.23200818835047682
+        },
+        {
+          "b": 80,
+          "score": 0.22124291689152725
+        }
+      ],
+      "score": 0.5237531565656566,
+      "changed": 12552,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 10,
+      "b": 8,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 8,
+          "score": 0.9793092994702571
+        },
+        {
+          "b": 42,
+          "score": 0.19796715487448666
+        },
+        {
+          "b": 12,
+          "score": 0.17456037278805975
+        },
+        {
+          "b": 9,
+          "score": 0.17300759139094338
+        }
+      ],
+      "score": 0.9793092994702571,
+      "changed": 56114,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 11,
+      "b": 9,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 9,
+          "score": 0.9368448733660132
+        },
+        {
+          "b": 56,
+          "score": 0.17308404820261436
+        },
+        {
+          "b": 80,
+          "score": 0.17260453928192898
+        },
+        {
+          "b": 31,
+          "score": 0.16948739230540702
+        }
+      ],
+      "score": 0.9368448733660132,
+      "changed": 48976,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 12,
+      "b": 10,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 10,
+          "score": 0.9679272919859768
+        },
+        {
+          "b": 2,
+          "score": 0.1901118079053155
+        },
+        {
+          "b": 4,
+          "score": 0.18358122706446917
+        },
+        {
+          "b": 72,
+          "score": 0.17718135326115203
+        }
+      ],
+      "score": 0.9679272919859768,
+      "changed": 40695,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 13,
+      "b": 11,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 11,
+          "score": 0.8259685903410661
+        },
+        {
+          "b": 7,
+          "score": 0.2810605076027226
+        },
+        {
+          "b": 72,
+          "score": 0.20613403963736032
+        },
+        {
+          "b": 47,
+          "score": 0.2050668822755927
+        }
+      ],
+      "score": 0.8259685903410661,
+      "changed": 16207,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 14,
+      "b": 12,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 12,
+          "score": 0.806180721592646
+        },
+        {
+          "b": 13,
+          "score": 0.2879672971692708
+        },
+        {
+          "b": 17,
+          "score": 0.17778628644114414
+        },
+        {
+          "b": 8,
+          "score": 0.17277106676003734
+        }
+      ],
+      "score": 0.806180721592646,
+      "changed": 60386,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 15,
+      "b": 13,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 13,
+          "score": 0.7116344526827467
+        },
+        {
+          "b": 12,
+          "score": 0.1986481946310673
+        },
+        {
+          "b": 20,
+          "score": 0.1827175764373546
+        },
+        {
+          "b": 31,
+          "score": 0.18253625408496732
+        }
+      ],
+      "score": 0.7116344526827467,
+      "changed": 73647,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 16,
+      "b": 14,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 14,
+          "score": 0.776240520966413
+        },
+        {
+          "b": 15,
+          "score": 0.307626228913353
+        },
+        {
+          "b": 16,
+          "score": 0.1797539735591206
+        },
+        {
+          "b": 74,
+          "score": 0.17838134118037133
+        }
+      ],
+      "score": 0.776240520966413,
+      "changed": 89317,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 17,
+      "b": 15,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 15,
+          "score": 0.8199934212788322
+        },
+        {
+          "b": 16,
+          "score": 0.21671920281477372
+        },
+        {
+          "b": 14,
+          "score": 0.1669656796255294
+        },
+        {
+          "b": 66,
+          "score": 0.15758493690029202
+        }
+      ],
+      "score": 0.8199934212788322,
+      "changed": 100923,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 18,
+      "b": 16,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 16,
+          "score": 0.7882729193281754
+        },
+        {
+          "b": 15,
+          "score": 0.17570208291649994
+        },
+        {
+          "b": 14,
+          "score": 0.17528291894386117
+        },
+        {
+          "b": 65,
+          "score": 0.1698162308562478
+        }
+      ],
+      "score": 0.7882729193281754,
+      "changed": 69304,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 19,
+      "b": 17,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 17,
+          "score": 0.947470394185748
+        },
+        {
+          "b": 48,
+          "score": 0.1927797490120079
+        },
+        {
+          "b": 26,
+          "score": 0.18497544007378003
+        },
+        {
+          "b": 12,
+          "score": 0.1824436191936148
+        }
+      ],
+      "score": 0.947470394185748,
+      "changed": 40222,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 20,
+      "b": 18,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 18,
+          "score": 0.9183703122057255
+        },
+        {
+          "b": 21,
+          "score": 0.25838882960407494
+        },
+        {
+          "b": 24,
+          "score": 0.23938625384277556
+        },
+        {
+          "b": 27,
+          "score": 0.1893562017108168
+        }
+      ],
+      "score": 0.9183703122057255,
+      "changed": 44715,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 21,
+      "b": 19,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 19,
+          "score": 0.9566629591148054
+        },
+        {
+          "b": 24,
+          "score": 0.19666007744688613
+        },
+        {
+          "b": 22,
+          "score": 0.18676229866946778
+        },
+        {
+          "b": 18,
+          "score": 0.17609319295900178
+        }
+      ],
+      "score": 0.9566629591148054,
+      "changed": 55029,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 22,
+      "b": 20,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 20,
+          "score": 0.9280784490055016
+        },
+        {
+          "b": 31,
+          "score": 0.22694925223877432
+        },
+        {
+          "b": 28,
+          "score": 0.21793490815866576
+        },
+        {
+          "b": 23,
+          "score": 0.21106447380781582
+        }
+      ],
+      "score": 0.9280784490055016,
+      "changed": 33588,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 23,
+      "b": 21,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 21,
+          "score": 0.8715465564335187
+        },
+        {
+          "b": 24,
+          "score": 0.2791597407902555
+        },
+        {
+          "b": 18,
+          "score": 0.25973521276448436
+        },
+        {
+          "b": 26,
+          "score": 0.24049734477124182
+        }
+      ],
+      "score": 0.8715465564335187,
+      "changed": 87158,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 24,
+      "b": 22,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 22,
+          "score": 0.9054238153594771
+        },
+        {
+          "b": 23,
+          "score": 0.2670975089815176
+        },
+        {
+          "b": 24,
+          "score": 0.24101291478129713
+        },
+        {
+          "b": 27,
+          "score": 0.23583695879398744
+        }
+      ],
+      "score": 0.9054238153594771,
+      "changed": 101753,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 25,
+      "b": 23,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 23,
+          "score": 0.8968608286117478
+        },
+        {
+          "b": 28,
+          "score": 0.26981629318394024
+        },
+        {
+          "b": 25,
+          "score": 0.24844507828320245
+        },
+        {
+          "b": 20,
+          "score": 0.21874989330309239
+        }
+      ],
+      "score": 0.8968608286117478,
+      "changed": 61267,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 26,
+      "b": 24,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 24,
+          "score": 0.828794863597613
+        },
+        {
+          "b": 29,
+          "score": 0.3217080715992865
+        },
+        {
+          "b": 28,
+          "score": 0.2936301314748006
+        },
+        {
+          "b": 26,
+          "score": 0.2846008403361345
+        }
+      ],
+      "score": 0.828794863597613,
+      "changed": 89452,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 27,
+      "b": 25,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 25,
+          "score": 0.9284569035947713
+        },
+        {
+          "b": 28,
+          "score": 0.2923382715473934
+        },
+        {
+          "b": 29,
+          "score": 0.2726564982987002
+        },
+        {
+          "b": 27,
+          "score": 0.27186248276068836
+        }
+      ],
+      "score": 0.9284569035947713,
+      "changed": 96531,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 28,
+      "b": 26,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 26,
+          "score": 0.861285568445576
+        },
+        {
+          "b": 27,
+          "score": 0.33525305474754
+        },
+        {
+          "b": 28,
+          "score": 0.2944159356504409
+        },
+        {
+          "b": 24,
+          "score": 0.29172705264334653
+        }
+      ],
+      "score": 0.861285568445576,
+      "changed": 86053,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 29,
+      "b": 27,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 27,
+          "score": 0.9287228861506994
+        },
+        {
+          "b": 29,
+          "score": 0.32010073016190066
+        },
+        {
+          "b": 28,
+          "score": 0.30068356847383987
+        },
+        {
+          "b": 25,
+          "score": 0.2690793504901961
+        }
+      ],
+      "score": 0.9287228861506994,
+      "changed": 103306,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 30,
+      "b": 28,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 28,
+          "score": 0.9050947985423543
+        },
+        {
+          "b": 29,
+          "score": 0.4150073362678405
+        },
+        {
+          "b": 24,
+          "score": 0.3275694567485629
+        },
+        {
+          "b": 26,
+          "score": 0.29220526707059635
+        }
+      ],
+      "score": 0.9050947985423543,
+      "changed": 95809,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 31,
+      "b": 29,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 29,
+          "score": 0.801364955829454
+        },
+        {
+          "b": 30,
+          "score": 0.3186463439542484
+        },
+        {
+          "b": 28,
+          "score": 0.3118307152406417
+        },
+        {
+          "b": 26,
+          "score": 0.2823066113748649
+        }
+      ],
+      "score": 0.801364955829454,
+      "changed": 89016,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 32,
+      "b": 30,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 30,
+          "score": 0.8369729467152827
+        },
+        {
+          "b": 31,
+          "score": 0.23754144299107816
+        },
+        {
+          "b": 29,
+          "score": 0.21708021207309214
+        },
+        {
+          "b": 24,
+          "score": 0.19325265522875817
+        }
+      ],
+      "score": 0.8369729467152827,
+      "changed": 106810,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 33,
+      "b": 31,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 31,
+          "score": 0.7101387246962979
+        },
+        {
+          "b": 20,
+          "score": 0.2263809639738813
+        },
+        {
+          "b": 26,
+          "score": 0.19704064663853657
+        },
+        {
+          "b": 27,
+          "score": 0.18789116553745333
+        }
+      ],
+      "score": 0.7101387246962979,
+      "changed": 132466,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 34,
+      "b": null,
+      "confirmed": false,
+      "reason": "Blank or almost blank: manual decision required",
+      "candidates": [
+        {
+          "b": 32,
+          "score": 0.6693065663765507
+        },
+        {
+          "b": 71,
+          "score": 0.2086620258422161
+        },
+        {
+          "b": 73,
+          "score": 0.2031270132123975
+        },
+        {
+          "b": 0,
+          "score": 0
+        }
+      ],
+      "score": 0.6693065663765507,
+      "changed": 10032,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 35,
+      "b": 33,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 33,
+          "score": 0.93001991818939
+        },
+        {
+          "b": 48,
+          "score": 0.2123341034048754
+        },
+        {
+          "b": 53,
+          "score": 0.19882610732383366
+        },
+        {
+          "b": 42,
+          "score": 0.19239395645645646
+        }
+      ],
+      "score": 0.93001991818939,
+      "changed": 55878,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 36,
+      "b": 34,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 34,
+          "score": 0.7809317562525973
+        },
+        {
+          "b": 43,
+          "score": 0.241154291274866
+        },
+        {
+          "b": 42,
+          "score": 0.21275135726333538
+        },
+        {
+          "b": 48,
+          "score": 0.1990641306925996
+        }
+      ],
+      "score": 0.7809317562525973,
+      "changed": 101906,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 37,
+      "b": 35,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 35,
+          "score": 0.8270321534062343
+        },
+        {
+          "b": 44,
+          "score": 0.28370688448683307
+        },
+        {
+          "b": 34,
+          "score": 0.28007827089169
+        },
+        {
+          "b": 49,
+          "score": 0.25383669297771605
+        }
+      ],
+      "score": 0.8270321534062343,
+      "changed": 111919,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 38,
+      "b": 36,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 36,
+          "score": 0.8216807610858151
+        },
+        {
+          "b": 35,
+          "score": 0.24716467767099115
+        },
+        {
+          "b": 4,
+          "score": 0.19176323475425414
+        },
+        {
+          "b": 44,
+          "score": 0.1810705782465054
+        }
+      ],
+      "score": 0.8216807610858151,
+      "changed": 93515,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 39,
+      "b": 37,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 37,
+          "score": 0.8172349863930568
+        },
+        {
+          "b": 36,
+          "score": 0.2688301602918163
+        },
+        {
+          "b": 45,
+          "score": 0.18465111604612944
+        },
+        {
+          "b": 4,
+          "score": 0.17764905606229836
+        }
+      ],
+      "score": 0.8172349863930568,
+      "changed": 97394,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 40,
+      "b": 38,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 38,
+          "score": 0.7625545928717576
+        },
+        {
+          "b": 37,
+          "score": 0.2829287832537971
+        },
+        {
+          "b": 39,
+          "score": 0.26929129950288544
+        },
+        {
+          "b": 23,
+          "score": 0.17782501515391103
+        }
+      ],
+      "score": 0.7625545928717576,
+      "changed": 101510,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 41,
+      "b": 39,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 39,
+          "score": 0.9047705168263234
+        },
+        {
+          "b": 40,
+          "score": 0.21123175252805523
+        },
+        {
+          "b": 38,
+          "score": 0.21104606586224234
+        },
+        {
+          "b": 46,
+          "score": 0.17693516294153042
+        }
+      ],
+      "score": 0.9047705168263234,
+      "changed": 93922,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 42,
+      "b": 40,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 40,
+          "score": 0.9104143619722664
+        },
+        {
+          "b": 46,
+          "score": 0.27267973086705083
+        },
+        {
+          "b": 55,
+          "score": 0.2650036099711202
+        },
+        {
+          "b": 41,
+          "score": 0.21901584982014388
+        }
+      ],
+      "score": 0.9104143619722664,
+      "changed": 93792,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 43,
+      "b": 41,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 41,
+          "score": 0.7362092030961321
+        },
+        {
+          "b": 47,
+          "score": 0.31245450831847893
+        },
+        {
+          "b": 55,
+          "score": 0.249558598194676
+        },
+        {
+          "b": 46,
+          "score": 0.20761080655249076
+        }
+      ],
+      "score": 0.7362092030961321,
+      "changed": 32194,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 44,
+      "b": 42,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 42,
+          "score": 0.9320091159215484
+        },
+        {
+          "b": 34,
+          "score": 0.21485405914384836
+        },
+        {
+          "b": 43,
+          "score": 0.20381461030358083
+        },
+        {
+          "b": 48,
+          "score": 0.20359183031725875
+        }
+      ],
+      "score": 0.9320091159215484,
+      "changed": 56059,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 45,
+      "b": 43,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 43,
+          "score": 0.9281548516842635
+        },
+        {
+          "b": 34,
+          "score": 0.24833697014545508
+        },
+        {
+          "b": 42,
+          "score": 0.2031765727124183
+        },
+        {
+          "b": 29,
+          "score": 0.18272361929846564
+        }
+      ],
+      "score": 0.9281548516842635,
+      "changed": 40774,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 46,
+      "b": 44,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 44,
+          "score": 0.9342836071477532
+        },
+        {
+          "b": 35,
+          "score": 0.2935024666918049
+        },
+        {
+          "b": 49,
+          "score": 0.2722513276143791
+        },
+        {
+          "b": 4,
+          "score": 0.2359430024099941
+        }
+      ],
+      "score": 0.9342836071477532,
+      "changed": 74809,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 47,
+      "b": 45,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 45,
+          "score": 0.9602854638816877
+        },
+        {
+          "b": 4,
+          "score": 0.20284951458420247
+        },
+        {
+          "b": 53,
+          "score": 0.19772005124933711
+        },
+        {
+          "b": 46,
+          "score": 0.1814885806392214
+        }
+      ],
+      "score": 0.9602854638816877,
+      "changed": 55234,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 48,
+      "b": 46,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 46,
+          "score": 0.9371763038166339
+        },
+        {
+          "b": 68,
+          "score": 0.3656495779877233
+        },
+        {
+          "b": 55,
+          "score": 0.3242941425740076
+        },
+        {
+          "b": 41,
+          "score": 0.2695984070548282
+        }
+      ],
+      "score": 0.9371763038166339,
+      "changed": 74669,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 49,
+      "b": null,
+      "confirmed": false,
+      "reason": "Blank or almost blank: manual decision required",
+      "candidates": [
+        {
+          "b": 71,
+          "score": 0.2905295138888889
+        },
+        {
+          "b": 73,
+          "score": 0.27413993319101837
+        },
+        {
+          "b": 32,
+          "score": 0.17035767885052572
+        },
+        {
+          "b": 0,
+          "score": 0
+        }
+      ],
+      "score": 0.2905295138888889,
+      "changed": 3034,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 50,
+      "b": 48,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 48,
+          "score": 0.9324015833688548
+        },
+        {
+          "b": 33,
+          "score": 0.2156175408291457
+        },
+        {
+          "b": 42,
+          "score": 0.2061464105569764
+        },
+        {
+          "b": 34,
+          "score": 0.20108218877173506
+        }
+      ],
+      "score": 0.9324015833688548,
+      "changed": 48803,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 51,
+      "b": 49,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 49,
+          "score": 0.947050151945234
+        },
+        {
+          "b": 44,
+          "score": 0.2741068207479621
+        },
+        {
+          "b": 35,
+          "score": 0.2578014697744968
+        },
+        {
+          "b": 6,
+          "score": 0.18761240995016792
+        }
+      ],
+      "score": 0.947050151945234,
+      "changed": 70834,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 52,
+      "b": 50,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 50,
+          "score": 0.8143248621969885
+        },
+        {
+          "b": 51,
+          "score": 0.2890622551817531
+        },
+        {
+          "b": 52,
+          "score": 0.17819640038218676
+        },
+        {
+          "b": 23,
+          "score": 0.16846155591866377
+        }
+      ],
+      "score": 0.8143248621969885,
+      "changed": 90175,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 53,
+      "b": 51,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 51,
+          "score": 0.9146524871166415
+        },
+        {
+          "b": 52,
+          "score": 0.20619467858281523
+        },
+        {
+          "b": 50,
+          "score": 0.17947865604575164
+        },
+        {
+          "b": 23,
+          "score": 0.17074248721227622
+        }
+      ],
+      "score": 0.9146524871166415,
+      "changed": 98269,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 54,
+      "b": 52,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 52,
+          "score": 0.9427033407042907
+        },
+        {
+          "b": 44,
+          "score": 0.21516112723116154
+        },
+        {
+          "b": 51,
+          "score": 0.20859695693638514
+        },
+        {
+          "b": 49,
+          "score": 0.18246630848650777
+        }
+      ],
+      "score": 0.9427033407042907,
+      "changed": 63240,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 55,
+      "b": 53,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 53,
+          "score": 0.9181335112706152
+        },
+        {
+          "b": 5,
+          "score": 0.21373581608569356
+        },
+        {
+          "b": 33,
+          "score": 0.20148447998747782
+        },
+        {
+          "b": 45,
+          "score": 0.1961942382130846
+        }
+      ],
+      "score": 0.9181335112706152,
+      "changed": 59533,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 56,
+      "b": 54,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 54,
+          "score": 0.9355385972509727
+        },
+        {
+          "b": 5,
+          "score": 0.20310586234020722
+        },
+        {
+          "b": 49,
+          "score": 0.1899293193154455
+        },
+        {
+          "b": 53,
+          "score": 0.18572970677632755
+        }
+      ],
+      "score": 0.9355385972509727,
+      "changed": 59029,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 57,
+      "b": 55,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 55,
+          "score": 0.8639948033637096
+        },
+        {
+          "b": 46,
+          "score": 0.264593647875817
+        },
+        {
+          "b": 67,
+          "score": 0.26063237929580435
+        },
+        {
+          "b": 65,
+          "score": 0.2445324715669155
+        }
+      ],
+      "score": 0.8639948033637096,
+      "changed": 55974,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 58,
+      "b": 56,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 56,
+          "score": 0.9266213525037055
+        },
+        {
+          "b": 17,
+          "score": 0.18458184884778656
+        },
+        {
+          "b": 9,
+          "score": 0.17281147875816993
+        },
+        {
+          "b": 57,
+          "score": 0.16541145563797366
+        }
+      ],
+      "score": 0.9266213525037055,
+      "changed": 76488,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 59,
+      "b": 57,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 57,
+          "score": 0.9178076343672128
+        },
+        {
+          "b": 58,
+          "score": 0.19436380863982675
+        },
+        {
+          "b": 13,
+          "score": 0.17271130883058766
+        },
+        {
+          "b": 63,
+          "score": 0.1717549828493149
+        }
+      ],
+      "score": 0.9178076343672128,
+      "changed": 88239,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 60,
+      "b": 58,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 58,
+          "score": 0.8727149760332128
+        },
+        {
+          "b": 59,
+          "score": 0.25831887883358473
+        },
+        {
+          "b": 53,
+          "score": 0.16150696686194804
+        },
+        {
+          "b": 56,
+          "score": 0.1612706484220907
+        }
+      ],
+      "score": 0.8727149760332128,
+      "changed": 91211,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 61,
+      "b": 59,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 59,
+          "score": 0.7455608002927775
+        },
+        {
+          "b": 60,
+          "score": 0.28560053346903735
+        },
+        {
+          "b": 26,
+          "score": 0.17001102686869857
+        },
+        {
+          "b": 37,
+          "score": 0.16561655378038845
+        }
+      ],
+      "score": 0.7455608002927775,
+      "changed": 87599,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 62,
+      "b": 60,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 60,
+          "score": 0.8370002927428224
+        },
+        {
+          "b": 61,
+          "score": 0.26702934759818386
+        },
+        {
+          "b": 63,
+          "score": 0.16603029214559387
+        },
+        {
+          "b": 18,
+          "score": 0.16583486830015695
+        }
+      ],
+      "score": 0.8370002927428224,
+      "changed": 89648,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 63,
+      "b": 61,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 61,
+          "score": 0.7995495476025819
+        },
+        {
+          "b": 62,
+          "score": 0.2656065364742388
+        },
+        {
+          "b": 66,
+          "score": 0.20817092335872778
+        },
+        {
+          "b": 5,
+          "score": 0.17232540059034368
+        }
+      ],
+      "score": 0.7995495476025819,
+      "changed": 83957,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 64,
+      "b": 62,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 62,
+          "score": 0.7940285822368853
+        },
+        {
+          "b": 63,
+          "score": 0.35167839447606997
+        },
+        {
+          "b": 55,
+          "score": 0.17544265026941658
+        },
+        {
+          "b": 23,
+          "score": 0.17113618585732165
+        }
+      ],
+      "score": 0.7940285822368853,
+      "changed": 99762,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 65,
+      "b": 63,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 63,
+          "score": 0.764636690740212
+        },
+        {
+          "b": 64,
+          "score": 0.31098511228678466
+        },
+        {
+          "b": 61,
+          "score": 0.17548811897640412
+        },
+        {
+          "b": 57,
+          "score": 0.1719443253491873
+        }
+      ],
+      "score": 0.764636690740212,
+      "changed": 84873,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 66,
+      "b": 64,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 64,
+          "score": 0.8605158058620457
+        },
+        {
+          "b": 63,
+          "score": 0.15908704328726025
+        },
+        {
+          "b": 6,
+          "score": 0.15891716344023488
+        },
+        {
+          "b": 26,
+          "score": 0.15851122137451473
+        }
+      ],
+      "score": 0.8605158058620457,
+      "changed": 71947,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 67,
+      "b": 65,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 65,
+          "score": 0.6939047535560466
+        },
+        {
+          "b": 66,
+          "score": 0.3475122844420137
+        },
+        {
+          "b": 55,
+          "score": 0.23355155846253228
+        },
+        {
+          "b": 46,
+          "score": 0.2270860326436818
+        }
+      ],
+      "score": 0.6939047535560466,
+      "changed": 83934,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 68,
+      "b": 66,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 66,
+          "score": 0.6746998013220439
+        },
+        {
+          "b": 67,
+          "score": 0.3764461128552544
+        },
+        {
+          "b": 41,
+          "score": 0.22188974167209685
+        },
+        {
+          "b": 46,
+          "score": 0.19493544292717085
+        }
+      ],
+      "score": 0.6746998013220439,
+      "changed": 95258,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 69,
+      "b": 67,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 67,
+          "score": 0.6126998357647951
+        },
+        {
+          "b": 68,
+          "score": 0.5489977291862888
+        },
+        {
+          "b": 46,
+          "score": 0.28327947580868507
+        },
+        {
+          "b": 55,
+          "score": 0.23887408088235296
+        }
+      ],
+      "score": 0.6126998357647951,
+      "changed": 98465,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 70,
+      "b": null,
+      "confirmed": false,
+      "reason": "Low similarity: possible deletion or reflow",
+      "candidates": [
+        {
+          "b": 47,
+          "score": 0.4594015522875817
+        },
+        {
+          "b": 68,
+          "score": 0.3371134527754764
+        },
+        {
+          "b": 7,
+          "score": 0.29342265508110876
+        },
+        {
+          "b": 3,
+          "score": 0.22110503008021393
+        }
+      ],
+      "score": 0.4594015522875817,
+      "changed": 5664,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 71,
+      "b": null,
+      "confirmed": false,
+      "reason": "Low similarity: possible deletion or reflow",
+      "candidates": [
+        {
+          "b": 17,
+          "score": 0.17981311274509804
+        },
+        {
+          "b": 42,
+          "score": 0.17263228644170844
+        },
+        {
+          "b": 33,
+          "score": 0.16549232583914375
+        },
+        {
+          "b": 63,
+          "score": 0.15952414340493715
+        }
+      ],
+      "score": 0.17981311274509804,
+      "changed": 63451,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 72,
+      "b": null,
+      "confirmed": false,
+      "reason": "Low similarity: possible deletion or reflow",
+      "candidates": [
+        {
+          "b": 57,
+          "score": 0.16714624183006538
+        },
+        {
+          "b": 28,
+          "score": 0.1619031721884156
+        },
+        {
+          "b": 34,
+          "score": 0.160698463525195
+        },
+        {
+          "b": 22,
+          "score": 0.15633231302842238
+        }
+      ],
+      "score": 0.16714624183006538,
+      "changed": 50655,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 73,
+      "b": null,
+      "confirmed": false,
+      "reason": "Low similarity: possible deletion or reflow",
+      "candidates": [
+        {
+          "b": 17,
+          "score": 0.1706100527332145
+        },
+        {
+          "b": 26,
+          "score": 0.1666058589852465
+        },
+        {
+          "b": 61,
+          "score": 0.1644411450477627
+        },
+        {
+          "b": 29,
+          "score": 0.16432377600430417
+        }
+      ],
+      "score": 0.1706100527332145,
+      "changed": 30847,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 74,
+      "b": 69,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 69,
+          "score": 0.9346021471969068
+        },
+        {
+          "b": 70,
+          "score": 0.17705863264308838
+        },
+        {
+          "b": 52,
+          "score": 0.1609514813825006
+        },
+        {
+          "b": 25,
+          "score": 0.15908694299370837
+        }
+      ],
+      "score": 0.9346021471969068,
+      "changed": 107836,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 75,
+      "b": 70,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 70,
+          "score": 0.9229916582463998
+        },
+        {
+          "b": 69,
+          "score": 0.17760186648646997
+        },
+        {
+          "b": 55,
+          "score": 0.17135719672484379
+        },
+        {
+          "b": 66,
+          "score": 0.1643624763501892
+        }
+      ],
+      "score": 0.9229916582463998,
+      "changed": 43955,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 76,
+      "b": null,
+      "confirmed": false,
+      "reason": "Blank or almost blank: manual decision required",
+      "candidates": [
+        {
+          "b": 71,
+          "score": 0.8885116859243698
+        },
+        {
+          "b": 73,
+          "score": 0.24329798300219796
+        },
+        {
+          "b": 32,
+          "score": 0.16471166258169934
+        },
+        {
+          "b": 0,
+          "score": 0
+        }
+      ],
+      "score": 0.8885116859243698,
+      "changed": 5399,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 77,
+      "b": 72,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 72,
+          "score": 0.8034387285616
+        },
+        {
+          "b": 7,
+          "score": 0.22033165557889825
+        },
+        {
+          "b": 11,
+          "score": 0.2144520507066463
+        },
+        {
+          "b": 3,
+          "score": 0.2090589256535948
+        }
+      ],
+      "score": 0.8034387285616,
+      "changed": 22058,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 78,
+      "b": null,
+      "confirmed": false,
+      "reason": "Blank or almost blank: manual decision required",
+      "candidates": [
+        {
+          "b": 73,
+          "score": 0.7132797181372549
+        },
+        {
+          "b": 71,
+          "score": 0.2275003337128815
+        },
+        {
+          "b": 32,
+          "score": 0.17271701388888888
+        },
+        {
+          "b": 0,
+          "score": 0
+        }
+      ],
+      "score": 0.7132797181372549,
+      "changed": 8827,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 79,
+      "b": 74,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 74,
+          "score": 0.9557757386113765
+        },
+        {
+          "b": 14,
+          "score": 0.18729073422847398
+        },
+        {
+          "b": 49,
+          "score": 0.18660248885984676
+        },
+        {
+          "b": 7,
+          "score": 0.18140522875816995
+        }
+      ],
+      "score": 0.9557757386113765,
+      "changed": 20728,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 80,
+      "b": 75,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 75,
+          "score": 0.9339582762298598
+        },
+        {
+          "b": 76,
+          "score": 0.17514323561581643
+        },
+        {
+          "b": 77,
+          "score": 0.17463690974807644
+        },
+        {
+          "b": 79,
+          "score": 0.15913092320261438
+        }
+      ],
+      "score": 0.9339582762298598,
+      "changed": 54823,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 81,
+      "b": 76,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 76,
+          "score": 0.9288529438092514
+        },
+        {
+          "b": 77,
+          "score": 0.23549982744534598
+        },
+        {
+          "b": 79,
+          "score": 0.15642338050811724
+        },
+        {
+          "b": 75,
+          "score": 0.15401650137845152
+        }
+      ],
+      "score": 0.9288529438092514,
+      "changed": 69700,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 82,
+      "b": 77,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 77,
+          "score": 0.8825903799019608
+        },
+        {
+          "b": 78,
+          "score": 0.26877140632949786
+        },
+        {
+          "b": 75,
+          "score": 0.17266977056422886
+        },
+        {
+          "b": 79,
+          "score": 0.15937529178338003
+        }
+      ],
+      "score": 0.8825903799019608,
+      "changed": 70163,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 83,
+      "b": 78,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 78,
+          "score": 0.8853161433492316
+        },
+        {
+          "b": 79,
+          "score": 0.2966625656708872
+        },
+        {
+          "b": 77,
+          "score": 0.16867496560027523
+        },
+        {
+          "b": 76,
+          "score": 0.15656757499215115
+        }
+      ],
+      "score": 0.8853161433492316,
+      "changed": 69467,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 84,
+      "b": 79,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 79,
+          "score": 0.7910001051426317
+        },
+        {
+          "b": 7,
+          "score": 0.22984712507970667
+        },
+        {
+          "b": 47,
+          "score": 0.21907169117647057
+        },
+        {
+          "b": 3,
+          "score": 0.192796647001824
+        }
+      ],
+      "score": 0.7910001051426317,
+      "changed": 19356,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": 85,
+      "b": 80,
+      "confirmed": false,
+      "reason": "Mutual best suggestion; not yet reviewed",
+      "candidates": [
+        {
+          "b": 80,
+          "score": 0.8722818648507512
+        },
+        {
+          "b": 7,
+          "score": 0.20347858405657346
+        },
+        {
+          "b": 9,
+          "score": 0.1955797470503353
+        },
+        {
+          "b": 55,
+          "score": 0.1870501698486412
+        }
+      ],
+      "score": 0.8722818648507512,
+      "changed": 22876,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 7,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 8267,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 32,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 20800,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 47,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 5413,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 68,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 30099,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 71,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 5147,
+      "total": 484704,
+      "sizeChanged": false
+    },
+    {
+      "a": null,
+      "b": 73,
+      "confirmed": false,
+      "reason": "Unmatched new page: possible insertion",
+      "changed": 7274,
+      "total": 484704,
+      "sizeChanged": false
+    }
+  ]
+}
