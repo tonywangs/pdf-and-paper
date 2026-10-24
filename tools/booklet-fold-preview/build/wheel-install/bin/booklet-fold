@@ -1,0 +1,6 @@
+#!/var/lib/dailybuilder/projects/booklet-fold-preview/.venv/bin/python
+import sys
+from booklet_fold.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

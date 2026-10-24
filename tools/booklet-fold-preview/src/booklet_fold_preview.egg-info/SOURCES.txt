@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/booklet_fold/__init__.py
+src/booklet_fold/cli.py
+src/booklet_fold/core.py
+src/booklet_fold/preview.html
+src/booklet_fold_preview.egg-info/PKG-INFO
+src/booklet_fold_preview.egg-info/SOURCES.txt
+src/booklet_fold_preview.egg-info/dependency_links.txt
+src/booklet_fold_preview.egg-info/entry_points.txt
+src/booklet_fold_preview.egg-info/requires.txt
+src/booklet_fold_preview.egg-info/top_level.txt
+tests/test_booklet.py

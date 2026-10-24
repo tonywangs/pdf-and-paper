@@ -1,0 +1,17 @@
+../../bin/booklet-fold,sha256=APvuviPUWbZzQJjzF_p6OAaJoVykqQpz6JTsimfVotY,215
+booklet_fold/__init__.py,sha256=wSdGYoj1J4AbSMCx35ec-WZYI_6Wh-A0TSmgzyt2nMs,34
+booklet_fold/__pycache__/__init__.cpython-312.pyc,,
+booklet_fold/__pycache__/cli.cpython-312.pyc,,
+booklet_fold/__pycache__/core.cpython-312.pyc,,
+booklet_fold/cli.py,sha256=eZiYINid4Sl8ey41jKZJP9mUBFuLuuoEEtn4PywmuJw,1242
+booklet_fold/core.py,sha256=BSRdlw6VxD7y_f-1sJhWiPLFS36ic60b_uxr6Iax5P0,5651
+booklet_fold/preview.html,sha256=-M1ubYhUt6vWAdRZovD1oragP3jffaMbJQ3sAeanJL4,8544
+booklet_fold_preview-0.1.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+booklet_fold_preview-0.1.0.dist-info/METADATA,sha256=BVRb9CyHUk4W4I2QfAjw-2ZCHaik0FD2cExWKsbeS-c,6591
+booklet_fold_preview-0.1.0.dist-info/RECORD,,
+booklet_fold_preview-0.1.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+booklet_fold_preview-0.1.0.dist-info/WHEEL,sha256=YVMoNqKzERt-wjUZwJ33xBGAwnFl-4cqbYkTtWa4itE,91
+booklet_fold_preview-0.1.0.dist-info/direct_url.json,sha256=h63kizsOrzU3keICxAfkb5cEe_KJFPrwj_NGP5QUCPg,309
+booklet_fold_preview-0.1.0.dist-info/entry_points.txt,sha256=-0zXBZe_zASrQ_lXQDR43SpwVfCkQKD67kFy1lkzjJw,55
+booklet_fold_preview-0.1.0.dist-info/licenses/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+booklet_fold_preview-0.1.0.dist-info/top_level.txt,sha256=Cb4hQB6Bi77DXZ9vaZ8NfKPfQrSIBQEVVng7oUOkkAw,13

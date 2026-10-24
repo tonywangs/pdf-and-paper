@@ -1,0 +1,2 @@
+[console_scripts]
+booklet-fold = booklet_fold.cli:main
